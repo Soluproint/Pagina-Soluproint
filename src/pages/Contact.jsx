@@ -4,6 +4,7 @@ import React from "react";
 import SliderContact from "../components/sections/SliderContact";
 import AttentionLines from "../components/sections/AttentionLines";
 import GoogleMap from "../components/sections/GoogleMap";
+import ContactForm from "../components/sections/ContactForm";
 
 function Contact() {
     return (
@@ -12,6 +13,7 @@ function Contact() {
                 <SliderContact/>
                 <AttentionLines/>
                 <GoogleMap/>
+                <ContactForm/>
             </main>
         </div>
     );

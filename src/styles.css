@@ -174,8 +174,22 @@ h6 {
   font-size: 35px;
   text-align: center;
   color: #09294F;
+  margin-top: 30px;
+  margin-left: -20px;
 }
 .h-titles-attention2{
+  font-weight: 600;
+  font-size: 45px;
+  text-align: center;
+  color: #000;
+}
+.h-titles-attention3{
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  color: #09294F;
+}
+.h-titles-attention4{
   font-weight: 600;
   font-size: 45px;
   text-align: center;
@@ -188,7 +202,6 @@ h6 {
   font-size: 40px;
   text-align: center;
   align-items: center;
-  background-color: #09294F;
   color: #fff;
   margin-bottom: 10px;
 }
@@ -418,7 +431,7 @@ output {
   margin-right: auto;
   margin-left: auto;
   background-color: #D9D9D9;
-  /*background-image: url(C:\Web-Soluproint\ReactSp\public\images\fondo-valores.png);
+  /*background-image: url(C:\Web-Soluproint\public\images\fondo-valores.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;*/
@@ -431,7 +444,7 @@ output {
   margin-right: auto;
   margin-left: auto;
   background-color: #D9D9D9;
-  /*background-image: url(C:\Web-Soluproint\ReactSp\public\images\fondo-valores.png);
+  /*background-image: url(C:\Web-Soluproint\public\images\fondo-valores.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;*/
@@ -453,7 +466,7 @@ output {
   margin-right: auto;
   margin-left: auto;
   background-color: #D9D9D9;
-  /*background-image: url(C:\Web-Soluproint\ReactSp\public\images\fondo-valores.png);
+  /*background-image: url(C:\Web-Soluproint\public\images\fondo-valores.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;*/
@@ -506,6 +519,16 @@ output {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+}
+.container-fluid-contact-form{
+  width: 100%;
+  height: 400px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #09294F;
+  margin-bottom: 30px;
 }
 @media (min-width: 576px) {
   .container,
@@ -579,7 +602,7 @@ output {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Web-Soluproint\ReactSp\public\images\others\clientes.png);
+  background-image: url(C:\Web-Soluproint\public\images\others\clientes.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -672,23 +695,13 @@ output {
   width: 100%;
   max-width: 100%;
 }
-.row-attention1{
+.row-attention{
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px; 
   margin-left: 200px;
   flex-shrink: 0;
   width: 80%;
-}
-.row-attention2{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10px;
-  margin-right: calc(var(--bs-gutter-x) * -0.5);
-  margin-left: calc(var(--bs-gutter-x) * -0.5);
-  flex-shrink: 0;
-  width: 100%;
-  max-width: 100%;
 }
 .services-link{
   display: block;
@@ -758,7 +771,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Web-Soluproint\ReactSp\public\images\services\services1.1.png);
+  background-image: url(C:\Web-Soluproint\public\images\services\services1.1.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -770,7 +783,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Web-Soluproint\ReactSp\public\images\services\services2.1.png);
+  background-image: url(C:\Web-Soluproint\public\images\services\services2.1.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -782,7 +795,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Web-Soluproint\ReactSp\public\images\services\services3.1.png);
+  background-image: url(C:\Web-Soluproint\public\images\services\services3.1.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -807,7 +820,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Web-Soluproint\ReactSp\public\images\about-us\valor1.png);
+  background-image: url(C:\Web-Soluproint\public\images\about-us\valor1.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -819,7 +832,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Web-Soluproint\ReactSp\public\images\about-us\valor2.png);
+  background-image: url(C:\Web-Soluproint\public\images\about-us\valor2.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -831,7 +844,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Web-Soluproint\ReactSp\public\images\about-us\valor3.png);
+  background-image: url(C:\Web-Soluproint\public\images\about-us\valor3.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -843,7 +856,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Web-Soluproint\ReactSp\public\images\about-us\mision.png);
+  background-image: url(C:\Web-Soluproint\public\images\about-us\mision.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -855,7 +868,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Web-Soluproint\ReactSp\public\images\about-us\vision.png);
+  background-image: url(C:\Web-Soluproint\public\images\about-us\vision.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -899,7 +912,7 @@ ul li::marker{
   height: 720px;
   display: flex;
   align-items: center;
-  background: url(C:\Web-Soluproint\ReactSp\public\images\sliders\slider1.png) no-repeat center center;
+  background: url(C:\Web-Soluproint\public\images\sliders\slider1.png) no-repeat center center;
 }
 .slider2{
   flex: 1 0;
@@ -907,7 +920,7 @@ ul li::marker{
   height: 720px;
   display: flex;
   align-items: center;
-  background: url(C:\Web-Soluproint\ReactSp\public\images\sliders\slider2.png) no-repeat center center;
+  background: url(C:\Web-Soluproint\public\images\sliders\slider2.png) no-repeat center center;
 }
 .slider3{
   flex: 1 0;
@@ -915,7 +928,7 @@ ul li::marker{
   height: 720px;
   display: flex;
   align-items: center;
-  background: url(C:\Web-Soluproint\ReactSp\public\images\sliders\slider3.png) no-repeat center center;
+  background: url(C:\Web-Soluproint\public\images\sliders\slider3.png) no-repeat center center;
 }
 .col-slider-about-us{
   flex: 1 0;
@@ -924,7 +937,7 @@ ul li::marker{
   height: 704px;
   display: flex;
   align-items: center;
-  background: url(C:\Web-Soluproint\ReactSp\public\images\sliders\slider-nosotros.png) no-repeat center center;
+  background: url(C:\Web-Soluproint\public\images\sliders\slider-nosotros.png) no-repeat center center;
   background-size: contain;
 }
 .col-slider-services{
@@ -934,7 +947,7 @@ ul li::marker{
   height: 704px;
   display: flex;
   align-items: center;
-  background: url(C:\Web-Soluproint\ReactSp\public\images\sliders\slider-servicios.png) no-repeat center center;
+  background: url(C:\Web-Soluproint\public\images\sliders\slider-servicios.png) no-repeat center center;
   background-size: contain;
 }
 .col-slider-cybersecurity{
@@ -944,7 +957,7 @@ ul li::marker{
   height: 704px;
   display: flex;
   align-items: center;
-  background: url(C:\Web-Soluproint\ReactSp\public\images\sliders\slider-ciberseguridad.png) no-repeat center center;
+  background: url(C:\Web-Soluproint\public\images\sliders\slider-ciberseguridad.png) no-repeat center center;
   background-size: contain;
 }
 .col-slider-blog{
@@ -954,7 +967,7 @@ ul li::marker{
   height: 704px;
   display: flex;
   align-items: center;
-  background: url(C:\Web-Soluproint\ReactSp\public\images\sliders\slider-blog.png) no-repeat center center;
+  background: url(C:\Web-Soluproint\public\images\sliders\slider-blog.png) no-repeat center center;
   background-size: contain;
 }
 .col-slider-contact{
@@ -964,7 +977,7 @@ ul li::marker{
   height: 704px;
   display: flex;
   align-items: center;
-  background: url(C:\Web-Soluproint\ReactSp\public\images\sliders\slider-contacto.png) no-repeat center center;
+  background: url(C:\Web-Soluproint\public\images\sliders\slider-contacto.png) no-repeat center center;
   background-size: contain;
 }
 .col-icons-container{
@@ -979,14 +992,15 @@ ul li::marker{
 .col-icon-map{
   flex: 0 0 auto;
   width: auto;
-  padding-top: 50px;
-  padding-left: 30px;
+}
+.img-map{
+  margin-left: 40px;
 }
 .col-icon-wpp{
   flex: 0 0 auto;
-  width: auto;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
 }
 .col-lines{
     flex: 1 0;
@@ -996,9 +1010,16 @@ ul li::marker{
 .col-icons-contact{
   width: 100%;
   align-items: center;
-  padding-top: 50px;
-  padding-left: 70px;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 20px;
   color: #000;
+}
+.wpp-contact{
+  flex: 0 0 auto;
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 .pages{
   margin-top: 20px;
@@ -1006,6 +1027,11 @@ ul li::marker{
 .soon{
   margin-top: 20px;
   text-align: center;
+}
+.soon2{
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
 }
 .row-cols-auto > * {
   flex: 0 0 auto;
@@ -3086,7 +3112,7 @@ nav >a:hover:not(a.logo){
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: transform 0.6s ease-in-out;
-  background: url(C:\Web-Soluproint\ReactSp\public\images\sliders\slider2.png) no-repeat center center;
+  background: url(C:\Web-Soluproint\public\images\sliders\slider2.png) no-repeat center center;
 }
 .carousel-item3 {
   position: relative;
@@ -3192,10 +3218,10 @@ nav >a:hover:not(a.logo){
   background-size: 100% 100%;
 }
 .carousel-control-prev-icon {
-  background-image: url('C:\Web-Soluproint\ReactSp\public\images\icons\flecha-izquierda-slider.png');
+  background-image: url('C:\Web-Soluproint\public\images\icons\flecha-izquierda-slider.png');
 }
 .carousel-control-next-icon {
-  background-image: url('C:\Web-Soluproint\ReactSp\public\images\icons\flecha-derecha-slider.png');
+  background-image: url('C:\Web-Soluproint\public\images\icons\flecha-derecha-slider.png');
 }
 .visually-hidden,
 .visually-hidden-focusable:not(:focus):not(:focus-within) {
