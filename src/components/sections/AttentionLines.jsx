@@ -23,9 +23,9 @@ function AttentionLines() {
                     </div>
                 </div>
                 <div className="row-attention2">
-                    <div className="col-">
-                        <h2 className="h-titles-attention3">¿Dónde estamos</h2>
-                        <h2 className="h-titles-attention4">UBICADOS?</h2> 
+                    <div className="col-location">
+                        <h2 className="h-titles-attention1">¿Dónde estamos</h2>
+                        <h2 className="h-titles-attention2">UBICADOS?</h2> 
                     </div>
                 </div>
             </div>
