@@ -197,12 +197,24 @@ h6 {
 }
 .title-form{
   width: 100%;
+  height: 110px;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  background-color: #09294F;
+  margin-bottom: 10px;
+}
+.title-form2{
+  width: 100%;
   height: 70px;
   font-weight: 600;
   font-size: 40px;
   text-align: center;
   align-items: center;
   color: #fff;
+  background-color: #09294F;
   margin-bottom: 10px;
 }
 .h-values-title{
@@ -492,8 +504,6 @@ output {
 .container-fluid-services-form{
   width: 100%;
   height: 400px;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
   background-color: #D9D9D9;
@@ -2866,21 +2876,35 @@ nav >a:hover:not(a.logo){
   color: #fff;
 }
 .container-footer{
-    width: 100%;
-    height: 200px;
-    padding-bottom: 100px;
-    margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #09294F;
+  width: 100%;
+  height: 220px;
+  padding-bottom: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #09294F;
+}
+.container-footer-lines{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+.social-networks{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
 }
 .content-foo{
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
-  text-align: center;
+  text-align: start;
 }
 .content-foo h4{
   color: #fff;
   border-bottom: 3px solid #fff;
+  text-align: center;
 }
 .content-foo p{
   color:#fff;
@@ -2893,6 +2917,11 @@ nav >a:hover:not(a.logo){
   text-align: center;
   justify-content: space-evenly;
   background-color: #dad9d9;
+}
+.footer-icon{
+  flex: 0 0 auto;
+  width: 50px;
+  height: 50px;
 }
 .footer-copyright{
   border-top: 4px solid #09294F;

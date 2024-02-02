@@ -1,20 +1,22 @@
+import {Link} from 'react-router-dom'
+
 function Footer() {
     return (
         <>
             <div className="container-footer">
                 <div className="content-foo">
                     <h4>Contáctanos</h4>
-                    <p>+57 3128084040 </p>
+                    <Link className="social-networks" to=""><img src="images/icons/whatsapp.png" width="50px" alt="What's App Soluproint"/>+57 3128084040</Link>
                 </div>
                 <div className="content-foo">
                     <h4>Escríbenos</h4>
-                    <p>info@seguridadalamano.com</p>
+                    <Link className="social-networks" to=""><img src="images/icons/mail.png" width="50px" alt="E-mail Soluproint"/>soluproint@soluproint.com</Link>
                 </div>
                 <div className="content-foo">
                     <h4>Nuestras Redes</h4>
-                    <p>@seguridad_a_la_mano</p>
-                    <p>@seguridadalamano</p>
-                    <p>@seguridadalamano</p>
+                    <Link className="social-networks" to="https://www.instagram.com/soluproint/"><img src="images/icons/instagram.png" width="50px" alt="Instagram Soluproint"/>@soluproint</Link>
+                    <Link className="social-networks" to="https://www.facebook.com/Soluproint/"><img src="images/icons/facebook.png" width="50px" alt="Facebook Soluproint"/>@Soluproint S.A.S</Link>
+                    <Link className="social-networks" to="https://www.linkedin.com/in/soluproint-sas/"><img src="images/icons/linkedin.png" width="50px" alt="LinkedIn Soluproint"/>@Soluproint S.A.S</Link>
                 </div>
             </div>
             <div className="wave" style={{height: "150px", overflow: "hidden"}} >

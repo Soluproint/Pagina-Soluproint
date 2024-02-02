@@ -3,11 +3,11 @@ function ServicesForm() {
         <>
             <div className="container-fluid-services-form">
                 <div className="container-title-services-form">
-                    <h2 className="title-form">¡Te brindamos todos los beneficios que tu empresa necesita!</h2>
+                    <h2 className="title-form">Formulario de Diagnóstico de Seguridad de la información y Ciberseguridad</h2>
                 </div>
                 <br />
                 <br />
-                <h3 className="soon">Aquí va el formulario de solicitud de servicios</h3>
+                <h3 className="soon">Aquí va el formulario de solicitud de servicios <br /><br /> Próximamente disponible </h3>
             </div>
         </>
     );
