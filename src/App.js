@@ -12,6 +12,10 @@ import Contact from './pages/Contact';
 //Importamos los componentes de las páginas
 import Navbar from './components/browsing/Navbar'
 import Footer from './components/browsing/Footer'
+import ServicesForm from './components/sections/ServicesForm';
+import AirConditioners from './components/sections/AirConditioners';
+import SGSI from './components/sections/SGSI';
+import Infraestructure from './components/sections/Infraestructure';
 
 //Componente donde se va a construir toda la aplicación
 function App() {
@@ -28,6 +32,10 @@ function App() {
             <Route path='/cybersecurity' element={<Cybersecurity/>}/>
             <Route path='/blog' element={<Blog/>}/>
             <Route path='/contact' element={<Contact/>}/>
+            <Route path='/servicesForm' element={<ServicesForm/>}/>
+            <Route path='/serviceConsulting' element={<SGSI/>}/>
+            <Route path='/serviceAir' element={<AirConditioners/>}/>
+            <Route path='/serviceInfraestructure' element={<Infraestructure/>}/>
           </Routes>
         </header>
         <footer id="end">

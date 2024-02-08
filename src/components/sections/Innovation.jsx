@@ -1,7 +1,7 @@
 function Innovation() {
     return (
         <>
-            <div className="container-fluid-innova">
+            <div className="container-fluid-innova" id="service-innovation">
                 <h1 className="h-titles">Innovación</h1>
                 <hr className="border border-primary border-8"/>
                 <hr className="border border-primary border-9"/>                
@@ -9,12 +9,12 @@ function Innovation() {
                     <div className="col">
                         <ul className="list-innovation-services">
                             <li>Soluciones en Infraestructura.</li>
-                            <li>Soluciones en data center, periféricos de red, conectividad.</li>
-                            <li>Comercialización de equipos, Hardware, Software, Azure, Cisco, HP, VMware, Adobe, Microsoft, Office, entre otros. </li>
+                            <li>Soluciones en Data Center, Periféricos de Red, Conectividad.</li>
+                            <li>Comercialización de Equipos, Hardware, Software, Azure, Cisco, HP, VMware, Adobe, Microsoft, Office, entre otros.</li>
                             <li>Consultoría en Seguridad de la Información y Ciberseguridad.</li>
-                            <li>Diseño de publicidad y contenido para páginas web.</li>
-                            <li>Estructuración y gerenciamiento de proyectos.</li>
-                            <li>Empaquetamiento estratégico de soluciones.</li>
+                            <li>Diseño de Publicidad y Contenido para Páginas Web.</li>
+                            <li>Estructuración y Gerenciamiento de Proyectos.</li>
+                            <li>Empaquetamiento Estratégico de Soluciones.</li>
                         </ul>
                     </div>
                     <div className="col-img-innova">

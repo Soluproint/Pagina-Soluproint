@@ -1,7 +1,7 @@
 function Infraestructure() {
     return (
         <>
-            <div className="container-fluid-infra">
+            <div className="container-fluid-infra" id="service-infraestructure">
                 <h1 className="h-titles-values">Infraestructura</h1>
                 <hr className="border border-primary border-8"/>
                 <hr className="border border-primary border-9"/>             
@@ -11,14 +11,14 @@ function Infraestructure() {
                     </div>
                     <div className="col">
                         <ul className="list-infraestructure-services">
-                            <li>Cableado estructurado.</li>
+                            <li>Cableado Estructurado.</li>
                             <li>Soluciones en Fibra Óptica.</li>
-                            <li>Automatización e integración de sistemas.</li>
+                            <li>Automatización e Integración de Sistemas.</li>
                             <li>Domótica.</li>
-                            <li>Soluciones de Sistemas de seguridad electrónica Sistemas de CCTV y Alarmas.</li>
-                            <li>Sistemas de Control de acceso para personas y vehículos <br />(UHF, RFID, entre otros)</li>
-                            <li>Sistemas aires acondicionados de precisión.</li>
-                            <li>Sistemas de detección de incendios en cumplimiento de la normatividad.</li>
+                            <li>Soluciones de Sistemas de Seguridad Electrónica, Sistemas de CCTV y Alarmas.</li>
+                            <li>Sistemas de Control de Acceso para Personas y Vehículos <br />(UHF, RFID, entre otros).</li>
+                            <li>Sistemas Aires Acondicionados de Precisión.</li>
+                            <li>Sistemas de Detección de Incendios en Cumplimiento de la Normatividad.</li>
                         </ul>
                     </div>
                 </div>

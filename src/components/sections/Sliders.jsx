@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 function Sliders() {
     return (
         <>
@@ -12,7 +14,7 @@ function Sliders() {
                                 </div>
                                 <p className="p-slider-home">Optimización de recursos, eficiencia en los resultados</p>
                                 <br />
-                                <button className="btn btn-slider">CONOCE MÁS</button>
+                                <Link className="btn btn-slider" to="/cybersecurity" type="button">CONOCE MÁS</Link>
                             </div>
                         </div>
                     </div>
@@ -24,7 +26,7 @@ function Sliders() {
                                     <hr className="border-slider1-home"/>
                                 </div>
                                 <p className="p-slider-home">Soluciones Integrales e Innovación de acuerdo <br />a las tendencias tecnólogicas</p>
-                                <button className="btn btn-slider">CONOCE MÁS</button>
+                                <Link className="btn btn-slider" to="/servicePortfolio" type="button">CONOCE MÁS</Link>
                             </div>
                         </div>
                     </div>
@@ -37,7 +39,7 @@ function Sliders() {
                                 </div>
                                 <p className="p-slider-home">Nuestra más grande prioridad</p>
                                 <br />
-                                <button className="btn btn-slider">CONOCE MÁS</button>
+                                <Link className="btn btn-slider" to="/aboutUs" type="button">CONOCE MÁS</Link>
                             </div>
                         </div>
                     </div>

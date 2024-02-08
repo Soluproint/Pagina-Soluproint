@@ -4,7 +4,7 @@ function QualityManagement() {
             <div className="container-fluid-ciber-specialized">              
                 <h1 className="h-titles-ciber-specialized">Consultorías en Sistemas de Gestión de Calidad</h1>
                 <div className="row-ciber-specialized">
-                    <h3 className="title-quality">Consultoria e implementación de procesos en Sistema de Gestion de Calidad bajo los Estándares de la Norma ISO9001 - 2015</h3>
+                    <h3 className="title-quality">Consultoria e Implementación de Procesos en Sistema de Gestion de Calidad Bajo los Estándares de la Norma ISO9001 - 2015</h3>
                     <div className="col-quality">
                         <p className="p-ciber-specialized">
                         <br />• Consultoria de alcance e implentación. 

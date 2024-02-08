@@ -1,7 +1,7 @@
 function Networks() {
     return (
         <>
-            <div className="container-fluid-networks">
+            <div className="container-fluid-networks" id="service-networks">
                 <h1 className="h-titles-values">Energía y Redes Eléctricas</h1>
                 <hr className="border border-primary border-10"/>
                 <hr className="border border-primary border-11"/>             
@@ -11,13 +11,13 @@ function Networks() {
                     </div>
                     <div className="col">
                         <ul className="list-networks-services">
-                            <li>Soluciones y cableado estructurado en energía regulada y<br />no regulada.</li>
-                            <li>Energía de baja y media tensión.</li>
-                            <li>Suministro e instalación de UPS.</li>
-                            <li>Tableros de control, sub estaciones de energía.</li>
-                            <li>Suministro, instalación y mantenimiento de redes de datos, redes eléctricas, antenas de transmisión, entre otras.</li>
-                            <li>Medidores de energía.</li>
-                            <li>Soluciones en energías renovables y paneles solares.</li>
+                            <li>Soluciones y Cableado Estructurado en Energía Regulada y<br />no Regulada.</li>
+                            <li>Energía de Baja y Media Tensión.</li>
+                            <li>Suministro e Instalación de UPS.</li>
+                            <li>Tableros de Control, Sub-Estaciones de Energía.</li>
+                            <li>Suministro, Instalación y Mantenimiento de Redes de Datos, Redes Eléctricas, Antenas de Transmisión, entre otras.</li>
+                            <li>Medidores de Energía.</li>
+                            <li>Soluciones en Energías Renovables y Paneles Solares.</li>
                         </ul>
                     </div>
                 </div>

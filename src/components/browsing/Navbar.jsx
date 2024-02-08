@@ -20,7 +20,7 @@ function Navbar() {
                 <Link className="nav-link" to='/servicePortfolio'>Servicios</Link> 
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to='/cybersecurity'>Ciberseguridad</Link> 
+                <Link className="nav-link" to='/cybersecurity'>Seguridad/Ciberseguridad</Link> 
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to='/blog'>Blog</Link> 
