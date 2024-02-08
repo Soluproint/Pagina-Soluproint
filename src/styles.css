@@ -931,7 +931,7 @@ ul li::marker{
 }
 .col-slider-about-us{
   flex: 1 0;
-  width: 100vw;
+  width: 100%;
   margin-top: -10px;
   height: 704px;
   display: flex;
@@ -941,7 +941,7 @@ ul li::marker{
 }
 .col-slider-services{
   flex: 1 0;
-  width: 100vw;
+  width: 100%;
   margin-top: -10px;
   height: 704px;
   display: flex;
@@ -951,7 +951,7 @@ ul li::marker{
 }
 .col-slider-cybersecurity{
   flex: 1 0;
-  width: 100vw;
+  width: 100%;
   margin-top: -10px;
   height: 704px;
   display: flex;
@@ -961,7 +961,7 @@ ul li::marker{
 }
 .col-slider-blog{
   flex: 1 0;
-  width: 100vw;
+  width: 100%;
   margin-top: -10px;
   height: 704px;
   display: flex;
@@ -971,7 +971,7 @@ ul li::marker{
 }
 .col-slider-contact{
   flex: 1 0;
-  width: 100vw;
+  width: 100%;
   margin-top: -10px;
   height: 704px;
   display: flex;
