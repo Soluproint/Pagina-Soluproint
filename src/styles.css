@@ -547,7 +547,18 @@ output {
 }
 @media (min-width: 576px) {
   .container,
-  .container-sm {
+  .container-sm,
+  .container-fluid-values,
+  .container-fluid-infra,
+  .container-fluid-networks,
+  .container-fluid-ciber,
+  .container-fluid-ciber-specialized,
+  .container-fluid-services-form,
+  .container-fluid-attention,
+  .container-fluid-contact-form,
+  .container-lines,
+  .container-map,
+  .container-footer {
     max-width: 540px;
   }
 }
