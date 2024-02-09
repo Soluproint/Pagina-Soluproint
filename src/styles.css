@@ -435,6 +435,11 @@ output {
   align-items: center;
   justify-content: space-between;
 }
+.container-carousel{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
 .container-fluid-values{
   width: 100%;
   height: 670px;
@@ -468,7 +473,7 @@ output {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .container-fluid-networks{
   width: 100%;
@@ -490,7 +495,7 @@ output {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 .container-fluid-ciber-specialized{
   width: 100%;
@@ -499,7 +504,7 @@ output {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 10px;
+  padding-top: 10px;
 }
 .container-fluid-services-form{
   width: 100%;
@@ -515,8 +520,18 @@ output {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 10px;
-  margin-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.container-fluid-contact-form{
+  width: 100%;
+  height: 400px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #09294F;
+  padding-bottom: 30px;
 }
 .container-lines{
   display: flex;
@@ -528,17 +543,7 @@ output {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
-}
-.container-fluid-contact-form{
-  width: 100%;
-  height: 400px;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
-  background-color: #09294F;
-  margin-bottom: 30px;
+  padding-top: 30px;
 }
 @media (min-width: 576px) {
   .container,
@@ -912,6 +917,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   background: url('../public/images/sliders/slider1.png') no-repeat center center;
+  background-size: cover;
 }
 .slider2{
   flex: 1 0;
@@ -920,6 +926,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   background: url('../public/images/sliders/slider2.png') no-repeat center center;
+  background-size: cover;
 }
 .slider3{
   flex: 1 0;
@@ -928,6 +935,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   background: url('../public/images/sliders/slider3.png') no-repeat center center;
+  background-size: cover;
 }
 .col-slider-about-us{
   flex: 1 0;
@@ -937,7 +945,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   background: url('../public/images/sliders/slider-nosotros.png') no-repeat center center;
-  background-size: contain;
+  background-size: cover;
 }
 .col-slider-services{
   flex: 1 0;
@@ -947,7 +955,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   background: url('../public/images/sliders/slider-servicios.png') no-repeat center center;
-  background-size: contain;
+  background-size: cover;
 }
 .col-slider-cybersecurity{
   flex: 1 0;
@@ -957,7 +965,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   background: url('../public/images/sliders/slider-ciberseguridad.png') no-repeat center center;
-  background-size: contain;
+  background-size: cover;
 }
 .col-slider-blog{
   flex: 1 0;
@@ -967,7 +975,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   background: url('../public/images/sliders/slider-blog.png') no-repeat center center;
-  background-size: contain;
+  background-size: cover;
 }
 .col-slider-contact{
   flex: 1 0;
@@ -977,7 +985,7 @@ ul li::marker{
   display: flex;
   align-items: center;
   background: url('../public/images/sliders/slider-contacto.png') no-repeat center center;
-  background-size: contain;
+  background-size: cover;
 }
 .col-icons-container{
   display: flex;

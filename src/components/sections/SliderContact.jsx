@@ -2,7 +2,7 @@ function SliderContact() {
     return (
         <>
             <div id="carouselAutoplaying" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
+                <div className="container-carousel">
                     <div className="carousel-item active">
                         <div className="col-slider-contact">
                             <div className="text-wrap">
