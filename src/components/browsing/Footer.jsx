@@ -10,13 +10,14 @@ function Footer() {
                 </div>
                 <div className="content-foo">
                     <h4>Escríbenos</h4>
-                    <Link className="social-networks" target='_blank' to=""><img src="images/icons/mail.png" width="50px" alt="E-mail Soluproint"/>soluproint@soluproint.com</Link>
+                    <Link className="social-networks" target='_blank' to="mailto:manulopezv17@gmail.com"><img src="images/icons/mail.png" width="50px" alt="E-mail Soluproint"/>soluproint@soluproint.com</Link>
+                    <a href="mailto:manulopezv17@gmail.com?subject=Prueba&body=Mensaje%20de%20prueba">Enviar correo</a>
                 </div>
                 <div className="content-foo">
                     <h4>Nuestras Redes</h4>
                     <Link className="social-networks" target='_blank' to="https://www.instagram.com/soluproint/"><img src="images/icons/instagram.png" width="50px" alt="Instagram Soluproint"/>@soluproint</Link>
                     <Link className="social-networks" target='_blank' to="https://www.facebook.com/Soluproint/"><img src="images/icons/facebook.png" width="50px" alt="Facebook Soluproint"/>@Soluproint S.A.S</Link>
-                    <Link className="social-networks" target='_blank' to="https://www.linkedin.com/in/soluproint-sas/"><img src="images/icons/linkedin.png" width="50px" alt="LinkedIn Soluproint"/>@Soluproint S.A.S</Link>
+                    <Link className="social-networks" target='_blank' to="https://www.linkedin.com/in/seguridadalamano/"><img src="images/icons/linkedin.png" width="50px" alt="LinkedIn Soluproint"/>@Soluproint S.A.S</Link>
                 </div>
             </div>
             <div className="wave" style={{height: "150px", overflow: "hidden"}} >

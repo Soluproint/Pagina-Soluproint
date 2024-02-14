@@ -10,7 +10,7 @@ function CarouselSatisfiedClients() {
                 <div className="carousel-satisfied-clients">
                     <div className="companies"><Link target='_blank' to="https://www.clinicavida.com/"><img src="images\satisfied-clients\CLINICA-VIDA.png" alt="Cliente Clínica Vida"/></Link></div>
                     <div className="companies"><Link target='_blank' to="https://www.comfama.com/"><img src="images\satisfied-clients\COMFAMA.png" alt="Cliente Comfama"/></Link></div>
-                    <div className="companies"><Link target='_blank' to=""><img src="images\satisfied-clients\DIP.png" alt="Cliente dIp"/></Link></div>
+                    <div className="companies"><Link target='_blank' to="https://www.grupodlplus.com/"><img src="images\satisfied-clients\DLP.png" alt="Cliente gripo DL plus"/></Link></div>
                     <div className="companies"><Link target='_blank' to="https://www.edatel.com.co/"><img src="images\satisfied-clients\EDATEL.png" alt="Cliente Edatel"/></Link></div>
                     <div className="companies"><Link target='_blank' to="https://formasintimas.com/"><img src="images\satisfied-clients\FORMAS-INTIMAS.png" alt="Cliente Formas Intimas"/></Link></div>
                     <div className="companies"><Link target='_blank' to="https://www.hospitalmua.gov.co/Paginas/default.aspx"><img src="images\satisfied-clients\HMUA.png" alt="Cliente Hospital Manuel Uribe Angel"/></Link></div>
