@@ -16,6 +16,7 @@ import ServicesForm from './components/sections/ServicesForm';
 import AirConditioners from './components/sections/AirConditioners';
 import SGSI from './components/sections/SGSI';
 import Infraestructure from './components/sections/Infraestructure';
+import ContactForm from './components/sections/ContactForm';
 
 //Componente donde se va a construir toda la aplicación
 function App() {
@@ -36,6 +37,7 @@ function App() {
             <Route path='/serviceConsulting' element={<SGSI/>}/>
             <Route path='/serviceAir' element={<AirConditioners/>}/>
             <Route path='/serviceInfraestructure' element={<Infraestructure/>}/>
+            <Route path='/contactForm' element={<ContactForm/>}/>
           </Routes>
         </header>
         <footer id="end">

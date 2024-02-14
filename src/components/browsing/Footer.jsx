@@ -10,8 +10,7 @@ function Footer() {
                 </div>
                 <div className="content-foo">
                     <h4>Escríbenos</h4>
-                    <Link className="social-networks" target='_blank' to="mailto:manulopezv17@gmail.com"><img src="images/icons/mail.png" width="50px" alt="E-mail Soluproint"/>soluproint@soluproint.com</Link>
-                    <a href="mailto:manulopezv17@gmail.com?subject=Prueba&body=Mensaje%20de%20prueba">Enviar correo</a>
+                    <Link className="social-networks" target='_blank' to="/contactForm"><img src="images/icons/mail.png" width="50px" alt="E-mail Soluproint"/>soluproint@soluproint.com</Link>
                 </div>
                 <div className="content-foo">
                     <h4>Nuestras Redes</h4>
