@@ -11,7 +11,7 @@ function Networks() {
                     </div>
                     <div className="col">
                         <ul className="list-networks-services">
-                            <li>Soluciones y Cableado Estructurado en Energía Regulada y<br />no Regulada.</li>
+                            <li>Soluciones y Cableado Estructurado en Energía Regulada y no Regulada.</li>
                             <li>Energía de Baja y Media Tensión.</li>
                             <li>Suministro e Instalación de UPS.</li>
                             <li>Tableros de Control, Sub-Estaciones de Energía.</li>

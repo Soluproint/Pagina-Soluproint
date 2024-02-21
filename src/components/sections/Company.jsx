@@ -9,7 +9,7 @@ function Company() {
                     <div className="col-md-auto">
                         <img src="images/icons/soluproint.png" width="500" alt="Logo-empresa-Soluproint" />
                     </div>
-                    <div className="col">
+                    <div className="col-about">
                         <p className="p-about-us">Ofrecemos soluciones con innovación, calidad, estrategia y construcción de ofertas bajo el análisis de la rentabilidad de cada negocio forjando la optimización de recursos medibles y los cuales están representados en las inversiones, eficiencia de los resultados y la satisfacción de cada cliente.</p>
                     </div>
                 </div>

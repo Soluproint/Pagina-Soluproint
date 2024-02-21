@@ -14,7 +14,7 @@ function SpecializedConsultancies() {
                     <br />• Malware.
                     <br />• Man in the Middle.
                     <br />• Phishing.</p>
-                    <p className="p-ciber-specialized"><b>Como Protegernos de estos Ataques:</b>
+                    <p className="p-ciber-specialized"><b>¿Cómo Protegernos de estos Ataques?</b>
                     <br />• Contar con un equipo especializado y realizar varias actividades para mitigar el riesgo, las siguientes serian, un corto marco de protección (Identificar, Proteger, Detección, Respuesta y Recuperación).
                     <br />• Sensibilización a todos y cada uno de empleados, directivos y socios que tengan acceso a la red organización.
                     <br />• Definir Protocolos para la identificación, detección y escalamiento ante de Incidentes de Seguridad o Ataques Cibernéticos.    

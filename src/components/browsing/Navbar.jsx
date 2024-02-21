@@ -9,7 +9,8 @@ function Navbar() {
               <img src="images/icons/logo-web.png" alt="Logotipo de la empresa" width="230"/>
           </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <button className="nav-toggle"><i className="fa-solid fa-bars"></i></button>
+            <ul className="navbar-nav navbar-nav_visible me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link" to='/'>Inicio</Link>
               </li>

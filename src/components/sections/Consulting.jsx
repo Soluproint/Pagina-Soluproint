@@ -7,7 +7,7 @@ function Consulting() {
                 <h1 className="h-titles">Consultorías en Ciberseguridad</h1>
                 <div className="row-consult">
                     <div className="col-img-consult">
-                        <img src="images/services/ciberseguridad.png" width="450" alt="Seguridad de la Información" />
+                        <img src="images/services/ciberseguridad.png" width="400" alt="Seguridad de la Información" />
                     </div>
                     <div className="col">
                         <p className="p-consult">Consultoría e Implementación de procesos en SGSI - Sistema De Gestión En Seguridad De La Información y Ciberseguridad, Bajo Estándares de la norma ISO27001-2022 y basados en la Triada Confidencialidad, Disponibilidad e Integridad.</p><br></br>
