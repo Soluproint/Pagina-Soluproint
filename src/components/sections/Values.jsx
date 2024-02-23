@@ -2,7 +2,7 @@ function Values() {
     return (
         <>
             <div className="container-fluid-values">
-                <h1 className="h-titles-values">Valores</h1>
+                <h1 className="h-titles">Valores</h1>
                 <hr className="border border-primary border-6"/>
                 <hr className="border border-primary border-7"/>
                 <h2 className="h-values-title">Nuestra Empresa</h2>                

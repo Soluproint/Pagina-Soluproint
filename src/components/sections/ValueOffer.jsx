@@ -5,7 +5,7 @@ function ValueOffer() {
         <>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-5 col-s-5">
+                    <div className="col">
                         <img className="img-fluid" src="images/about-us/oferta.png" alt="Oferta de valor-ciberseguridad" />
                     </div>
                     <div className="col-about">

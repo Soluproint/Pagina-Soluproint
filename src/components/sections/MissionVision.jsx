@@ -2,7 +2,7 @@ function MissionVision() {
     return (
         <>
             <div className="container-fluid">               
-                <div className="row-values">
+                <div className="row-m-v">
                     <div className="col-mission">
                         <div className="text-wrap-m-v">
                             <h2 className="values">MISIÓN</h2>
