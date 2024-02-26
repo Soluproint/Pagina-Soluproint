@@ -2,12 +2,12 @@ function Infraestructure() {
     return (
         <>
             <div className="container-fluid-infra" id="service-infraestructure">
-                <h1 className="h-titles-values">Infraestructura</h1>
-                <hr className="border border-primary border-8"/>
-                <hr className="border border-primary border-9"/>             
+                <h1 className="h-titles">Infraestructura</h1>
+                <hr className="border border-primary border-14"/>
+                <hr className="border border-primary border-15"/>             
                 <div className="row-infraestructure">
                     <div className="col-img-infra">
-                        <img src="images/services/infraestructura.png" width="350" alt="Servicio de Infraestructura"/>
+                        <img className="img-infra" src="images/services/infraestructura.png" alt="Servicio de Infraestructura"/>
                     </div>
                     <div className="col">
                         <ul className="list-infraestructure-services">

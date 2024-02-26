@@ -2,12 +2,12 @@ function Networks() {
     return (
         <>
             <div className="container-fluid-networks" id="service-networks">
-                <h1 className="h-titles-values">Energía y Redes Eléctricas</h1>
+                <h1 className="h-titles">Energía y Redes Eléctricas</h1>
                 <hr className="border border-primary border-10"/>
                 <hr className="border border-primary border-11"/>             
                 <div className="row-infraestructure">
                     <div className="col-img-infra">
-                        <img src="images/services/redes.png" width="350" alt="Servicio de Energía y Redes Eléctricas"/>
+                        <img className="img-infra" src="images/services/redes.png" alt="Servicio de Energía y Redes Eléctricas"/>
                     </div>
                     <div className="col">
                         <ul className="list-networks-services">

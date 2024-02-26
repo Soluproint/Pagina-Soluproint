@@ -10,16 +10,16 @@ function ServicesSoluproint() {
                 <div className="row-container">
                     <div className="row-services-portfolio">
                         <div className="col-icons">
-                            <a href='#service-infraestructure'> <img src="images/services/servicio-infraestructura.png" width="200" alt="Icono-infraestructura"/> </a>
+                            <a href='#service-infraestructure'> <img className="img-services" src="images/services/servicio-infraestructura.png" alt="Icono-infraestructura"/> </a>
                         </div>
                         <div className="col-icons">
-                            <a href='#service-innovation'> <img src="images/services/servicio-innovacion.png" width="200" alt="Icono-innovación"/> </a>
+                            <a href='#service-innovation'> <img className="img-services" src="images/services/servicio-innovacion.png" alt="Icono-innovación"/> </a>
                         </div>
                         <div className="col-icons">
-                            <a href='#service-networks'> <img src="images/services/servicio-redes-electricas.png" width="200" alt="Icono-redes-eléctricas"/> </a>
+                            <a href='#service-networks'> <img className="img-services" src="images/services/servicio-redes-electricas.png" alt="Icono-redes-eléctricas"/> </a>
                         </div>
                         <div className="col-icons">
-                            <a href='#service-air'> <img src="images/services/servicio-aires-acondicionados.png" width="200" alt="Icono-aires-acondicionados"/> </a>
+                            <a href='#service-air'> <img className="img-services" src="images/services/servicio-aires-acondicionados.png" alt="Icono-aires-acondicionados"/> </a>
                         </div>
                     </div>
                     <ul className="row-titles-services">

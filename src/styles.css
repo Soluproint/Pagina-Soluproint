@@ -154,6 +154,9 @@ h6 {
   padding-top: 70px;
   padding-bottom: 10px;
 }
+.h-titles-ciber2{
+  display: none;
+}
 .h-titles-ciber-specialized{
   font-weight: 600;
   font-size: 50px;
@@ -444,6 +447,7 @@ output {
 .container-fluid-infra{
   width: 100%;
   height: 670px;
+  padding-top: 30px;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -452,7 +456,7 @@ output {
 }
 .container-fluid-innova{
   width: 100%;
-  height: 600px;
+  height: 615px;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -462,11 +466,21 @@ output {
 .container-fluid-networks{
   width: 100%;
   height: 600px;
+  padding-top: 30px;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
   background-color: #D9D9D9;
+}
+.container-fluid-air{
+  width: 100%;
+  height: 615px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
 }
 .container-fluid-ciber{
   width: 100%;
@@ -731,8 +745,20 @@ output {
   padding: 0.5rem 1rem;
   color: #000;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 32px;
   font-weight: 500;
+}
+.img-services {
+  width: 200px;
+}
+.img-infra {
+  width: 350px;
+}
+.img-innova {
+  width: 350px;
+}
+.img-ciber {
+  width: 400px;
 }
 .service-item{
   display: flex;
@@ -750,36 +776,52 @@ output {
   margin-right: 100px;
   margin-left: 200px;
 }
-
+.row-infraestructure{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 200px;
+}
+.row-innovation{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 200px;
+}
+.row-innovation2{
+  display: none;
+}
 .list-infraestructure-services{
   padding-top: 30px;
   padding-left: 150px;
-  font-size: 1.5em;
-  justify-content: space-between;
+  font-size: 24px;
   list-style-type: '✓ ';
 }
 .list-innovation-services{
   padding-top: 60px;
   padding-right: 100px;
   padding-left: 100px;
-  font-size: 1.5em;
-  justify-content: space-between;
+  font-size: 24px;
   list-style-type: '✓ ';
 }
 .list-networks-services{
   padding-top: 50px;
   padding-left: 150px;
   padding-right: 100px;
-  font-size: 1.5em;
-  justify-content: space-between;
+  font-size: 24px;
   list-style-type: '✓ ';
 }
 .list-air-services{
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
-  font-size: 1.5em;
-  justify-content: space-between;
+  font-size: 24px;
   list-style-type: '✓ ';
 }
 ul li::marker{
@@ -3332,19 +3374,43 @@ nav >a:hover:not(a.logo){
   margin-top: -20px; 
 }
 .border-10 {
-  width: 23%;
+  width: 30%;
   margin-top: -40px;
 }
 .border-11 {
-  margin-left: 77%;
+  margin-left: 70%;
   margin-top: -20px; 
 }
 .border-12 {
-  width: 15%;
+  width: 22%;
   margin-top: -40px;
 }
 .border-13 {
-  margin-left: 85%;
+  margin-left: 78%;
+  margin-top: -20px; 
+}
+.border-14 {
+  width: 38%;
+  margin-top: -40px;
+}
+.border-15 {
+  margin-left: 62%;
+  margin-top: -20px; 
+}
+.border-16 {
+  width: 41%;
+  margin-top: -40px;
+}
+.border-17 {
+  margin-left: 59%;
+  margin-top: -20px; 
+}
+.border-18 {
+  width: 28%;
+  margin-top: -40px;
+}
+.border-19 {
+  margin-left: 72%;
   margin-top: -20px; 
 }
 .border-slider1-home {
@@ -3523,6 +3589,9 @@ nav >a:hover:not(a.logo){
   .h-titles {
     font-size: 55px;
   }
+  .h-titles-ciber {
+    font-size: 50px;
+  }
   .border-2 {
     width: 33% !important;
     margin-top: -40px;
@@ -3586,7 +3655,123 @@ nav >a:hover:not(a.logo){
     font-size: 23px;
     text-align: justify;
   }
+  .container-fluid-infra {
+    height: 660px;
+  }
+  .row-infraestructure {
+    margin-right: 90px;
+    margin-left: 190px;
+  }
+  .list-infraestructure-services{
+    padding-top: 30px;
+    padding-left: 140px;
+    font-size: 23px;
+    list-style-type: '✓ ';
+  }
+  .border-14 {
+    width: 37%;
+    margin-top: -40px;
+  }
+  .border-15 {
+    margin-left: 63%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 40%;
+    margin-top: -40px;
+  }
+  .border-17 {
+    margin-left: 60%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 635px;
+  }
+  .row-innovation {
+    margin-right: 90px;
+    margin-left: 190px;
+  }
+  .list-innovation-services {
+    padding-top: 60px;
+    padding-right: 90px;
+    padding-left: 50px;
+    font-size: 23px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 20px;
+    padding-right: 100px;
+  }
+  .border-10 {
+    width: 28%;
+    margin-top: -40px;
+  }
+  .border-11 {
+    margin-left: 72%;
+    margin-top: -20px; 
+  }
+  .list-networks-services {
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 90px;
+    font-size: 23px;
+  }
+  .border-12 {
+    width: 19%;
+    margin-top: -40px;
+  }
+  .border-13 {
+    margin-left: 81%;
+    margin-top: -20px; 
+  }
+  .container-fluid-air{
+    height: 635px;
+  }
+  .list-air-services {
+    padding-top: 100px;
+    padding-right: 90px;
+    padding-left: 50px;
+    font-size: 23px;
+  }
+  .border-18 {
+    width: 27%;
+    margin-top: -40px;
+  }
+  .border-19 {
+    margin-left: 73%;
+    margin-top: -20px; 
+  }
+  .row-ciber {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+  }
+  .col-img-ciber {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 70px;
+  }
   
+}
+@media (max-width: 1580px) {
+  .border-18 {
+    width: 26%;
+    margin-top: -40px;
+  }
+  .border-19 {
+    margin-left: 74%;
+    margin-top: -20px; 
+  }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 40px;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: 400;
+  }
 }
 @media (max-width: 1517px) {
   .img-fluid{
@@ -3611,6 +3796,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 52px;
+  }
+  .h-titles-ciber {
+    font-size: 47px;
   }
   .border-2 {
     width: 33% !important;
@@ -3673,6 +3861,85 @@ nav >a:hover:not(a.logo){
     margin-right: 30px;
     text-align: justify;
   }
+  .container-fluid-infra {
+    height: 640px;
+  }
+  .row-infraestructure {
+    margin-right: 70px;
+    margin-left: 180px;
+  }
+  .list-infraestructure-services{
+    padding-top: 30px;
+    padding-left: 140px;
+    font-size: 22px;
+    list-style-type: '✓ ';
+  }
+  .col-img-infra {
+    padding-top: 30px;
+    padding-left: 70px;
+  }
+  .img-infra {
+    width: 330px;
+  }
+  .container-fluid-innova{
+    height: 625px;
+  }
+  .row-innovation {
+    margin-right: 70px;
+    margin-left: 180px;
+  }
+  .list-innovation-services {
+    padding-top: 60px;
+    padding-right: 90px;
+    padding-left: 50px;
+    font-size: 22px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 20px;
+    padding-right: 80px;
+  }
+  .img-innova {
+    width: 330px;
+  }
+  .list-networks-services {
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 70px;
+    font-size: 22px;
+  }
+  .container-fluid-air{
+    height: 625px;
+  }
+  .list-air-services {
+    padding-top: 100px;
+    padding-right: 90px;
+    padding-left: 50px;
+    font-size: 22px;
+  }
+  .row-ciber {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+  }
+  .img-ciber {
+    width: 380px;
+  }
+  .col-img-ciber {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 60px;
+  }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 30px;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: 400;
+  }
 }
 @media (max-width: 1490px) {
   .row-about-us{
@@ -3721,6 +3988,119 @@ nav >a:hover:not(a.logo){
   .col-value3 {
     height: 370px;
   }
+  .container-fluid-infra {
+    height: 620px;
+  }
+  .row-infraestructure {
+    margin-right: 60px;
+    margin-left: 170px;
+  }
+  .list-infraestructure-services{
+    padding-top: 30px;
+    padding-left: 120px;
+    font-size: 22px;
+    list-style-type: '✓ ';
+  }
+  .col-img-infra {
+    padding-top: 30px;
+    padding-left: 60px;
+  }
+  .img-infra {
+    width: 300px;
+  }
+  .border-14 {
+    width: 36%;
+    margin-top: -40px;
+  }
+  .border-15 {
+    margin-left: 64%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 39%;
+    margin-top: -36px;
+  }
+  .border-17 {
+    margin-left: 61%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 605px;
+  }
+  .row-innovation {
+    margin-right: 60px;
+    margin-left: 170px;
+  }
+  .list-innovation-services {
+    padding-top: 60px;
+    padding-right: 80px;
+    padding-left: 50px;
+    font-size: 22px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 20px;
+    padding-right: 70px;
+  }
+  .img-innova {
+    width: 300px;
+  }
+  .border-10 {
+    width: 27%;
+    margin-top: -40px;
+  }
+  .border-11 {
+    margin-left: 73%;
+    margin-top: -20px; 
+  }
+  .list-networks-services {
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 60px;
+    font-size: 22px;
+  }
+  .border-12 {
+    width: 18%;
+    margin-top: -38px;
+  }
+  .border-13 {
+    margin-left: 82%;
+    margin-top: -20px; 
+  }
+  .container-fluid-air{
+    height: 605px;
+  }
+  .list-air-services {
+    padding-top: 100px;
+    padding-right: 80px;
+    padding-left: 50px;
+    font-size: 22px;
+  }
+  .border-18 {
+    width: 25%;
+    margin-top: -36px;
+  }
+  .border-19 {
+    margin-left: 75%;
+    margin-top: -20px; 
+  }
+  .row-ciber {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+  }
+  .img-ciber {
+    width: 350px;
+  }
+  .col-img-ciber {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 50px;
+  }
+
 }
 @media (max-width: 1382px) {
   .img-fluid{
@@ -3747,6 +4127,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 50px;
+  }
+  .h-titles-ciber {
+    font-size: 45px;
   }
   .border-2 {
     width: 31% !important;
@@ -3910,10 +4293,247 @@ nav >a:hover:not(a.logo){
   .col-vision {
     background-size: 500px;
   }
+  .services-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 500;
+  }
+  .img-services {
+    width: 180px;
+  }
+  .container-fluid-infra {
+    height: 600px;
+  }
+  .row-infraestructure {
+    margin-right: 50px;
+    margin-left: 150px;
+  }
+  .list-infraestructure-services{
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size: 21px;
+    list-style-type: '✓ ';
+  }
+  .col-img-infra {
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+  .img-infra {
+    width: 300px;
+  }
+  .border-14 {
+    width: 35%;
+    margin-top: -40px;
+  }
+  .border-15 {
+    margin-left: 65%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 605px;
+  }
+  .row-innovation {
+    margin-right: 50px;
+    margin-left: 150px;
+  }
+  .list-innovation-services {
+    padding-top: 60px;
+    padding-right: 70px;
+    padding-left: 40px;
+    font-size: 21px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 20px;
+    padding-right: 60px;
+  }
+  .img-innova {
+    width: 300px;
+  }
+  .border-10 {
+    width: 26%;
+    margin-top: -36px;
+  }
+  .border-11 {
+    margin-left: 74%;
+    margin-top: -20px; 
+  }
+  .list-networks-services {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    font-size: 21px;
+  }
+  .border-12 {
+    width: 16%;
+    margin-top: -38px;
+  }
+  .border-13 {
+    margin-left: 84%;
+    margin-top: -20px; 
+  }
+  .list-air-services {
+    padding-top: 100px;
+    padding-right: 70px;
+    padding-left: 40px;
+    font-size: 21px;
+  }
+  .border-18 {
+    width: 24%;
+    margin-top: -36px;
+  }
+  .border-19 {
+    margin-left: 76%;
+    margin-top: -20px; 
+  }
+  .row-ciber {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+  }
+  .col-img-ciber {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 40px;
+  }
+
+}
+@media (max-width: 1266px) {
+  .row-titles-services {
+    padding-right: 50px;
+    padding-left: 90px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    gap: 65px;
+    justify-content: space-evenly;
+  }
+  .services-link {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .img-services {
+    width: 170px;
+  }
+  .container-fluid-infra {
+    height: 580px;
+  }
+  .row-infraestructure {
+    margin-right: 40px;
+    margin-left: 130px;
+  }
+  .list-infraestructure-services{
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 20px;
+    list-style-type: '✓ ';
+  }
+  .col-img-infra {
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  .img-infra {
+    width: 280px;
+  }
+  .border-16 {
+    width: 38%;
+    margin-top: -36px;
+  }
+  .border-17 {
+    margin-left: 62%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 605px;
+  }
+  .row-innovation {
+    margin-right: 40px;
+    margin-left: 130px;
+  }
+  .list-innovation-services {
+    padding-top: 60px;
+    padding-right: 60px;
+    padding-left: 40px;
+    font-size: 20px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 20px;
+    padding-right: 60px;
+  }
+  .img-innova {
+    width: 280px;
+  }
+  .border-10 {
+    width: 24%;
+    margin-top: -36px;
+  }
+  .border-11 {
+    margin-left: 76%;
+    margin-top: -20px; 
+  }
+  .container-fluid-networks {
+    height: 560px;
+  }
+  .list-networks-services {
+    padding-top: 50px;
+    padding-right: 40px;
+    font-size: 20px;
+  }
+  .border-12 {
+    width: 14%;
+    margin-top: -38px;
+  }
+  .border-13 {
+    margin-left: 86%;
+    margin-top: -20px; 
+  }
+  .list-air-services {
+    padding-top: 100px;
+    padding-right: 60px;
+    padding-left: 40px;
+    font-size: 20px;
+  }
+  .border-18 {
+    width: 22%;
+    margin-top: -36px;
+  }
+  .border-19 {
+    margin-left: 78%;
+    margin-top: -20px; 
+  }
+  .img-ciber {
+    width: 330px;
+  }
+  .col-img-ciber {
+    padding-top: 50px;
+    padding-right: 90px;
+    padding-left: 30px;
+  }
+  .row-ciber {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
 }
 @media (max-width: 1190px) {
   .h-titles {
     font-size: 48px;
+  }
+  .h-titles-ciber {
+    font-size: 43px;
   }
   .border-2 {
     width: 29% !important;
@@ -4029,11 +4649,11 @@ nav >a:hover:not(a.logo){
     margin-top: -20px; 
   }
   .border-6 {
-    width: 42%;
+    width: 41%;
     margin-top: -30px;
   }
   .border-7 {
-    margin-left: 58%;
+    margin-left: 59%;
     margin-top: -20px; 
   }
   .container-fluid-values{
@@ -4075,6 +4695,141 @@ nav >a:hover:not(a.logo){
   .col-value3 {
     height: 310px;
   }
+  .row-container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .row-services-portfolio {
+    margin-top: 60px;
+  }
+  .row-titles-services {
+    padding-right: 50px;
+    padding-left: 90px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    gap: 45px;
+    justify-content: space-evenly;
+  }
+  .services-link {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .img-services {
+    width: 155px;
+  }
+  .container-fluid-infra {
+    height: 560px;
+  }
+  .row-infraestructure {
+    margin-right: 30px;
+    margin-left: 130px;
+  }
+  .list-infraestructure-services{
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 20px;
+    list-style-type: '✓ ';
+  }
+  .col-img-infra {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .img-infra {
+    width: 250px;
+  }
+  .border-14 {
+    width: 34%;
+    margin-top: -34px;
+  }
+  .border-15 {
+    margin-left: 66%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 37%;
+    margin-top: -32px;
+  }
+  .border-17 {
+    margin-left: 63%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 570px;
+  }
+  .row-innovation {
+    margin-right: 30px;
+    margin-left: 130px;
+  }
+  .list-innovation-services {
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 40px;
+    padding-right: 50px;
+  }
+  .img-innova {
+    width: 250px;
+  }
+  .border-10 {
+    width: 23%;
+    margin-top: -36px;
+  }
+  .border-11 {
+    margin-left: 77%;
+    margin-top: -20px; 
+  }
+  .container-fluid-networks {
+    height: 540px;
+  }
+  .border-12 {
+    width: 12%;
+    margin-top: -38px;
+  }
+  .border-13 {
+    margin-left: 88%;
+    margin-top: -20px; 
+  }
+  .container-fluid-air{
+    height: 570px;
+  }
+  .list-air-services {
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .border-18 {
+    width: 21%;
+    margin-top: -36px;
+  }
+  .border-19 {
+    margin-left: 79%;
+    margin-top: -20px; 
+  }
+  .row-ciber {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  .img-ciber {
+    width: 300px;
+  }
+  .col-img-ciber {
+    padding-top: 50px;
+    padding-right: 90px;
+    padding-left: 20px;
+  }
 }
 @media (max-width: 1105px) {
   .img-fluid{
@@ -4111,6 +4866,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 45px;
+  }
+  .h-titles-ciber {
+    font-size: 40px;
   }
   .border-2 {
     width: 28% !important;
@@ -4254,6 +5012,247 @@ nav >a:hover:not(a.logo){
   }
   .col-vision {
     background-size: 400px;
+  }
+  .row-container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .row-services-portfolio {
+    margin-top: 50px;
+  }
+  .row-titles-services {
+    padding-right: 50px;
+    padding-left: 70px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    gap: 40px;
+    justify-content: space-evenly;
+  }
+  .services-link {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .img-services {
+    width: 145px;
+  }
+  .container-fluid-infra {
+    height: 530px;
+  }
+  .row-infraestructure {
+    margin-right: 30px;
+    margin-left: 100px;
+  }
+  .list-infraestructure-services{
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 19px;
+    list-style-type: '✓ ';
+  }
+  .col-img-infra {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .img-infra {
+    width: 250px;
+  }
+  .container-fluid-innova{
+    height: 550px;
+  }
+  .row-innovation {
+    margin-right: 30px;
+    margin-left: 100px;
+  }
+  .list-innovation-services {
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-left: 20px;
+    font-size: 19px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 40px;
+    padding-right: 40px;
+  }
+  .img-innova {
+    width: 250px;
+  }
+  .border-10 {
+    width: 23%;
+    margin-top: -34px;
+  }
+  .border-11 {
+    margin-left: 77%;
+    margin-top: -20px; 
+  }
+  .container-fluid-networks {
+    height: 520px;
+  }
+  .list-networks-services {
+    padding-top: 40px;
+    padding-right: 40px;
+    font-size: 19px;
+  }
+  .border-12 {
+    width: 12%;
+    margin-top: -34px;
+  }
+  .border-13 {
+    margin-left: 88%;
+    margin-top: -20px; 
+  }
+  .container-fluid-air{
+    height: 550px;
+  }
+  .list-air-services {
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-left: 20px;
+    font-size: 19px;
+  }
+  .border-18 {
+    width: 20%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 80%;
+    margin-top: -20px; 
+  }
+  .col-img-ciber {
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 1018px) {
+  .row-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .row-titles-services {
+    padding-right: 50px;
+    padding-left: 70px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-evenly;
+  }
+  .services-link {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .img-services {
+    width: 135px;
+  }
+  .container-fluid-infra {
+    height: 520px;
+  }
+  .row-infraestructure {
+    margin-right: 30px;
+    margin-left: 80px;
+  }
+  .list-infraestructure-services{
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 18px;
+    list-style-type: '✓ ';
+  }
+  .col-img-infra {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+  .img-infra {
+    width: 230px;
+  }
+  .border-14 {
+    width: 33%;
+    margin-top: -34px;
+  }
+  .border-15 {
+    margin-left: 67%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 36%;
+    margin-top: -32px;
+  }
+  .border-17 {
+    margin-left: 64%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 530px;
+  }
+  .row-innovation {
+    margin-right: 30px;
+    margin-left: 80px;
+  }
+  .list-innovation-services {
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 40px;
+    padding-right: 30px;
+  }
+  .img-innova {
+    width: 230px;
+  }
+  .border-10 {
+    width: 21%;
+    margin-top: -34px;
+  }
+  .border-11 {
+    margin-left: 79%;
+    margin-top: -20px; 
+  }
+  .list-networks-services {
+    padding-top: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+  }
+  .border-12 {
+    width: 10%;
+    margin-top: -34px;
+  }
+  .border-13 {
+    margin-left: 90%;
+    margin-top: -20px; 
+  }
+  .container-fluid-air{
+    height: 530px;
+  }
+  .list-air-services {
+    padding-top: 100px;
+    padding-right: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+  .border-18 {
+    width: 19%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 81%;
+    margin-top: -20px; 
+  }
+  .img-ciber {
+    width: 280px;
+  }
+  .col-img-ciber {
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-left: 0;
   }
 }
 @media (max-width: 990px) {
@@ -4399,6 +5398,52 @@ nav >a:hover:not(a.logo){
   .col-value3 {
     height: 250px;
   }
+  .row-container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .row-titles-services {
+    padding-left: 70px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-evenly;
+  }
+  .services-link {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .img-services {
+    width: 125px;
+  }
+  .border-14 {
+    width: 32%;
+    margin-top: -34px;
+  }
+  .border-15 {
+    margin-left: 68%;
+    margin-top: -20px; 
+  }
+  .border-12 {
+    width: 9%;
+    margin-top: -34px;
+  }
+  .border-13 {
+    margin-left: 91%;
+    margin-top: -20px; 
+  }
+  .border-18 {
+    width: 18%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 82%;
+    margin-top: -20px; 
+  }
 }
 @media (max-width: 970px) {
   .img-fluid{
@@ -4425,6 +5470,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 43px;
+  }
+  .h-titles-ciber {
+    font-size: 38px;
   }
   .border-2 {
     width: 26% !important;
@@ -4576,6 +5624,95 @@ nav >a:hover:not(a.logo){
   .col-vision {
     background-size: 350px;
   }
+  .border-16 {
+    width: 35%;
+    margin-top: -32px;
+  }
+  .border-17 {
+    margin-left: 65%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 520px;
+  }
+  .list-innovation-services {
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  .img-innova {
+    width: 230px;
+  }
+  .border-10 {
+    width: 20%;
+    margin-top: -34px;
+  }
+  .border-11 {
+    margin-left: 80%;
+    margin-top: -20px; 
+  }
+  .container-fluid-networks {
+    height: 500px;
+  }
+  .list-networks-services {
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 18px;
+  }
+  .container-fluid-air{
+    height: 520px;
+  }
+  .list-air-services {
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 926px) {
+  .list-innovation-services {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    list-style-type: '✓ ';
+  }
+  .border-10 {
+    width: 19%;
+    margin-top: -34px;
+  }
+  .border-11 {
+    margin-left: 81%;
+    margin-top: -20px; 
+  }
+  .border-12 {
+    width: 7%;
+    margin-top: -34px;
+  }
+  .border-13 {
+    margin-left: 93%;
+    margin-top: -20px; 
+  }
+  .list-air-services {
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  .border-18 {
+    width: 17%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 83%;
+    margin-top: -20px; 
+  }
 }
 @media (max-width: 870px) {
   h4 {
@@ -4676,6 +5813,107 @@ nav >a:hover:not(a.logo){
   .col-value3 {
     height: 220px;
   }
+  .container-fluid-infra {
+    height: 520px;
+  }
+  .row-infraestructure {
+    margin-right: 30px;
+    margin-left: 60px;
+  }
+  .list-infraestructure-services{
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 17px;
+    list-style-type: '✓ ';
+  }
+  .col-img-infra {
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+  .img-infra {
+    width: 220px;
+  }
+  .border-14 {
+    width: 31%;
+    margin-top: -34px;
+  }
+  .border-15 {
+    margin-left: 69%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 34%;
+    margin-top: -32px;
+  }
+  .border-17 {
+    margin-left: 66%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 500px;
+  }
+  .row-innovation {
+    margin-right: 30px;
+    margin-left: 60px;
+  }
+  .list-innovation-services {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 17px;
+    list-style-type: '✓ ';
+  }
+  .col-img-innova {
+    padding-top: 20px;
+    padding-right: 10px;
+  }
+  .img-innova {
+    width: 220px;
+  }
+  .border-10 {
+    width: 18%;
+    margin-top: -34px;
+  }
+  .border-11 {
+    margin-left: 82%;
+    margin-top: -20px; 
+  }
+  .container-fluid-networks {
+    height: 480px;
+  }
+  .list-networks-services {
+    padding-top: 30px;
+    padding-right: 20px;
+    font-size: 17px;
+  }
+  .border-12 {
+    width: 5%;
+    margin-top: -34px;
+  }
+  .border-13 {
+    margin-left: 95%;
+    margin-top: -20px; 
+  }
+  .container-fluid-air{
+    height: 500px;
+  }
+  .list-air-services {
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 10px;
+    font-size: 17px;
+  }
+  .border-18 {
+    width: 15%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 85%;
+    margin-top: -20px; 
+  }
+  .img-ciber {
+    width: 270px;
+  }
 }
 @media (max-width: 830px) {
   .img-fluid{
@@ -4712,6 +5950,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 42px;
+  }
+  .h-titles-ciber {
+    font-size: 37px;
   }
   .border-2 {
     width: 24% !important;
@@ -4796,6 +6037,14 @@ nav >a:hover:not(a.logo){
     height: 30px;
     margin-top: 0px;
     padding-top: 5px;
+  }
+  .border-6 {
+    width: 37%;
+    margin-top: -30px;
+  }
+  .border-7 {
+    margin-left: 63%;
+    margin-top: -20px; 
   }
   .border-8 {
     width: 26%;
@@ -4903,6 +6152,83 @@ nav >a:hover:not(a.logo){
   .col-value3 {
     height: 210px;
   }
+  .border-14 {
+    width: 30%;
+    margin-top: -34px;
+  }
+  .border-15 {
+    margin-left: 70%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 33%;
+    margin-top: -32px;
+  }
+  .border-17 {
+    margin-left: 67%;
+    margin-top: -20px; 
+  }
+  .list-innovation-services {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 0;
+    font-size: 17px;
+    list-style-type: '✓ ';
+  }
+  .border-10 {
+    width: 16%;
+    margin-top: -34px;
+  }
+  .border-11 {
+    margin-left: 84%;
+    margin-top: -20px; 
+  }
+  .container-fluid-networks {
+    height: 490px;
+  }
+  .list-networks-services {
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 17px;
+  }
+  .border-12 {
+    width: 4%;
+    margin-top: -34px;
+  }
+  .border-13 {
+    margin-left: 96%;
+    margin-top: -20px; 
+  }
+  .list-air-services {
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 0;
+    font-size: 17px;
+  }
+  .border-18 {
+    width: 14%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 86%;
+    margin-top: -20px; 
+  }
+}
+@media (max-width: 800px) {
+  .border-12 {
+    display: none;
+  }
+  .border-13 {
+    display: none;
+  }
+  .border-18 {
+    width: 13%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 87%;
+    margin-top: -20px; 
+  }
 }
 @media (max-width: 775px) {
   .img-fluid{
@@ -4942,6 +6268,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 40px;
+  }
+  .h-titles-ciber {
+    font-size: 35px;
   }
   .border-2 {
     width: 22% !important;
@@ -5067,7 +6396,7 @@ nav >a:hover:not(a.logo){
     margin-left: 0;
     margin-right: 0;
     margin-top: -40px;
-}
+  }
   .img-company {
     width: 250px;
   }
@@ -5109,6 +6438,93 @@ nav >a:hover:not(a.logo){
   }
   .col-vision {
     background-size: 300px;
+  }
+  .row-infraestructure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 130px;
+  }
+  .container-fluid-infra {
+    height: 800px;
+  }
+  .list-infraestructure-services{
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: 18px;
+    list-style-type: '✓ ';
+    width: auto;
+  }
+  .col-img-infra {
+    padding-top: 0;
+    padding-left: 100px;
+  }
+  .img-infra {
+    width: 250px;
+  }
+  .border-14 {
+    width: 29%;
+    margin-top: -34px;
+  }
+  .border-15 {
+    margin-left: 71%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 820px;
+  }
+  .row-innovation {
+    display: none;
+  }
+  .row-innovation2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 130px;
+  }
+  .list-innovation-services {
+    padding-top: 50px;
+    padding-left: 0;
+    font-size: 18px;
+    list-style-type: '✓ ';
+    width: auto;
+  }
+  .col-img-innova {
+    padding-top: 0;
+    padding-left: 100px;
+  }
+  .img-innova {
+    width: 250px;
+  }
+  .border-10 {
+    width: 15%;
+    margin-top: -32px;
+  }
+  .border-11 {
+    margin-left: 85%;
+    margin-top: -20px; 
+  }
+  .container-fluid-networks {
+    height: 740px;
+  }
+  .list-networks-services {
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: 18px;
+  }
+  .container-fluid-air{
+    height: 720px;
+  }
+  .list-air-services {
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 0;
+    font-size: 18px;
+  }
+  .img-ciber {
+    width: 300px;
   }
 }
 @media (max-width: 740px) {
@@ -5159,7 +6575,7 @@ nav >a:hover:not(a.logo){
     margin-left: -80px;
     margin-right: 0;
     margin-top: -40px;
-}
+  }
   .img-company {
     width: 400px;
     margin-left: 150px;
@@ -5270,6 +6686,78 @@ nav >a:hover:not(a.logo){
     background-size: 400px;
     margin-left: -20px;
   }
+  .row-infraestructure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 130px;
+  }
+  .border-14 {
+    width: 28%;
+    margin-top: -34px;
+  }
+  .border-15 {
+    margin-left: 72%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 32%;
+    margin-top: -32px;
+  }
+  .border-17 {
+    margin-left: 68%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 830px;
+  }
+  .row-innovation2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 130px;
+  }
+  .border-10 {
+    width: 14%;
+    margin-top: -32px;
+  }
+  .border-11 {
+    margin-left: 86%;
+    margin-top: -20px; 
+  }
+  .container-fluid-air{
+    height: 740px;
+  }
+  .list-air-services {
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 0;
+    font-size: 18px;
+  }
+  .border-18 {
+    width: 11%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 89%;
+    margin-top: -20px; 
+  }
+}
+@media (max-width: 705px) {
+  .h-titles-ciber {
+    display: none;
+  }
+  .h-titles-ciber2{
+    display: block;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    color: #09294F;
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
 }
 @media (max-width: 700px) {
   .row-services{
@@ -5311,6 +6799,14 @@ nav >a:hover:not(a.logo){
     font-size: 14px;
     border-radius: 0.5rem;
     background-color: #fff;
+  }
+  .border-6 {
+    width: 36%;
+    margin-top: -30px;
+  }
+  .border-7 {
+    margin-left: 64%;
+    margin-top: -20px; 
   }
   .border-8 {
     width: 24%;
@@ -5359,7 +6855,7 @@ nav >a:hover:not(a.logo){
     margin-left: -80px;
     margin-right: 0;
     margin-top: -40px;
-}
+  }
   .img-company {
     width: 380px;
     margin-left: 130px;
@@ -5393,6 +6889,98 @@ nav >a:hover:not(a.logo){
     width: 50%;
     height: 100%;
     font-weight: 500;
+  }
+  .row-infraestructure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 80px;
+  }
+  .container-fluid-infra {
+    height: 800px;
+  }
+  .list-infraestructure-services{
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: 18px;
+    list-style-type: '✓ ';
+    width: auto;
+  }
+  .col-img-infra {
+    padding-top: 0;
+    padding-left: 130px;
+  }
+  .img-infra {
+    width: 230px;
+  }
+  .border-14 {
+    width: 27%;
+    margin-top: -34px;
+  }
+  .border-15 {
+    margin-left: 73%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 31%;
+    margin-top: -30px;
+  }
+  .border-17 {
+    margin-left: 69%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova{
+    height: 800px;
+  }
+  .row-innovation {
+    display: none;
+  }
+  .row-innovation2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 80px;
+  }
+  .list-innovation-services {
+    padding-top: 50px;
+    padding-left: 0;
+    font-size: 18px;
+    list-style-type: '✓ ';
+    width: auto;
+  }
+  .col-img-innova {
+    padding-top: 0;
+    padding-left: 130px;
+  }
+  .img-innova {
+    width: 230px;
+  }
+  .border-10 {
+    width: 11%;
+    margin-top: -32px;
+  }
+  .border-11 {
+    margin-left: 89%;
+    margin-top: -20px; 
+  }
+  .container-fluid-air{
+    height: 760px;
+  }
+  .list-air-services {
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 0;
+    font-size: 18px;
+  }
+  .border-18 {
+    width: 9%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 91%;
+    margin-top: -20px; 
   }
 }
 @media (max-width: 650px) {
@@ -5433,6 +7021,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 38px;
+  }
+  .h-titles-ciber2 {
+    font-size: 33px;
   }
   .border-2 {
     width: 18% !important;
@@ -5566,7 +7157,7 @@ nav >a:hover:not(a.logo){
     margin-left: -80px;
     margin-right: 0;
     margin-top: -40px;
-}
+  }
   .img-company {
     width: 350px;
     margin-left: 130px;
@@ -5621,6 +7212,98 @@ nav >a:hover:not(a.logo){
     margin-left: 30px;
     margin-right: 30px;
     text-align: justify;
+  }
+  .list-infraestructure-services{
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: 17px;
+    list-style-type: '✓ ';
+    width: auto;
+  }
+  .col-img-infra {
+    padding-top: 0;
+    padding-left: 100px;
+  }
+  .border-14 {
+    width: 26%;
+    margin-top: -32px;
+  }
+  .border-15 {
+    margin-left: 74%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 30%;
+    margin-top: -30px;
+  }
+  .border-17 {
+    margin-left: 70%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova {
+    height: 830px;
+  }
+  .list-innovation-services {
+    padding-top: 50px;
+    padding-left: 0;
+    font-size: 17px;
+    list-style-type: '✓ ';
+    width: auto;
+  }
+  .col-img-innova {
+    padding-top: 0;
+    padding-left: 100px;
+  }
+  .border-10 {
+    width: 10%;
+    margin-top: -32px;
+  }
+  .border-11 {
+    margin-left: 90%;
+    margin-top: -20px; 
+  }
+  .container-fluid-networks {
+    height: 720px;
+  }
+  .list-networks-services {
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: 17px;
+  }
+  .container-fluid-air{
+    height: 760px;
+  }
+  .list-air-services {
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 0;
+    font-size: 17px;
+  }
+  .border-18 {
+    width: 7%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 93%;
+    margin-top: -20px; 
+  }
+}
+@media (max-width: 600px) {
+  .border-10 {
+    width: 8%;
+    margin-top: -32px;
+  }
+  .border-11 {
+    margin-left: 92%;
+    margin-top: -20px; 
+  }
+  .border-18 {
+    width: 6%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 94%;
+    margin-top: -20px; 
   }
 }
 @media (max-width: 580px) {
@@ -5710,7 +7393,7 @@ nav >a:hover:not(a.logo){
     margin-left: -100px;
     margin-right: 0;
     margin-top: -40px;
-}
+  }
   .img-company {
     width: 300px;
     margin-left: 120px;
@@ -5787,6 +7470,66 @@ nav >a:hover:not(a.logo){
     background-size: 350px;
     margin-left: -20px;
   }
+  .border-6 {
+    width: 35%;
+    margin-top: -30px;
+  }
+  .border-7 {
+    margin-left: 65%;
+    margin-top: -20px; 
+  }
+  .col-img-infra {
+    padding-top: 0;
+    padding-left: 80px;
+  }
+  .img-infra {
+    width: 210px;
+  }
+  .border-14 {
+    width: 24%;
+    margin-top: -32px;
+  }
+  .border-15 {
+    margin-left: 76%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 29%;
+    margin-top: -30px;
+  }
+  .border-17 {
+    margin-left: 71%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova {
+    height: 830px;
+  }
+  .col-img-innova {
+    padding-top: 0;
+    padding-left: 80px;
+  }
+  .img-innova {
+    width: 210px;
+  }
+  .border-10 {
+    width: 6%;
+    margin-top: -32px;
+  }
+  .border-11 {
+    margin-left: 94%;
+    margin-top: -20px; 
+  }
+  .container-fluid-air{
+    height: 780px;
+  }
+  .border-18 {
+    width: 5%;
+    margin-top: -32px;
+  }
+  .border-19 {
+    margin-left: 95%;
+    margin-top: -20px; 
+  }
 }
 @media (max-width: 552px) {
   .img-fluid{
@@ -5826,6 +7569,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 36px;
+  }
+  .h-titles-ciber2 {
+    font-size: 31px;
   }
   .border-2 {
     width: 17% !important;
@@ -5944,7 +7690,7 @@ nav >a:hover:not(a.logo){
     margin-left: -100px;
     margin-right: 0;
     margin-top: -40px;
-}
+  }
   .img-company {
     width: 300px;
     margin-left: 90px;
@@ -5971,6 +7717,106 @@ nav >a:hover:not(a.logo){
     text-align: center;
     margin-top: 40px;
     font-size: 25px;
+  }
+  .row-infraestructure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 50px;
+  }
+  .container-fluid-infra {
+    height: 740px;
+  }
+  .list-infraestructure-services{
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: 17px;
+    list-style-type: '✓ ';
+    width: auto;
+  }
+  .col-img-infra {
+    padding-top: 0;
+    padding-left: 100px;
+  }
+  .img-infra {
+    width: 210px;
+  }
+  .border-14 {
+    width: 23%;
+    margin-top: -32px;
+  }
+  .border-15 {
+    margin-left: 77%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 28%;
+    margin-top: -30px;
+  }
+  .border-17 {
+    margin-left: 72%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova {
+    height: 800px;
+  }
+  .row-innovation2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 50px;
+  }
+  .col-img-innova {
+    padding-top: 0;
+    padding-left: 100px;
+  }
+  .img-innova {
+    width: 210px;
+  }
+  .border-10 {
+    width: 6%;
+    margin-top: -30px;
+  }
+  .border-11 {
+    margin-left: 94%;
+    margin-top: -20px; 
+  }
+  .border-18 {
+    display: none;
+  }
+  .border-19 {
+    display: none; 
+  }
+}
+@media (max-width: 530px) {
+  .col-img-infra {
+    padding-top: 0;
+    padding-left: 80px;
+  }
+  .col-img-innova {
+    padding-top: 0;
+    padding-left: 80px;
+  }
+  .border-10 {
+    display: none;
+  }
+  .border-11 {
+    display: none;
+  }
+  .container-fluid-networks {
+    height: 750px;
+  }
+}
+@media (max-width: 510px) {
+  .border-14 {
+    width: 22%;
+    margin-top: -32px;
+  }
+  .border-15 {
+    margin-left: 78%;
+    margin-top: -20px; 
   }
 }
 @media (max-width: 480px) {
@@ -6012,6 +7858,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 34px;
+  }
+  .h-titles-ciber2 {
+    font-size: 29px;
   }
   .border-2 {
     width: 16% !important;
@@ -6160,7 +8009,7 @@ nav >a:hover:not(a.logo){
     margin-left: -100px;
     margin-right: 0;
     margin-top: -40px;
-}
+  }
   .img-company {
     width: 300px;
     margin-left: 90px;
@@ -6269,6 +8118,83 @@ nav >a:hover:not(a.logo){
   .col-vision {
     background-size: 300px;
   }
+  .row-infraestructure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 50px;
+  }
+  .container-fluid-infra {
+    height: 700px;
+  }
+  .list-infraestructure-services{
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: 16px;
+    list-style-type: '✓ ';
+    width: auto;
+  }
+  .col-img-infra {
+    padding-top: 0;
+    padding-left: 90px;
+  }
+  .img-infra {
+    width: 180px;
+  }
+  .border-14 {
+    width: 20%;
+    margin-top: -29px;
+  }
+  .border-15 {
+    margin-left: 80%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 27%;
+    margin-top: -28px;
+  }
+  .border-17 {
+    margin-left: 73%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova {
+    height: 770px;
+  }
+  .row-innovation2 {
+    margin-right: 10px;
+  }
+  .list-innovation-services{
+    padding-top: 40px;
+    padding-left: 0;
+    font-size: 16px;
+    list-style-type: '✓ ';
+    width: auto;
+  }
+  .col-img-innova {
+    padding-top: 0;
+    padding-left: 90px;
+  }
+  .img-innova {
+    width: 180px;
+  }
+  .container-fluid-networks {
+    height: 710px;
+  }
+  .list-networks-services {
+    padding-top: 20px;
+    padding-left: 0;
+    font-size: 16px;
+  }
+  .container-fluid-air{
+    height: 760px;
+  }
+  .list-air-services {
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 0;
+    font-size: 16px;
+  }
 }
 @media (max-width: 414px) {
   .img-fluid{
@@ -6309,6 +8235,9 @@ nav >a:hover:not(a.logo){
   }
   .h-titles {
     font-size: 34px;
+  }
+  .h-titles-ciber2 {
+    font-size: 29px;
   }
   .border-2 {
     width: 11% !important;
@@ -6451,7 +8380,7 @@ nav >a:hover:not(a.logo){
     margin-left: -100px;
     margin-right: 0;
     margin-top: -40px;
-}
+  }
   .img-company {
     width: 300px;
     margin-left: 30px;
@@ -6486,6 +8415,44 @@ nav >a:hover:not(a.logo){
     text-align: center;
     margin-top: 40px;
     font-size: 24px;
+  }
+  .row-infraestructure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  .col-img-infra {
+    padding-top: 0;
+    padding-left: 60px;
+  }
+  .border-14 {
+    width: 17%;
+    margin-top: -29px;
+  }
+  .border-15 {
+    margin-left: 83%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 25%;
+    margin-top: -28px;
+  }
+  .border-17 {
+    margin-left: 75%;
+    margin-top: -20px; 
+  }
+  .row-innovation2 {
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  .col-img-innova {
+    padding-top: 0;
+    padding-left: 60px;
+  }
+  .container-fluid-networks {
+    height: 730px;
   }
 }
 @media (max-width: 380px) {
@@ -6667,7 +8634,7 @@ nav >a:hover:not(a.logo){
     margin-left: -100px;
     margin-right: 0;
     margin-top: -40px;
-}
+  }
   .img-company {
     width: 300px;
     margin-left: 30px;
@@ -6748,6 +8715,32 @@ nav >a:hover:not(a.logo){
     background-size: 280px;
     margin-bottom: 30px;
     margin-left: -20px;
+  }
+  .row-infraestructure {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  .border-14 {
+    width: 15%;
+    margin-top: -29px;
+  }
+  .border-15 {
+    margin-left: 85%;
+    margin-top: -20px; 
+  }
+  .border-16 {
+    width: 23%;
+    margin-top: -28px;
+  }
+  .border-17 {
+    margin-left: 77%;
+    margin-top: -20px; 
+  }
+  .container-fluid-innova {
+    height: 790px;
   }
 }
 
