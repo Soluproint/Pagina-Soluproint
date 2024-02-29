@@ -13,7 +13,7 @@ function SliderBlog() {
                                 <p className="p-slider">Publicamos y replicamos artículos sobre noticias de la actualidad</p>
                             </div>
                             <div className="col-slider-blog">
-                                <img className="img-blog" src="images/sliders/slider-blog-img.png" alt="Imagen del Slider Blog" />
+                                <img className="img-slider-blog" src="images/sliders/slider-blog-img.png" alt="Imagen del Slider Blog" />
                             </div>
                         </div>
                     </div>

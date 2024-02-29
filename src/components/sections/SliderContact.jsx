@@ -12,6 +12,9 @@ function SliderContact() {
                                 </div>
                                 <p className="p-slider">Contáctanos hoy y déjanos ser el impulso que lleva tu <br />empresa al siguiente nivel</p>
                             </div>
+                            <div className="col-slider-contact">
+                                <img className="img-slider-contact" src="images/sliders/slider-contacto-img.png" alt="Imagen del Slider Contacto" />
+                            </div>
                         </div>
                     </div>
                 </div>

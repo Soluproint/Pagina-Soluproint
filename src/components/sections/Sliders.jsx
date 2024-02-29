@@ -18,6 +18,7 @@ function Sliders() {
                             </div>
                         </div>
                     </div>
+                    
                     <div className="carousel-item">
                         <div className="slider2">
                             <div className="text-wrap">
@@ -43,6 +44,11 @@ function Sliders() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="wave-slider" style={{height: "150px", overflow: "hidden"}} >
+                    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: "100%", width: "100%"}}>
+                        <path d="M-4.22,104.13 C232.78,-147.52 262.69,312.34 522.85,-30.08 L500.00,0.00 L0.00,0.00 Z" style={{stroke: "none", fill:"#E7E8EB"}}></path>
+                    </svg>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
