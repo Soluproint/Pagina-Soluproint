@@ -157,14 +157,6 @@ h6 {
 .h-titles-ciber2{
   display: none;
 }
-.h-titles-ciber-specialized{
-  font-weight: 600;
-  font-size: 50px;
-  text-align: center;
-  color: #09294F;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
 .h-titles-attention1{
   font-weight: 600;
   font-size: 35px;
@@ -193,19 +185,19 @@ h6 {
 }
 .title-form{
   width: 100%;
-  height: 110px;
+  height: 130px;
   font-weight: 600;
+  padding-top: 40px;
   font-size: 40px;
   text-align: center;
-  align-items: center;
   color: #fff;
   background-color: #09294F;
-  margin-bottom: 10px;
 }
 .title-form2{
   width: 100%;
   height: 70px;
   font-weight: 600;
+  padding-top: 10px;
   font-size: 40px;
   text-align: center;
   align-items: center;
@@ -289,6 +281,7 @@ p {
   margin-top: 20px;
   margin-right: 40px;
   margin-left: 40px;  
+  font-size: 28px; 
 }
 address {
   margin-bottom: 1rem;
@@ -484,7 +477,7 @@ output {
 }
 .container-fluid-ciber{
   width: 100%;
-  height: 800px;
+  height: 780px;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -493,13 +486,21 @@ output {
 }
 .container-fluid-ciber-specialized{
   width: 100%;
-  height: 900px;
+  height: 1000px;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
   padding-top: 10px;
-  padding-bottom: 50px;
+}
+.container-fluid-ciber-quality{
+  width: 100%;
+  height: 950px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
 }
 .container-fluid-services-form{
   width: 100%;
@@ -727,18 +728,27 @@ output {
 .row-ciber-specialized{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
   margin-right: 115px;
   margin-left: 100px;
   flex-shrink: 0;
   max-width: 100%;
+}
+.row-ciber-quality{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 115px;
+  margin-left: 100px;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.row-ciber-quality2{
+  display: none;
 }
 .row-attention{
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px; 
   margin-left: 500px;
-  flex-shrink: 0;
 }
 .services-link{
   display: block;
@@ -989,7 +999,7 @@ ul li::marker{
   height: 850px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider1.1.png') no-repeat;
+  background: url('../public/images/sliders/slider1.jpg') no-repeat;
   background-size: cover;
   background-position: unset;
 }
@@ -999,7 +1009,7 @@ ul li::marker{
   height: 720px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider2.png') no-repeat center center;
+  background: url('../public/images/sliders/slider2.jpg') no-repeat center center;
   background-size: cover;
 }
 .slider3{
@@ -1008,7 +1018,7 @@ ul li::marker{
   height: 720px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider3.png') no-repeat center center;
+  background: url('../public/images/sliders/slider3.jpg') no-repeat center center;
   background-size: cover;
 }
 .col-slider-about-us{
@@ -1018,7 +1028,7 @@ ul li::marker{
   height: 900px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-nosotros.png') no-repeat center center;
+  background: url('../public/images/sliders/slider-nosotros.jpg') no-repeat center center;
   background-size: cover;
   background-position: unset;
 }
@@ -1026,10 +1036,10 @@ ul li::marker{
   flex: 1 0;
   width: 100%;
   margin-top: -10px;
-  height: 900px;
+  height: 670px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-servicios.png') no-repeat center center;
+  background: url('../public/images/sliders/slider-servicios-fondo.png') no-repeat center center;
   background-size: cover;
   background-position: unset;
 }
@@ -1040,35 +1050,48 @@ ul li::marker{
   height: 900px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-ciberseguridad.png') no-repeat center center;
+  background: url('../public/images/sliders/slider-ciberseguridad-fondo.jpg') no-repeat center center;
   background-size: cover;
   background-position: unset;
 }
-.col-slider-blog{
+.container-slider-blog{
   flex: 1 0;
   width: 100%;
   margin-top: -10px;
-  height: 900px;
+  height: 650px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-blog.png') no-repeat center center;
+  background: url('../public/images/sliders/slider-blog-fondo.png') no-repeat center center;
   background-size: cover;
   background-position: unset;
 }
-.col-slider-contact{
+.container-slider-contact{
   flex: 1 0;
   width: 100%;
   margin-top: -10px;
-  height: 900px;
+  height: 670px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-contacto.png') no-repeat center center;
+  background: url('../public/images/sliders/slider-contacto-fondoOK.jpg') no-repeat center center;
   background-size: cover;
   background-position: unset;
+}
+.col-slider-blog {
+  height: 100%;
+  width: 650px;
+}
+.img-blog {
+  width: 650px;
+  margin-top: 50px;
+  margin-left: 180px;
 }
 .col-icons-container{
   display: flex;
   flex-direction: row;
+}
+.img-icon {
+  display: flex;
+  flex-direction: column;
 }
 .col-location{
   display: flex;
@@ -1079,10 +1102,14 @@ ul li::marker{
   flex: 0 0 auto;
   width: auto;
 }
+.col-icon-map2{
+  display: none;
+}
 .img-map{
   margin-left: 40px;
+  width: 180px;
 }
-.col-icon-wpp{
+.icon{
   flex: 0 0 auto;
   width: 70px;
   height: 70px;
@@ -1106,11 +1133,16 @@ ul li::marker{
   width: auto;
   margin-top: 10px;
   margin-bottom: 50px;
+  font-size: 32px;
+}
+.mail-contact {
+  font-size: 32px;
 }
 #contact-titles {
   text-align: left;
   margin-bottom: 10px;
   color: #09294F;
+  font-size: 23px;
 }
 .pages{
   margin-top: 20px;
@@ -1118,11 +1150,7 @@ ul li::marker{
 .soon{
   margin-top: 20px;
   text-align: center;
-}
-.soon2{
-  margin-top: 20px;
-  text-align: center;
-  color: #fff;
+  font-size: 32px;
 }
 .row-cols-auto > * {
   flex: 0 0 auto;
@@ -1379,7 +1407,7 @@ ul li::marker{
     width: auto;
   }
 }
-form {
+.contact-form {
   max-width: 700px; 
   text-align: center; 
   margin: 20px auto;
@@ -1393,20 +1421,25 @@ input, textarea {
   display: block; 
   width: 100%; 
   resize: none; 
+  font-size: 16px;
 } 
+.input2 {
+  display: none
+}
 #input-submit {  
   cursor: pointer; 
   color: white;
   background-color: #0082C6;
   font-weight: 500;
   font-size: 19px;
+  width: 687px;
 } 
 #input-submit:hover { 
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2); 
 } 
 textarea { 
-  height: 169px; 
-} 
+  height: 172px; 
+}
 .half { 
   float: left; 
   width: 48%; 
@@ -2922,6 +2955,9 @@ nav >a:hover:not(a.logo){
   margin: 50px 0 30px 0;
   color: #09294F;
 }
+.wave-slider {
+  position: relative;
+}
 .alert {
   position: relative;
   padding: 1rem 1rem;
@@ -3475,7 +3511,7 @@ nav >a:hover:not(a.logo){
 .text-wrap {
   font-size: 20px;
   text-align: left;
-  width: 73%;
+  width: 50%;
   height: 100%;
   font-weight: 500;
 }
@@ -3749,12 +3785,38 @@ nav >a:hover:not(a.logo){
     margin-left: 90px;
     margin-bottom: 10px;
   }
+  .container-fluid-ciber-quality {
+    height: 980px;
+  }
   .col-img-ciber {
     padding-top: 50px;
     padding-right: 100px;
     padding-left: 70px;
   }
-  
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 28px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 20px;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 50px;
+    padding-right: 130px;
+  }
+  .row-attention{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    margin-left: 450px;
+  }
 }
 @media (max-width: 1580px) {
   .border-18 {
@@ -3767,10 +3829,50 @@ nav >a:hover:not(a.logo){
   }
   .p-ciber {
     margin-top: 40px;
-    margin-right: 40px;
+    margin-right: 30px;
     font-size: 22px;
-    text-align: justify;
-    font-weight: 400;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 70px;
+  margin-left: 200px;
+  font-size: 22px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 27px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 20px;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 50px;
+    padding-right: 100px;
+  }
+  .row-attention{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    margin-left: 400px;
   }
 }
 @media (max-width: 1517px) {
@@ -3933,13 +4035,25 @@ nav >a:hover:not(a.logo){
     padding-right: 100px;
     padding-left: 60px;
   }
-  .p-ciber {
-    margin-top: 40px;
-    margin-right: 30px;
-    font-size: 22px;
-    text-align: justify;
-    font-weight: 400;
+  .title-form{
+    padding-top: 40px;
+    font-size: 36px;
   }
+  .title-form2{
+    padding-top: 10px;
+    font-size: 36px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .row-attention{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    margin-left: 350px;
+  }
+  
 }
 @media (max-width: 1490px) {
   .row-about-us{
@@ -4096,11 +4210,39 @@ nav >a:hover:not(a.logo){
     width: 350px;
   }
   .col-img-ciber {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-right: 100px;
     padding-left: 50px;
   }
-
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 21px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 60px;
+  margin-left: 180px;
+  font-size: 22px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+  .row-attention{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    margin-left: 300px;
+  }
 }
 @media (max-width: 1382px) {
   .img-fluid{
@@ -4398,11 +4540,60 @@ nav >a:hover:not(a.logo){
     margin-bottom: 10px;
   }
   .col-img-ciber {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-right: 100px;
     padding-left: 40px;
   }
-
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 950px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-left: 160px;
+  font-size: 21px;
+  }
+  .container-fluid-ciber-quality {
+    height: 950px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .title-form{
+    padding-top: 40px;
+    font-size: 35px;
+  }
+  .title-form2{
+    padding-top: 10px;
+    font-size: 35px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 29px;
+  }
+  .row-attention{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    margin-left: 250px;
+  }
+  #contact-titles {
+    font-size: 22px;
+  }
 }
 @media (max-width: 1266px) {
   .row-titles-services {
@@ -4515,9 +4706,9 @@ nav >a:hover:not(a.logo){
     width: 330px;
   }
   .col-img-ciber {
-    padding-top: 50px;
-    padding-right: 90px;
-    padding-left: 30px;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-left: 20px;
   }
   .row-ciber {
     display: flex;
@@ -4526,6 +4717,69 @@ nav >a:hover:not(a.logo){
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 10px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 950px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 140px;
+  font-size: 20px;
+  }
+  .container-fluid-ciber-quality {
+    height: 920px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 26px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 10px;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 60px;
+    padding-right: 80px;
+  }
+  .title-form{
+    padding-top: 40px;
+    font-size: 33px;
+  }
+  .title-form2{
+    padding-top: 10px;
+    font-size: 33px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 27px;
+  }
+  .row-attention{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    margin-left: 200px;
+  }
+  #contact-titles {
+    font-size: 22px;
   }
 }
 @media (max-width: 1190px) {
@@ -4814,21 +5068,83 @@ nav >a:hover:not(a.logo){
     margin-left: 79%;
     margin-top: -20px; 
   }
+  .container-fluid-ciber {
+    height: 720px;
+  }
   .row-ciber {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
     margin-bottom: 10px;
   }
   .img-ciber {
     width: 300px;
   }
   .col-img-ciber {
-    padding-top: 50px;
-    padding-right: 90px;
+    padding-top: 80px;
+    padding-right: 80px;
     padding-left: 20px;
+  }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 920px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 120px;
+  font-size: 19px;
+  }
+  .container-fluid-ciber-quality {
+    height: 880px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 25px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 10px;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 60px;
+    padding-right: 80px;
+  }
+  .row-attention{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    margin-left: 150px;
+  }
+}
+@media (max-width: 1157px) {
+  .title-form{
+    padding-top: 20px;
+    font-size: 33px;
   }
 }
 @media (max-width: 1105px) {
@@ -5121,11 +5437,63 @@ nav >a:hover:not(a.logo){
     margin-left: 80%;
     margin-top: -20px; 
   }
+  .row-ciber {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .img-ciber {
+    width: 300px;
+  }
   .col-img-ciber {
-    padding-top: 50px;
-    padding-right: 80px;
+    padding-top: 80px;
+    padding-right: 70px;
     padding-left: 10px;
   }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 850px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 100px;
+  font-size: 18px;
+  }
+  .container-fluid-ciber-quality {
+    height: 830px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .row-attention{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px; 
+    margin-left: 100px;
+  }
+}
+@media (max-width: 1040px) {
+  .container-lines {
+    margin-left: 180px;
+  }
+  
 }
 @media (max-width: 1018px) {
   .row-container {
@@ -5246,14 +5614,87 @@ nav >a:hover:not(a.logo){
     margin-left: 81%;
     margin-top: -20px; 
   }
+  .row-ciber {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
   .img-ciber {
     width: 280px;
   }
   .col-img-ciber {
-    padding-top: 50px;
-    padding-right: 70px;
+    padding-top: 80px;
+    padding-right: 60px;
     padding-left: 0;
   }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 830px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 80px;
+  font-size: 17px;
+  }
+  .container-fluid-ciber-quality {
+    height: 800px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 24px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 0;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 60px;
+    padding-right: 70px;
+  }
+  .title-form{
+    padding-top: 20px;
+    font-size: 31px;
+  }
+  .title-form2{
+    padding-top: 10px;
+    font-size: 31px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .container-lines {
+    margin-left: 150px;
+  }
+  #contact-titles {
+    font-size: 21px;
+  } 
 }
 @media (max-width: 990px) {
   .row-services{
@@ -5443,6 +5884,12 @@ nav >a:hover:not(a.logo){
   .border-19 {
     margin-left: 82%;
     margin-top: -20px; 
+  }
+  .container-fluid-ciber {
+    height: 680px;
+  }
+  .container-lines {
+    margin-left: 120px;
   }
 }
 @media (max-width: 970px) {
@@ -5674,6 +6121,84 @@ nav >a:hover:not(a.logo){
     padding-left: 10px;
     font-size: 18px;
   }
+  .row-ciber {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+  .img-ciber {
+    width: 260px;
+  }
+  .col-img-ciber {
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-left: 0;
+  }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 800px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 60px;
+  font-size: 17px;
+  }
+  .container-fluid-ciber-quality {
+    height: 800px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 23px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 0;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 50px;
+  }
+  .title-form{
+    padding-top: 20px;
+    font-size: 29px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  .container-lines {
+    margin-left: 100px;
+  }
+  .row-attention{
+    margin-left: 80px;
+  }
 }
 @media (max-width: 926px) {
   .list-innovation-services {
@@ -5713,6 +6238,62 @@ nav >a:hover:not(a.logo){
     margin-left: 83%;
     margin-top: -20px; 
   }
+  .p-ciber {
+    font-size: 16px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 780px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 40px;
+  font-size: 17px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .container-lines {
+    margin-left: 100px;
+  }
+  .row-attention{
+    margin-left: 80px;
+  }
+  .img-map {
+    width: 160px;
+  }
+  .h-titles-attention1 {
+    font-size: 33px;
+  }
+  .h-titles-attention2 {
+    font-size: 43px;
+  }
+  .h-titles-attention3 {
+    font-size: 33px;
+  }
+  .h-titles-attention4 {
+    font-size: 43px;
+  }
+  .icon {
+    width: 65px;
+    height: 65px;
+  }
+  .wpp-contact {
+    font-size: 30px;
+  }
+  .mail-contact {
+    font-size: 30px;
+  }
+  
 }
 @media (max-width: 870px) {
   h4 {
@@ -5913,6 +6494,84 @@ nav >a:hover:not(a.logo){
   }
   .img-ciber {
     width: 270px;
+  }
+  .container-fluid-ciber {
+    height: 750px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 850px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 20px;
+  font-size: 17px;
+  }
+  .container-fluid-ciber-quality {
+    height: 800px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 23px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 0;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-left: 30px;
+  }
+  .title-form{
+    padding-top: 20px;
+    font-size: 27px;
+  }
+  .title-form2{
+    padding-top: 13px;
+    font-size: 30px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  .container-lines {
+    margin-left: 80px;
+  }
+  .row-attention{
+    margin-left: 70px;
+  }
+  #contact-titles{
+    font-size: 20px;
+  }
+  input, textarea {
+    font-size: 15px;
+    width: 95%;
+  } 
+  #input-submit {
+    font-size: 17px;
+    width: 671px;
+  } 
+  textarea { 
+    height: 163px; 
   }
 }
 @media (max-width: 830px) {
@@ -6213,6 +6872,33 @@ nav >a:hover:not(a.logo){
     margin-left: 86%;
     margin-top: -20px; 
   }
+  .container-fluid-ciber {
+    height: 700px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 930px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 30px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  }
+  .container-fluid-ciber-quality {
+    height: 850px;
+  }
+  .row-ciber-quality{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 30px;
+  }
 }
 @media (max-width: 800px) {
   .border-12 {
@@ -6229,6 +6915,103 @@ nav >a:hover:not(a.logo){
     margin-left: 87%;
     margin-top: -20px; 
   }
+  .container-fluid-ciber {
+    height: 1050px;
+  }
+  .row-ciber {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: -20px;
+  }
+  .img-ciber {
+    width: 300px;
+  }
+  .col-img-ciber {
+    padding-top: 30px;
+    padding-left: 200px;
+  }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 19px;
+  }
+  .container-fluid-ciber-quality {
+    height: 1150px;
+  }
+  .row-ciber-quality {
+    display: none;
+  }
+  .row-ciber-quality2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 24px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-left: 170px;
+  }
+  .img-map {
+    width: 140px;
+  }
+  .h-titles-attention1 {
+    font-size: 30px;
+  }
+  .h-titles-attention2 {
+    font-size: 40px;
+  }
+  .h-titles-attention3 {
+    font-size: 30px;
+  }
+  .h-titles-attention4 {
+    font-size: 40px;
+  }
+  .icon {
+    width: 63px;
+    height: 63px;
+  }
+  .wpp-contact {
+    font-size: 28px;
+  }
+  .mail-contact {
+    font-size: 28px;
+  }
+  .contact-form {
+    max-width: 700px; 
+    margin-top: 50px;
+    margin-left: 50px;
+  } 
+  #contact-titles{
+    font-size: 19px;
+  }
+  input, textarea {
+    font-size: 15px;
+    width: 90%;
+  } 
+  #input-submit {
+    font-size: 17px;
+    width: 654px;
+  } 
 }
 @media (max-width: 775px) {
   .img-fluid{
@@ -6524,8 +7307,27 @@ nav >a:hover:not(a.logo){
     font-size: 18px;
   }
   .img-ciber {
-    width: 300px;
+    width: 280px;
   }
+  .col-img-ciber {
+    padding-left: 180px;
+  }
+  .container-lines {
+    margin-left: 60px;
+  }
+  .row-attention{
+    margin-left: 60px;
+  }
+  #input-submit {
+    font-size: 17px;
+    width: 640px;
+  }
+}
+@media (max-width: 760px) {
+  #input-submit {
+    font-size: 17px;
+    width: 626px;
+  } 
 }
 @media (max-width: 740px) {
   .text-wrap-service {
@@ -6744,6 +7546,89 @@ nav >a:hover:not(a.logo){
     margin-left: 89%;
     margin-top: -20px; 
   }
+  .row-ciber {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+  }
+  .img-ciber {
+    width: 280px;
+  }
+  .col-img-ciber {
+    padding-top: 30px;
+    padding-left: 180px;
+  }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  .container-fluid-ciber-quality {
+    height: 1150px;
+  }
+  .row-ciber-quality2{
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 23px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 30px;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-left: 170px;
+  }
+  .img-map {
+    width: 120px;
+  }
+  .h-titles-attention1 {
+    font-size: 27px;
+  }
+  .h-titles-attention2 {
+    font-size: 37px;
+  }
+  .h-titles-attention3 {
+    font-size: 27px;
+  }
+  .h-titles-attention4 {
+    font-size: 37px;
+  }
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+  .wpp-contact {
+    font-size: 26px;
+  }
+  .mail-contact {
+    font-size: 26px;
+  }
+  #input-submit {
+    font-size: 17px;
+    width: 608px;
+  } 
+}
+@media (max-width: 720px) {
+  #input-submit {
+    font-size: 17px;
+    width: 590px;
+  } 
 }
 @media (max-width: 705px) {
   .h-titles-ciber {
@@ -6758,6 +7643,10 @@ nav >a:hover:not(a.logo){
     padding-top: 70px;
     padding-bottom: 10px;
   }
+  #input-submit {
+    font-size: 17px;
+    width: 573px;
+  } 
 }
 @media (max-width: 700px) {
   .row-services{
@@ -6982,6 +7871,90 @@ nav >a:hover:not(a.logo){
     margin-left: 91%;
     margin-top: -20px; 
   }
+  .col-img-ciber {
+    padding-left: 160px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 980px;
+  }
+  .container-fluid-ciber-quality {
+    height: 1150px;
+  }
+  .row-ciber-quality2{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 22px; 
+  }
+  .col-quality{
+    height: 600px;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 20px;
+  }
+  .col-img-quality{
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 30px;
+    padding-right: 0;
+    padding-left: 170px;
+  }
+  .title-form{
+    padding-top: 15px;
+    font-size: 26px;
+    height: 100px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 23px;
+  }
+  .container-fluid-attention{
+    height: 450px;
+  }
+  .row-attention{
+    margin-left: 50px;
+  }
+  .img-map {
+    width: 100px;
+  }
+  .h-titles-attention1 {
+    font-size: 25px;
+  }
+  .h-titles-attention2 {
+    font-size: 35px;
+  }
+  .h-titles-attention3 {
+    font-size: 25px;
+  }
+  .h-titles-attention4 {
+    font-size: 35px;
+  }
+  .icon {
+    width: 57px;
+    height: 57px;
+  }
+  .wpp-contact {
+    font-size: 24px;
+  }
+  .mail-contact {
+    font-size: 24px;
+  }
+}
+@media (max-width: 680px) {
+  #input-submit {
+    font-size: 17px;
+    width: 552px;
+  } 
+}
+@media (max-width: 660px) {
+  #input-submit {
+    font-size: 17px;
+    width: 533px;
+  } 
 }
 @media (max-width: 650px) {
   .img-fluid{
@@ -7287,6 +8260,90 @@ nav >a:hover:not(a.logo){
     margin-left: 93%;
     margin-top: -20px; 
   }
+  .row-ciber {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+  }
+  .img-ciber {
+    width: 260px;
+  }
+  .col-img-ciber {
+    padding-top: 30px;
+    padding-left: 150px;
+  }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 930px;
+  }
+  .row-ciber-specialized{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .p-ciber-specialized{
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  }
+  .container-fluid-ciber-quality {
+    height: 1050px;
+  }
+  .container-fluid-attention{
+    height: 400px;
+  }
+  .container-lines {
+    margin-left: 40px;
+  }
+  .row-attention{
+    margin-left: 40px;
+  }
+  .img-map {
+    width: 80px;
+  }
+  .h-titles-attention1 {
+    font-size: 23px;
+  }
+  .h-titles-attention2 {
+    font-size: 33px;
+  }
+  .h-titles-attention3 {
+    font-size: 23px;
+  }
+  .h-titles-attention4 {
+    font-size: 33px;
+  }
+  .icon {
+    width: 55px;
+    height: 55px;
+  }
+  .wpp-contact {
+    font-size: 22px;
+  }
+  .mail-contact {
+    font-size: 22px;
+  }
+}
+@media (max-width: 640px) {
+  #input-submit {
+    font-size: 17px;
+    width: 515px;
+  } 
+}
+@media (max-width: 620px) {
+  #input-submit {
+    font-size: 17px;
+    width: 497px;
+  } 
 }
 @media (max-width: 600px) {
   .border-10 {
@@ -7305,6 +8362,29 @@ nav >a:hover:not(a.logo){
     margin-left: 94%;
     margin-top: -20px; 
   }
+  .col-img-quality {
+    padding-left: 150px;
+  }
+  .title-form{
+    padding-top: 15px;
+    font-size: 25px;
+    height: 100px;
+  }
+  .title-form2{
+    padding-top: 15px;
+    font-size: 28px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  .row-attention{
+    margin-left: 20px;
+  }
+  #input-submit {
+    font-size: 17px;
+    width: 475px;
+  } 
 }
 @media (max-width: 580px) {
   .img-consult {
@@ -7530,6 +8610,97 @@ nav >a:hover:not(a.logo){
     margin-left: 95%;
     margin-top: -20px; 
   }
+  .container-fluid-ciber {
+    height: 1100px;
+  }
+  .col-img-ciber {
+    padding-left: 130px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 970px;
+  }
+  .container-fluid-ciber-quality {
+    height: 1080px;
+  }
+  .row-ciber-quality2{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .title-quality{
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 22px; 
+  }
+  .col-quality{
+    height: 600px;
+    width: auto;
+    margin-left: 0;
+  }
+  .col-img-quality{
+    padding-left: 130px;
+  }
+  .title-form{
+    padding-top: 15px;
+    font-size: 24px;
+    height: 100px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 21px;
+  }
+  .container-fluid-attention{
+    height: 850px;
+  }
+  .col-icon-map{
+    display: none;
+  }
+  .col-icon-map2{
+    display: block;
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .row-attention{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px; 
+  }
+  .container-lines{
+    margin-left: 0;
+  }  
+  .img-map{
+    margin-left: 170px;
+    width: 150px;
+    margin-top: 30px;
+  }
+  .h-titles-attention1{
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: -20px;
+  }
+  .h-titles-attention2{
+    font-size: 45px;
+  }
+  .h-titles-attention3{
+    font-size: 35px;
+    margin-top: 80px;
+  }
+  .h-titles-attention4{
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    color: #000;
+  }
+  .wpp-contact {
+    font-size: 27px;
+  }
+  .mail-contact {
+    font-size: 27px;
+  }
+  #input-submit {
+    font-size: 17px;
+    width: 458px;
+  } 
 }
 @media (max-width: 552px) {
   .img-fluid{
@@ -7789,6 +8960,76 @@ nav >a:hover:not(a.logo){
   .border-19 {
     display: none; 
   }
+  .container-fluid-ciber {
+    height: 1000px;
+  }
+  .row-ciber {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: -20px;
+  }
+  .img-ciber {
+    width: 250px;
+  }
+  .col-img-ciber {
+    padding-top: 10px;
+    padding-left: 130px;
+  }
+  .p-ciber {
+    margin-top: 30px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 930px;
+  }
+  .p-ciber-specialized{
+  font-size: 16px;
+  }
+  .title-form{
+    padding-top: 15px;
+    font-size: 23px;
+    height: 100px;
+  }
+  .title-form2{
+    padding-top: 15px;
+    font-size: 26px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 20px;
+  } 
+  .img-map{
+    margin-left: 170px;
+    width: 130px;
+    margin-top: 30px;
+  }
+  .h-titles-attention1{
+    font-size: 33px;
+  }
+  .h-titles-attention2{
+    font-size: 43px;
+  }
+  .h-titles-attention3{
+    font-size: 33px;
+    margin-top: 80px;
+  }
+  .h-titles-attention4{
+    font-size: 43px;
+  }
+  .wpp-contact {
+    font-size: 25px;
+  }
+  .mail-contact {
+    font-size: 25px;
+  }
+  #input-submit {
+    font-size: 17px;
+    width: 432px;
+  } 
 }
 @media (max-width: 530px) {
   .col-img-infra {
@@ -7808,6 +9049,31 @@ nav >a:hover:not(a.logo){
   .container-fluid-networks {
     height: 750px;
   }
+  #contact-titles{
+    font-size: 18px;
+  }
+  input, textarea {
+    font-size: 14px;
+    width: 90%;
+  } 
+  #input-submit {
+    font-size: 16px;
+    width: 413px;
+  } 
+  .input1 {
+    display: none;
+  }
+  .input2 {
+    display: block;
+  }
+  textarea { 
+    height: 153px; 
+  }
+}
+@media (max-width: 520px) {
+  .col-img-quality{
+    padding-left: 100px;
+  }
 }
 @media (max-width: 510px) {
   .border-14 {
@@ -7818,6 +9084,52 @@ nav >a:hover:not(a.logo){
     margin-left: 78%;
     margin-top: -20px; 
   }
+  .col-img-ciber {
+    padding-left: 110px;
+  }
+  .container-fluid-services-form {
+    height: 350px;
+  }
+  .title-form{
+    padding-top: 10px;
+    font-size: 21px;
+    height: 75px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .container-fluid-attention{
+    height: 780px;
+  }
+  .img-map{
+    margin-left: 150px;
+    width: 130px;
+    margin-top: 10px;
+  }
+  .h-titles-attention1{
+    font-size: 30px;
+  }
+  .h-titles-attention2{
+    font-size: 40px;
+  }
+  .h-titles-attention3{
+    font-size: 30px;
+    margin-top: 60px;
+  }
+  .h-titles-attention4{
+    font-size: 40px;
+  }
+  .wpp-contact {
+    font-size: 23px;
+  }
+  .mail-contact {
+    font-size: 23px;
+  }
+  #input-submit {
+    font-size: 16px;
+    width: 392px;
+  } 
 }
 @media (max-width: 480px) {
   .img-fluid{
@@ -8195,6 +9507,126 @@ nav >a:hover:not(a.logo){
     padding-left: 0;
     font-size: 16px;
   }
+  .container-fluid-ciber {
+    height: 1050px;
+  }
+  .row-ciber {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+  }
+  .img-ciber {
+    width: 250px;
+  }
+  .col-img-ciber {
+    padding-top: 10px;
+    padding-left: 80px;
+  }
+  .p-ciber {
+    margin-top: 40px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 950px;
+  }
+  .col-img-quality{
+    padding-left: 80px;
+  }
+  .container-fluid-services-form {
+    height: 350px;
+  }
+  .title-form{
+    padding-top: 10px;
+    font-size: 20px;
+    height: 70px;
+  }
+  .title-form2{
+    padding-top: 17px;
+    font-size: 25px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  .container-fluid-contact-form {
+    height: 680px;
+  }
+  .half {
+    margin-top: 20px;
+  }
+  #input-submit {
+    font-size: 16px;
+    width: 366px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 460px) {
+  #input-submit {
+    width: 348px;
+  }
+}
+@media (max-width: 450px) {
+  .container-fluid-ciber {
+    height: 1100px;
+  }
+  .title-quality{
+    font-size: 21px; 
+  }
+  .col-img-quality{
+    padding-left: 70px;
+  }
+  .container-fluid-services-form {
+    height: 300px;
+  }
+  .title-form{
+    padding-top: 10px;
+    font-size: 18px;
+    height: 70px;
+  }
+  .title-form2{
+    padding-top: 17px;
+    font-size: 24px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .container-fluid-attention{
+    height: 700px;
+  }
+  .img-map{
+    margin-left: 150px;
+    width: 115px;
+    margin-top: 10px;
+  }
+  .h-titles-attention1{
+    font-size: 28px;
+  }
+  .h-titles-attention2{
+    font-size: 38px;
+  }
+  .h-titles-attention3{
+    font-size: 28px;
+    margin-top: 60px;
+  }
+  .h-titles-attention4{
+    font-size: 38px;
+  }
+  .wpp-contact {
+    font-size: 22px;
+  }
+  .mail-contact {
+    font-size: 22px;
+  }
+}
+@media (max-width: 460px) {
+  #input-submit {
+    width: 331px;
+  }
 }
 @media (max-width: 414px) {
   .img-fluid{
@@ -8453,6 +9885,70 @@ nav >a:hover:not(a.logo){
   }
   .container-fluid-networks {
     height: 730px;
+  }
+  .container-fluid-ciber {
+    height: 1150px;
+  }
+  .img-ciber {
+    width: 230px;
+  }
+  .col-img-ciber {
+    padding-top: 10px;
+    padding-left: 60px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 1050px;
+  }
+  .container-fluid-services-form {
+    height: 280px;
+  }
+  .title-form{
+    padding-top: 10px;
+    font-size: 18px;
+    height: 60px;
+  }
+  .title-form2{
+    padding-top: 18px;
+    font-size: 23px;
+  }
+  .soon{
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .container-fluid-attention{
+    height: 680px;
+  }
+  .img-map{
+    margin-left: 120px;
+    width: 115px;
+    margin-top: 10px;
+  }
+  .h-titles-attention1{
+    font-size: 25px;
+  }
+  .h-titles-attention2{
+    font-size: 35px;
+  }
+  .h-titles-attention3{
+    font-size: 25px;
+    margin-top: 50px;
+  }
+  .h-titles-attention4{
+    font-size: 35px;
+  }
+  .wpp-contact {
+    font-size: 22px;
+  }
+  .mail-contact {
+    font-size: 22px;
+  }
+  #input-submit {
+    width: 308px;
+  }
+}
+@media (max-width: 395px) {
+  #input-submit {
+    width: 292px;
   }
 }
 @media (max-width: 380px) {
@@ -8741,6 +10237,56 @@ nav >a:hover:not(a.logo){
   }
   .container-fluid-innova {
     height: 790px;
+  }
+  .col-img-ciber {
+    padding-top: 10px;
+    padding-left: 40px;
+  }
+  .container-fluid-ciber-specialized {
+    height: 1100px;
+  }
+  .container-fluid-ciber-quality {
+    height: 1150px;
+  }
+  .title-quality{
+    font-size: 20px; 
+  }
+  .col-img-quality{
+    padding-left: 60px;
+  }
+  .container-fluid-attention{
+    height: 650px;
+  }
+  .img-map{
+    margin-left: 110px;
+    width: 110px;
+    margin-top: 10px;
+  }
+  .h-titles-attention1{
+    font-size: 22px;
+  }
+  .h-titles-attention2{
+    font-size: 32px;
+  }
+  .h-titles-attention3{
+    font-size: 22px;
+    margin-top: 40px;
+  }
+  .h-titles-attention4{
+    font-size: 32px;
+  }
+  .wpp-contact {
+    font-size: 21px;
+  }
+  .mail-contact {
+    font-size: 21px;
+  }
+  .title-form2{
+    padding-top: 20px;
+    font-size: 22px;
+  }
+  #input-submit {
+    width: 278px;
   }
 }
 

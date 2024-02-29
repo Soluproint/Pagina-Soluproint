@@ -8,10 +8,12 @@ function ContactForm() {
                 <form className='contact-form'>
                     <div className='half left cf'>
                         <h5 id="contact-titles">Nombre Completo</h5>
-                        <input id="nombre" type='text' placeholder='Digite Nombre y Apellidos' name='user_name' />
+                        <input className="input1" id="nombre" type='text' placeholder='Digite Nombre y Apellidos' name='user_name' />
+                        <input className="input2"id="nombre" type='text' placeholder='Nombre y Apellidos' name='user_name' />
                         <br />
                         <h5 id="contact-titles">Email</h5>
-                        <input id="correo" type='email' placeholder='Digite Correo Electrónico' name='user_email' />
+                        <input className="input1" id="correo" type='email' placeholder='Digite Correo Electrónico' name='user_email' />
+                        <input className="input2" id="correo" type='email' placeholder='Correo Electrónico' name='user_email' />
                     </div>
                     <div className='half left cf'>
                         <h5 id="contact-titles">Mensaje</h5>

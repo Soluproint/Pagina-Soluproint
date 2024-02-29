@@ -2,7 +2,8 @@ function SpecializedConsultancies() {
     return (
         <>
             <div className="container-fluid-ciber-specialized">              
-                <h1 className="h-titles-ciber-specialized">Consultorías Especializadas en CIBERSEGURIDAD</h1>
+                <h1 className="h-titles-ciber">Consultorías Especializadas en CIBERSEGURIDAD</h1>
+                <h1 className="h-titles-ciber2">Consultorías Especializadas en CIBERSEGURIDAD</h1>
                 <div className="row-ciber-specialized">
                     <p className="p-ciber-specialized"><b>Principales Vectores de Ataques:</b>
                     <br />• Ataques por denegación de servicio (DoS) y por denegación de servicio distribuido (DDoS).

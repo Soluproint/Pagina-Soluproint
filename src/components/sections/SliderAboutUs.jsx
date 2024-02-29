@@ -12,6 +12,7 @@ function SliderAboutUs() {
                                 </div>
                                 <p className="p-slider">Una empresa que acompaña el crecimiento y desarrollo <br />seguro de nuestros clientes y aliados</p>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
