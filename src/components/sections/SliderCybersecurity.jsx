@@ -13,7 +13,7 @@ function SliderCybersecurity() {
                                 <p className="p-slider">Garantice la seguridad de su empresa en el mundo digital <br />Protegemos su activo más valioso: la información</p>
                             </div>
                             <div className="col-slider-ciber">
-                                <img className="img-slider-ciber" src="images/sliders/slider-ciberseguridad-img.png" alt="Imagen del Slider Ciberseguridad" />
+                                <img className="img-slider-pages" src="images/sliders/slider-ciberseguridad-img.png" alt="Imagen del Slider Ciberseguridad" />
                             </div>
                         </div>
                     </div>

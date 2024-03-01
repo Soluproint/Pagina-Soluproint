@@ -14,7 +14,7 @@ function Navbar() {
       <nav className=" navbar bg-nav-sp">
         <div className="container-navbar">
           <Link className="logo" to='/'>
-              <img src="images/icons/logo-web.png" alt="Logotipo de la empresa" width="230"/>
+              <img className="img-logo"src="images/icons/logo-web.png" alt="Logotipo de la empresa"/>
           </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <button className="nav-toggle" onClick={() => toggleMenu()}>

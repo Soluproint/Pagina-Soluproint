@@ -13,7 +13,7 @@ function SliderServices() {
                                 <p className="p-slider">Soluciones integrales que se traducen en mayor eficiencia<br />y optimzación de recursos</p>
                             </div>
                             <div className="col-slider-services">
-                                <img className="img-slider-services" src="images/sliders/slider-servicios-img.png" alt="Imagen del Slider Servicios" />
+                                <img className="img-slider-pages" src="images/sliders/slider-servicios-img.png" alt="Imagen del Slider Servicios" />
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@ function SliderAboutUs() {
                                 <p className="p-slider">Una empresa que acompaña el crecimiento y desarrollo <br />seguro de nuestros clientes y aliados</p>
                             </div>
                             <div className="col-slider-about">
-                                <img className="img-slider-about" src="images/sliders/slider-nosotros-img.png" alt="Imagen del Slider Nosotros" />
+                                <img className="img-slider-home" src="images/sliders/slider-nosotros-img.png" alt="Imagen del Slider Nosotros" />
                             </div>
                         </div>
                     </div>
