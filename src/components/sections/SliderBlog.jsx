@@ -5,15 +5,15 @@ function SliderBlog() {
                 <div className="container-carousel">
                     <div className="carousel-item active">
                         <div className="container-slider-blog">
-                            <div className="text-wrap">
-                                <h2 className="title-slider">Información de Interés</h2>
+                            <div className="text-wrap-slider">
+                                <h2 className="title-slider-pages">Información de Interés</h2>
                                 <div>
                                     <hr className="border-slider-blog"/>
                                 </div>
                                 <p className="p-slider">Publicamos y replicamos artículos sobre noticias de la actualidad</p>
                             </div>
                             <div className="col-slider-blog">
-                                <img className="img-slider-pages" src="images/sliders/slider-blog-img.png" alt="Imagen del Slider Blog" />
+                                <img className="img-slider-home" src="images/sliders/slider-blog-img.png" alt="Imagen del Slider Blog" />
                             </div>
                         </div>
                     </div>

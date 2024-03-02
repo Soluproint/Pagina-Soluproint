@@ -24,7 +24,7 @@ function Sliders() {
                     <div className="carousel-item">
                         <div className="slider2">
                             <div className="text-wrap-slider">
-                                <h2 className="title-slider-home">Integramos Tecnologías</h2>
+                                <h2 className="title-slider">Integramos Tecnologías</h2>
                                 <div>
                                     <hr className="border-slider-home"/>
                                 </div>

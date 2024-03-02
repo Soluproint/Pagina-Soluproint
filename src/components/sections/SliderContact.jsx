@@ -5,15 +5,15 @@ function SliderContact() {
                 <div className="container-carousel">
                     <div className="carousel-item active">
                         <div className="container-slider-contact">
-                            <div className="text-wrap">
-                                <h2 className="title-slider">Disponibilidad para atenderte</h2>
+                            <div className="text-wrap-slider">
+                                <h2 className="title-slider-pages">Disponibilidad para atenderte</h2>
                                 <div>
                                     <hr className="border-slider-contact"/>
                                 </div>
                                 <p className="p-slider">Contáctanos hoy y déjanos ser el impulso que lleva tu <br />empresa al siguiente nivel</p>
                             </div>
                             <div className="col-slider-contact">
-                                <img className="img-slider-pages" src="images/sliders/slider-contacto-img.png" alt="Imagen del Slider Contacto" />
+                                <img className="img-slider-home" src="images/sliders/slider-contacto-img.png" alt="Imagen del Slider Contacto" />
                             </div>
                         </div>
                     </div>

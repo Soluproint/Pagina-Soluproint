@@ -5,8 +5,8 @@ function SliderAboutUs() {
                 <div className="container-carousel">
                     <div className="carousel-item active">
                         <div className="container-slider-about-us">
-                            <div className="text-wrap">
-                                <h2 className="title-slider">Sumamos más de 30 años de experiencia</h2>
+                            <div className="text-wrap-slider">
+                                <h2 className="title-slider-pages">Sumamos más de 30 años de experiencia</h2>
                                 <div>
                                     <hr className="border-slider-about"/>
                                 </div>

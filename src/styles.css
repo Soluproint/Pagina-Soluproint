@@ -1056,55 +1056,50 @@ ul li::marker{
 .container-slider-about-us{
   flex: 1 0;
   width: 100%;
-  margin-top: -10px;
-  height: 900px;
+  height: 670px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-nosotros.jpg') no-repeat center center;
+  background: url('../public/images/sliders/slider-nosotros-fondo.png') no-repeat;
   background-size: cover;
   background-position: unset;
 }
 .container-slider-services{
   flex: 1 0;
   width: 100%;
-  margin-top: -10px;
   height: 670px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-servicios-fondo.png') no-repeat center center;
+  background: url('../public/images/sliders/slider-servicios-fondo.png') no-repeat;
   background-size: cover;
   background-position: unset;
 }
 .container-slider-cybersecurity{
   flex: 1 0;
   width: 100%;
-  margin-top: -10px;
-  height: 900px;
+  height: 670px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-ciberseguridad-fondo.jpg') no-repeat center center;
+  background: url('../public/images/sliders/slider-ciberseguridad-fondoOK.png') no-repeat;
   background-size: cover;
   background-position: unset;
 }
 .container-slider-blog{
   flex: 1 0;
   width: 100%;
-  margin-top: -10px;
-  height: 650px;
+  height: 670px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-blog-fondo.png') no-repeat center center;
+  background: url('../public/images/sliders/slider-blog-fondo.png') no-repeat;
   background-size: cover;
   background-position: unset;
 }
 .container-slider-contact{
   flex: 1 0;
   width: 100%;
-  margin-top: -10px;
   height: 670px;
   display: flex;
   align-items: center;
-  background: url('../public/images/sliders/slider-contacto-fondoOK.jpg') no-repeat center center;
+  background: url('../public/images/sliders/slider-ciberseguridad-fondoOK.png') no-repeat;
   background-size: cover;
   background-position: unset;
 }
@@ -3407,6 +3402,14 @@ textarea.form-control.is-invalid {
   text-align: left;
   color: #09294F;
   font-weight: bold;
+}
+.text-wrap-slider .title-slider-pages{
+  font-size: 35px;
+  margin-top: 250px;
+  margin-left: 20px;
+  margin-right: 30px;
+  text-align: left;
+  color: #fff;
 }
 .text-wrap-slider .p-slider-home{
   font-size: 23px;

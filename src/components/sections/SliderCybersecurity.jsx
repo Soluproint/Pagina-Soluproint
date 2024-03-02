@@ -5,15 +5,15 @@ function SliderCybersecurity() {
                 <div className="container-carousel">
                     <div className="carousel-item active">
                         <div className="container-slider-cybersecurity">
-                            <div className="text-wrap">
-                                <h2 className="title-slider">Seguridad de la Información y Ciberseguridad</h2>
+                            <div className="text-wrap-slider">
+                                <h2 className="title-slider-pages">Seguridad de la Información y Ciberseguridad</h2>
                                 <div>
                                     <hr className="border-slider-ciber"/>
                                 </div>
                                 <p className="p-slider">Garantice la seguridad de su empresa en el mundo digital <br />Protegemos su activo más valioso: la información</p>
                             </div>
                             <div className="col-slider-ciber">
-                                <img className="img-slider-pages" src="images/sliders/slider-ciberseguridad-img.png" alt="Imagen del Slider Ciberseguridad" />
+                                <img className="img-slider-home" src="images/sliders/slider-ciberseguridad-img.png" alt="Imagen del Slider Ciberseguridad" />
                             </div>
                         </div>
                     </div>
