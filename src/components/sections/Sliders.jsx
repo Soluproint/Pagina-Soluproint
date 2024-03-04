@@ -15,7 +15,7 @@ function Sliders() {
                                 <p className="p-slider-home">Optimización de recursos, eficiencia en los resultados</p>
                                 <Link className="btn btn-slider" to="/cybersecurity" type="button">CONOCE MÁS</Link>
                             </div>
-                            <div className="col-slider-home">
+                            <div className="col-slider">
                                 <img className="img-slider-home" src="images/sliders/slider1-img.png" alt="Imagen del Slider 1" />
                             </div>
                         </div>
@@ -24,14 +24,14 @@ function Sliders() {
                     <div className="carousel-item">
                         <div className="slider2">
                             <div className="text-wrap-slider">
-                                <h2 className="title-slider">Integramos Tecnologías</h2>
+                                <h2 className="title-slider-home">Integramos Tecnologías</h2>
                                 <div>
                                     <hr className="border-slider-home"/>
                                 </div>
                                 <p className="p-slider-home">Soluciones Integrales e Innovación de acuerdo a las tendencias tecnólogicas</p>
                                 <Link className="btn btn-slider" to="/servicePortfolio" type="button">CONOCE MÁS</Link>
                             </div>
-                            <div className="col-slider-home">
+                            <div className="col-slider">
                                 <img className="img-slider-home" src="images/sliders/slider2-img.png" alt="Imagen del Slider 2" />
                             </div>
                         </div>
@@ -46,7 +46,7 @@ function Sliders() {
                                 <p className="p-slider-home">Nuestra más grande prioridad</p>
                                 <Link className="btn btn-slider" to="/aboutUs" type="button">CONOCE MÁS</Link>
                             </div>
-                            <div className="col-slider-home">
+                            <div className="col-slider">
                                 <img className="img-slider-home" src="images/sliders/slider3-img.png" alt="Imagen del Slider 3" />
                             </div>
                         </div>
