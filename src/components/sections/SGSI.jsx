@@ -1,12 +1,12 @@
 function SGSI() {
     return (
         <>
-            <div className="container-fluid-ciber">
+            <div className="container-fluid-ciber-SGSI">
                 <h1 className="h-titles">Seguridad y Ciberseguridad</h1>
                 <hr className="border border-primary border-18"/>
                 <hr className="border border-primary border-19"/>                
-                <h1 className="h-titles-ciber" id="consultingSGSI">Consultorías en SGSI - Sistema de Gestión<br></br>Seguridad de la Información y Ciberseguridad</h1>
-                <h1 className="h-titles-ciber2" id="consultingSGSI">Consultorías en SGSI<br></br>Sistema de Gestión<br></br>Seguridad de la Información y Ciberseguridad</h1>
+                <h1 className="h-titles-ciber-SGSI" id="consultingSGSI">Consultorías en SGSI - Sistema de Gestión<br></br>Seguridad de la Información y Ciberseguridad</h1>
+                <h1 className="h-titles-ciber-SGSI2" id="consultingSGSI">Consultorías en SGSI<br></br>Sistema de Gestión<br></br>Seguridad de la Información y Ciberseguridad</h1>
                 <div className="row-ciber">                    
                     <div className="col-img-ciber">
                         <img className="img-ciber" src="images/services/ciberseguridad.png" alt="Seguridad de la Información" />

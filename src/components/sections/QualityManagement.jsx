@@ -3,11 +3,10 @@ function QualityManagement() {
         <>
             <div className="container-fluid-ciber-quality">              
                 <h1 className="h-titles-ciber">Consultorías en Sistemas de Gestión de Calidad</h1>
-                <h1 className="h-titles-ciber2">Consultorías en Sistemas de Gestión de Calidad</h1>
                 <div className="row-ciber-quality">
                     <h3 className="title-quality">Consultoría e Implementación de Procesos en Sistema de Gestión de Calidad Bajo los Estándares de la Norma ISO9001-2015</h3>
                     <div className="col-quality">
-                        <p className="p-ciber-specialized">
+                        <p className="p-ciber-quality">
                         <br />• Consultoría de alcance e implentación. 
                         <br />• Analizar el contexto de la organización.
                         <br />• Referencias normativas.
@@ -34,7 +33,7 @@ function QualityManagement() {
                         <img className="img-ciber" src="images/services/calidad.png" alt="Servicio de Gestión de Calidad"/>
                     </div>
                     <div className="col-quality">
-                        <p className="p-ciber-specialized">
+                        <p className="p-ciber-quality">
                         <br />• Consultoría de alcance e implentación. 
                         <br />• Analizar el contexto de la organización.
                         <br />• Referencias normativas.
