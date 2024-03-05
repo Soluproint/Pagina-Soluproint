@@ -5,15 +5,15 @@ function SliderAboutUs() {
                 <div className="container-carousel">
                     <div className="carousel-item active">
                         <div className="container-slider-about-us">
-                            <div className="text-wrap-slider">
+                            <div className="text-wrap-slider-pages">
                                 <h2 className="title-slider-pages">Sumamos más de 30 años de experiencia</h2>
                                 <div>
                                     <hr className="border-slider-about"/>
                                 </div>
-                                <p className="p-slider">Una empresa que acompaña el crecimiento y desarrollo seguro de nuestros clientes y aliados</p>
+                                <p className="p-slider-pages">Una empresa que acompaña el crecimiento y desarrollo seguro de nuestros clientes y aliados</p>
                             </div>
-                            <div className="col-slider">
-                                <img className="img-slider-home" src="images/sliders/slider-nosotros-img.png" alt="Imagen del Slider Nosotros" />
+                            <div className="col-slider-pages">
+                                <img className="img-slider-pages" src="images/sliders/slider-nosotros-img.png" alt="Imagen del Slider Nosotros" />
                             </div>
                         </div>
                     </div>

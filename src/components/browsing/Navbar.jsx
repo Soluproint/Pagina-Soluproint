@@ -43,22 +43,22 @@ function Navbar() {
             </ul>
             <ul className={menuOpen ? 'navbar-menu2 navbar-menu_visible' : 'navbar-menu2'}>
               <li className="nav-item">
-                <Link className="btn btn-outline-success" to="/" role="button">Inicio</Link>
+                <Link className="btn btn-outline-success-2" to="/" role="button">Inicio</Link>
               </li>
               <li className="nav-item">
-                <Link className="btn btn-outline-success" to="/aboutUs" role="button">Nosotros</Link>
+                <Link className="btn btn-outline-success-2" to="/aboutUs" role="button">Nosotros</Link>
               </li>
               <li className="nav-item">
-                <Link className="btn btn-outline-success" to="/servicePortfolio" role="button">Servicios</Link>
+                <Link className="btn btn-outline-success-2" to="/servicePortfolio" role="button">Servicios</Link>
               </li>
               <li className="nav-item">
-                <Link className="btn btn-outline-success" to="/cybersecurity" role="button">Seguridad/Ciberseguridad</Link>
+                <Link className="btn btn-outline-success-2" to="/cybersecurity" role="button">Seguridad/Ciberseguridad</Link>
               </li>
               <li className="nav-item">
-                <Link className="btn btn-outline-success" to="/blog" role="button">Blog</Link>
+                <Link className="btn btn-outline-success-2" to="/blog" role="button">Blog</Link>
               </li>
               <li className="nav-item">
-                <Link className="btn btn-outline-success" to="/contact" role="button">Contáctanos</Link>
+                <Link className="btn btn-outline-success-2" to="/contact" role="button">Contáctanos</Link>
               </li>
             </ul>
           </div>

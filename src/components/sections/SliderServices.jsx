@@ -5,15 +5,15 @@ function SliderServices() {
                 <div className="container-carousel">
                     <div className="carousel-item active">
                         <div className="container-slider-services">
-                            <div className="text-wrap-slider">
+                            <div className="text-wrap-slider-pages">
                                 <h2 className="title-slider-pages">Integración de Portafolios de Servicios</h2>
                                 <div>
                                     <hr className="border-slider-services"/>
                                 </div>
-                                <p className="p-slider">Soluciones integrales que se traducen en mayor eficiencia y optimzación de recursos</p>
+                                <p className="p-slider-pages">Soluciones integrales que se traducen en mayor eficiencia y optimización de los recursos</p>
                             </div>
-                            <div className="col-slider">
-                                <img className="img-slider-home" src="images/sliders/slider-servicios-img.png" alt="Imagen del Slider Servicios" />
+                            <div className="col-slider-pages">
+                                <img className="img-slider-pages" src="images/sliders/slider-servicios-img.png" alt="Imagen del Slider Servicios" />
                             </div>
                         </div>
                     </div>
