@@ -9734,8 +9734,6 @@ textarea.form-control.is-invalid {
 @media (max-width: 552px) {
   .container-fluid-offer {
     height: 670px;
-    padding-left: 40px;
-    padding-right: 40px;
   }
   .row-value-offer {
     display: block;
@@ -9765,7 +9763,6 @@ textarea.form-control.is-invalid {
   }
   .p-offer{
     margin-top: 0;
-    font-size: 16px;
     text-align: justify;
   }
   .col-text-offer {
@@ -10337,19 +10334,17 @@ textarea.form-control.is-invalid {
 @media (max-width: 480px) {
   .img-fluid-offer{
     width: 250px;
-    margin-left: 40px;
+    margin-left: 80px;
   }
   .h-offer{
     width: auto;
     margin-left: 0px;
     font-weight: 600;
-    font-size: 22px;
     text-align: center;
   }
   .p-offer{
     width: auto;
     margin-top: 0;
-    font-size: 16px;
     text-align: justify;
   }
   .col-text-offer {
@@ -10361,7 +10356,8 @@ textarea.form-control.is-invalid {
   }
   .btn-offer {
     font-size: 15px;
-    margin-left: 110px;
+    margin-top: 20px;
+    margin-left: 155px;
   }
   .h-titles {
     font-size: 34px;
@@ -10747,9 +10743,7 @@ textarea.form-control.is-invalid {
     margin-top: 30px;
   }
   .container-fluid-offer {
-    height: 650px;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: 660px;
   }
   .slider1{
     height: 330px;
@@ -10889,7 +10883,7 @@ textarea.form-control.is-invalid {
     height: 700px;
   }
   .img-fluid-offer {
-    margin-left: 30px;
+    margin-left: 60px;
   }
   .container-fluid-ciber-SGSI{
     height: 1150px;
@@ -10960,16 +10954,14 @@ textarea.form-control.is-invalid {
   .text-wrap-slider .p-slider-pages {
     margin-left: 30px;
   }
+  .btn-offer {
+    margin-top: 30px;
+    margin-left: 135px;
+  }
 }
 @media (max-width: 430px) {
   .container-fluid-offer { 
-    height: 720px;
-  }
-  .img-fluid-offer {
-    margin-left: 20px;
-  }
-  .btn-offer {
-    margin-left: 90px;
+    height: 700px;
   }
   .text-wrap-slider {
     width: 80%;
@@ -11057,13 +11049,14 @@ textarea.form-control.is-invalid {
 }
 @media (max-width: 414px) {
   .container-fluid-offer {
-    height: 750px;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: 700px;
   }
-  .img-fluid-offer{
-    width: 240px;
-    margin-left: 20px;
+  .img-fluid-offer {
+    margin-left: 45px;
+  }
+  .btn-offer {
+    margin-top: 30px;
+    margin-left: 115px;
   }
   .col-text-offer {
     flex: 1 0;
@@ -11071,24 +11064,6 @@ textarea.form-control.is-invalid {
     margin-right: 5px;
     margin-top: -30px;
     padding: 0;
-  }
-  .h-offer{
-    width: 300px;
-  }
-  .p-offer{
-    width: 300px;
-  }
-  .btn-offer {
-    color: white;
-    background-color: #0082C6;
-    font-weight: 500;
-    font-size: 15px;
-    width: 150px;
-    height: 30px;
-    margin-top: 20px;
-    padding-top: 5px;
-    align-items: center;
-    margin-left: 80px;
   }
   .h-titles {
     font-size: 34px;
@@ -11144,7 +11119,7 @@ textarea.form-control.is-invalid {
   .p-services{
     padding-top: 280px;
     text-align: justify;
-    height: 370px;
+    height: 380px;
   }
   .btn-link {
     margin-top: -30px;
@@ -11453,6 +11428,18 @@ textarea.form-control.is-invalid {
     width: 175px;
   }
 }
+@media (max-width: 391px) {
+  .container-fluid-offer {
+    height: 740px;
+  }
+  .img-fluid-offer {
+    margin-left: 34px;
+  }
+  .btn-offer {
+    margin-top: 20px;
+    margin-left: 115px;
+  }
+}
 @media (max-width: 390px) {
   .border-2 {
     width: 8% !important;
@@ -11473,40 +11460,12 @@ textarea.form-control.is-invalid {
   }
 }
 @media (max-width: 380px) {
-  .container-fluid-offer {
-    height: 770px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .img-fluid-offer{
-    width: 230px;
-    margin-left: 10px;
-  }
-  .col-text-offer {
-    flex: 1 0;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: -30px;
-    padding: 0;
-  }
-  .h-offer{
-    width: 280px;
-  }
-  .p-offer{
-    width: 280px;
-    height: 230px;
+  .img-fluid-offer {
+    margin-left: 30px;
   }
   .btn-offer {
-    color: white;
-    background-color: #0082C6;
-    font-weight: 500;
-    font-size: 15px;
-    width: 150px;
-    height: 30px;
     margin-top: 20px;
-    padding-top: 5px;
-    align-items: center;
-    margin-left: 60px;
+    margin-left: 105px;
   }
   .h-titles {
     font-size: 34px;
@@ -11529,7 +11488,7 @@ textarea.form-control.is-invalid {
   .p-services{
     padding-top: 270px;
     text-align: justify;
-    height: 365px;
+    height: 375px;
   }
   .btn-link {
     margin-top: -30px;
