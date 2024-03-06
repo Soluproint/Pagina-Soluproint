@@ -460,7 +460,7 @@ output {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 50px
+  margin-top: 50px;
 }
 .container-fluid-values{
   width: 100%;
@@ -471,6 +471,15 @@ output {
   margin-right: auto;
   margin-left: auto;
   background-color: #D9D9D9;
+}
+.container-fluid-mission-vision{
+  width: 100%;
+  height: 650px;
+  padding-top: 30px;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
 }
 .container-fluid-services-sp{
   width: 100%;
@@ -727,7 +736,7 @@ output {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -1545,6 +1554,7 @@ input, textarea {
   font-weight: 500;
   font-size: 19px;
   width: 687px;
+  height: 60px;
 } 
 #input-submit:hover { 
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2); 
@@ -3522,19 +3532,21 @@ textarea.form-control.is-invalid {
   font-weight: 500;
 }
 .text-wrap-m-v{
-  height: 120px;
   margin-top: 0px;
-  width: 570px;
+  width: 560px;
   text-align: justify;
   font-size: 20px;
-  height: 100%;
+  height: 500px;
   font-weight: 500;
 }
 .text-wrap-m-v .values{
-  margin-top: 200px;
+  margin-top: 215px;
   font-size: 38px;
   font-weight: 500;
   text-align: center;
+}
+.text-wrap-m-v .p-m-v{
+  margin-top: 40px;
 }
 .text-wrap-slider .title-slider{
   font-size: 35px;
@@ -4503,6 +4515,9 @@ textarea.form-control.is-invalid {
   .col-value3 {
     height: 340px;
   }
+  .container-fluid-mission-vision {
+    height: 600px;
+  }
   .row-m-v {
     margin-top: 20px;
     height: 450px;
@@ -4512,11 +4527,9 @@ textarea.form-control.is-invalid {
     width: 450px;
     text-align: justify;
     font-size: 18px;
-    height: 100%;
     font-weight: 500;
   }
   .text-wrap-m-v .values {
-    margin-top: 200px;
     font-size: 36px;
     font-weight: 500;
     text-align: center;
@@ -5613,6 +5626,9 @@ textarea.form-control.is-invalid {
   .col-value3 {
     height: 280px;
   }
+  .container-fluid-mission-vision {
+    height: 550px;
+  }
   .row-m-v {
     margin-top: 20px;
     height: 420px;
@@ -5622,20 +5638,20 @@ textarea.form-control.is-invalid {
     width: 350px;
     text-align: justify;
     font-size: 16px;
-    height: 100%;
     font-weight: 500;
   }
   .text-wrap-m-v .values {
-    margin-top: 220px;
     font-size: 32px;
     font-weight: 500;
     text-align: center;
   }
   .col-mission {
     background-size: 400px;
+    height: 400px;
   }
   .col-vision {
     background-size: 400px;
+    height: 400px;
   }
   .row-container {
     padding-right: 30px;
@@ -6549,6 +6565,9 @@ textarea.form-control.is-invalid {
   .col-value3 {
     height: 230px;
   }
+  .container-fluid-mission-vision {
+    height: 530px;
+  }
   .row-m-v {
     margin-top: 0;
     height: 420px;
@@ -6558,11 +6577,9 @@ textarea.form-control.is-invalid {
     width: 300px;
     text-align: justify;
     font-size: 15px;
-    height: 100%;
     font-weight: 500;
   }
   .text-wrap-m-v .values {
-    margin-top: 220px;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
@@ -7978,6 +7995,9 @@ textarea.form-control.is-invalid {
     margin-top: 40px;
     font-size: 30px;
   }
+  .container-fluid-mission-vision {
+    height: 480px;
+  }
   .row-m-v {
     margin-top: -30px;
     height: 420px;
@@ -7987,7 +8007,6 @@ textarea.form-control.is-invalid {
     width: 260px;
     text-align: justify;
     font-size: 14px;
-    height: 100%;
     font-weight: 500;
   }
   .text-wrap-m-v .values {
@@ -7998,9 +8017,11 @@ textarea.form-control.is-invalid {
   }
   .col-mission {
     background-size: 300px;
+    height: 350px;
   }
   .col-vision {
     background-size: 300px;
+    height: 350px;
   }
   .row-infraestructure {
     display: flex;
@@ -8231,19 +8252,21 @@ textarea.form-control.is-invalid {
     background-size: 350px;
     margin-bottom: 30px;
   }
+  .container-fluid-mission-vision {
+    height: 1080px;
+  }
   .row-m-v {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     margin-bottom: 0;
-    height: 950px;
+    height: 900px;
   }
   .text-wrap-m-v {
     margin-top: 0px;
-    width: 350px;
+    width: 370px;
     text-align: justify;
     font-size: 16px;
-    height: 100%;
     font-weight: 500;
   }
   .text-wrap-m-v .values {
@@ -8252,11 +8275,17 @@ textarea.form-control.is-invalid {
     font-weight: 500;
     text-align: center;
   }
+  .text-wrap-m-v .p-m-v {
+    font-size: 18px;
+  }
   .col-mission {
-    background-size: 400px;
+    background-size: 430px;
+    height: 400px;
+    margin-bottom: 150px;
   }
   .col-vision {
-    background-size: 400px;
+    background-size: 430px;
+    height: 400px;
   }
   .border-14 {
     width: 28%;
@@ -8548,6 +8577,30 @@ textarea.form-control.is-invalid {
     width: 50%;
     height: 100%;
     font-weight: 500;
+  }
+  .container-fluid-mission-vision {
+    height: 1000px;
+  }
+  .text-wrap-m-v {
+    width: 350px;
+  }
+  .text-wrap-m-v .values {
+    margin-top: 220px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .text-wrap-m-v .p-m-v {
+    font-size: 17px;
+  }
+  .col-mission {
+    background-size: 400px;
+    height: 400px;
+    margin-bottom: 100px;
+  }
+  .col-vision {
+    background-size: 400px;
+    height: 400px;
   }
   .container-fluid-infra {
     height: 800px;
@@ -9511,6 +9564,9 @@ textarea.form-control.is-invalid {
     margin-right: 30px;
     text-align: justify;
   }
+  .container-fluid-mission-vision {
+    height: 980px;
+  }
   .row-m-v {
     margin-top: 10px;
     margin-bottom: 0;
@@ -9521,17 +9577,20 @@ textarea.form-control.is-invalid {
     width: 300px;
     text-align: justify;
     font-size: 15px;
-    height: 100%;
     font-weight: 500;
   }
   .text-wrap-m-v .values {
-    margin-top: 220px;
+    margin-top: 240px;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
   }
+  .text-wrap-m-v .p-m-v {
+    font-size: 16px;
+  }
   .col-mission {
     background-size: 350px;
+    margin-bottom: 50px;
   }
   .col-vision {
     background-size: 350px;
@@ -10442,13 +10501,8 @@ textarea.form-control.is-invalid {
   }
   .container-fluid-values{
     width: 100%;
-    height: 1090px;
+    height: 1120px;
     padding-top: 30px;
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #D9D9D9;
   }
   .row-values{
     --bs-gutter-x: 1.5rem;
@@ -10492,8 +10546,11 @@ textarea.form-control.is-invalid {
     background-size: 320px;
     margin-bottom: 30px;
   }
+  .container-fluid-mission-vision {
+    height: 1050px;
+  }
   .row-m-v {
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 0;
     margin-left: -10px;
     height: 900px;
@@ -10503,17 +10560,16 @@ textarea.form-control.is-invalid {
     width: 270px;
     text-align: justify;
     font-size: 14px;
-    height: 100%;
     font-weight: 500;
   }
   .text-wrap-m-v .values {
-    margin-top: 220px;
     font-size: 28px;
     font-weight: 500;
     text-align: center;
   }
   .col-mission {
     background-size: 330px;
+    margin-bottom: 80px;
   }
   .col-vision {
     background-size: 330px;
@@ -10752,7 +10808,8 @@ textarea.form-control.is-invalid {
 @media (max-width: 460px)
  {
   #input-submit {
-    width: 331px;
+    width: 350px;
+    height: 50px;
   }
   .row-services{
     margin-top: 30px;
@@ -10946,6 +11003,10 @@ textarea.form-control.is-invalid {
   }
   .col-img-ciber{
     padding-left: 50px;
+  }
+  #input-submit {
+    width: 323px;
+    height: 50px;
   }
 }
 @media (max-width: 420px) {
@@ -11143,22 +11204,25 @@ textarea.form-control.is-invalid {
     margin-top: 40px;
     font-size: 24px;
   }
+  .container-fluid-mission-vision {
+    height: 1000px;
+  }
   .text-wrap-m-v {
     margin-top: 0px;
     width: 250px;
     text-align: justify;
     font-size: 14px;
-    height: 100%;
     font-weight: 500;
   }
   .text-wrap-m-v .values {
-    margin-top: 220px;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 500;
     text-align: center;
   }
   .col-mission {
     background-size: 310px;
+    margin-top: -40px;
+    margin-bottom: 0;
   }
   .col-vision {
     background-size: 310px;
@@ -11597,6 +11661,32 @@ textarea.form-control.is-invalid {
   .border-17 {
     margin-left: 77%;
     margin-top: -20px; 
+  }
+  .container-fluid-mission-vision {
+    height: 980px;
+  }
+  .text-wrap-m-v {
+    margin-top: 0px;
+    width: 235px;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .text-wrap-m-v .values {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .text-wrap-m-v .p-m-v {
+    font-size: 15px;
+  }
+  .col-mission {
+    background-size: 280px;
+    margin-top: -60px;
+  }
+  .col-vision {
+    background-size: 280px;
+    margin-top: -60px;
   }
   .container-fluid-infra {
     height: 800px;

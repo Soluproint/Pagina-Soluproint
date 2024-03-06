@@ -1,7 +1,7 @@
 function MissionVision() {
     return (
         <>
-            <div className="container-fluid">               
+            <div className="container-fluid-mission-vision">               
                 <div className="row-m-v">
                     <div className="col-mission">
                         <div className="text-wrap-m-v">
