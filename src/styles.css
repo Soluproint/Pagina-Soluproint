@@ -9512,8 +9512,6 @@ textarea.form-control.is-invalid {
     text-align: justify;
   }
   .row-m-v {
-    display: flex;
-    flex-direction: column;
     margin-top: 10px;
     margin-bottom: 0;
     height: 850px;
@@ -10495,8 +10493,6 @@ textarea.form-control.is-invalid {
     margin-bottom: 30px;
   }
   .row-m-v {
-    display: flex;
-    flex-direction: column;
     margin-top: 10px;
     margin-bottom: 0;
     margin-left: -10px;
@@ -10814,7 +10810,7 @@ textarea.form-control.is-invalid {
     margin-left: 60px;
   }
   .container-fluid-ciber-SGSI{
-    height: 1050px;
+    height: 1100px;
   }
   .col-img-ciber{
     padding-left: 50px;
@@ -11034,11 +11030,11 @@ textarea.form-control.is-invalid {
   .p-services{
     padding-top: 280px;
     text-align: justify;
-    height: 380px;
+    height: 390px;
   }
   .btn-link {
     margin-top: -30px;
-    margin-left: 145px;
+    margin-left: 140px;
     font-weight: 500;
     color: black;
     text-align: center;
