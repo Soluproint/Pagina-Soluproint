@@ -555,7 +555,7 @@ output {
 }
 .container-fluid-services-form{
   width: 100%;
-  height: 400px;
+  height: 550px;
   margin-right: auto;
   margin-left: auto;
   background-color: #D9D9D9;
@@ -1100,7 +1100,6 @@ ul li::marker{
   height: 600px;
   display: flex;
   margin-top: -30px;
-  margin-left: 50px;
 }
 .col-img-quality{
   flex: 0 0 auto;
@@ -1268,7 +1267,25 @@ ul li::marker{
 .pages{
   margin-top: 20px;
 }
-.soon{
+.container-diagnostic-form {
+  background-color: white;
+  width: 1166px;
+  height: 200px;
+  border-radius: 30px;
+  margin-left: 380px;
+}
+.soon1{
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  font-size: 32px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.soon2{
   margin-top: 20px;
   text-align: center;
   font-size: 32px;
@@ -2519,6 +2536,17 @@ textarea.form-control.is-invalid {
   height: 40px;
   margin-top: 30px;
   padding-top: 10px;
+}
+.btn-diagnostic-form {
+  color: white;
+  background-color: #0082C6;
+  font-weight: 500;
+  font-size: 24px;
+  width: 300px;
+  height: 50px;
+  margin-top: 70px;
+  padding-top: 10px;
+  margin-left: 860px;
 }
 .btn-offer:hover {
   color: #0082C6;
@@ -3804,7 +3832,6 @@ textarea.form-control.is-invalid {
     height: 600px;
     display: flex;
     margin-top: -30px;
-    margin-left: 20px;
   }
   .col-img-quality{
     flex: 0 0 auto;
@@ -3826,6 +3853,10 @@ textarea.form-control.is-invalid {
   .img-slider-pages {
     margin-left: 200px;
   }
+  .container-diagnostic-form {
+    margin-left: 250px;
+  }
+  
 }
 
 @media (max-width: 1871px) {
@@ -3894,7 +3925,6 @@ textarea.form-control.is-invalid {
     height: 600px;
     display: flex;
     margin-top: -30px;
-    margin-left: 20px;
   }
   .col-img-quality{
     flex: 0 0 auto;
@@ -4096,7 +4126,7 @@ textarea.form-control.is-invalid {
     padding-top: 10px;
     font-size: 36px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 30px;
   }
@@ -4105,6 +4135,9 @@ textarea.form-control.is-invalid {
     flex-wrap: wrap;
     margin-top: 50px; 
     margin-left: 350px;
+  }
+  .container-diagnostic-form {
+    margin-left: 170px;
   }
 }
 @media (max-width: 1510px) {
@@ -4702,7 +4735,7 @@ textarea.form-control.is-invalid {
     padding-top: 10px;
     font-size: 35px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 29px;
   }
@@ -4720,6 +4753,24 @@ textarea.form-control.is-invalid {
     margin-top: 50px;
     margin-left: 100px;
   }
+  .container-diagnostic-form {
+    margin-left: 140px;
+    width: 1100px;
+  }
+  .soon1{
+    font-size: 28px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn-diagnostic-form {
+    font-size: 22px;
+    width: 280px;
+    height: 45px;
+    margin-top: 70px;
+    padding-top: 10px;
+    margin-left: 820px;
+  }
 }
 @media (max-width: 1339px) {
   .img-slider-pages {
@@ -4731,6 +4782,21 @@ textarea.form-control.is-invalid {
 @media (max-width: 1308px) {
   .border-slider-home {
     width: 200px;
+  }
+  .container-diagnostic-form {
+    margin-left: 120px;
+    width: 1030px;
+  }
+  .soon1{
+    font-size: 27px;
+  }
+  .btn-diagnostic-form {
+    font-size: 22px;
+    width: 280px;
+    height: 45px;
+    margin-top: 70px;
+    padding-top: 10px;
+    margin-left: 750px;
   }
 }
 @media (max-width: 1300px) {
@@ -4913,7 +4979,6 @@ textarea.form-control.is-invalid {
     height: 600px;
     display: flex;
     margin-top: -30px;
-    margin-left: 10px;
   }
   .col-img-quality{
     flex: 0 0 auto;
@@ -4929,7 +4994,7 @@ textarea.form-control.is-invalid {
     padding-top: 10px;
     font-size: 33px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 27px;
   }
@@ -4991,6 +5056,23 @@ textarea.form-control.is-invalid {
   }
   .border-slider-contact {
     width: 425px;
+  }
+}
+@media (max-width: 1220px) {
+  .container-diagnostic-form {
+    margin-left: 90px;
+    width: 1015px;
+  }
+  .soon1{
+    font-size: 26px;
+  }
+  .btn-diagnostic-form {
+    font-size: 22px;
+    width: 280px;
+    height: 45px;
+    margin-top: 70px;
+    padding-top: 10px;
+    margin-left: 735px;
   }
 }
 @media (max-width: 1190px) {
@@ -5355,7 +5437,6 @@ textarea.form-control.is-invalid {
     height: 600px;
     display: flex;
     margin-top: -30px;
-    margin-left: 10px;
   }
   .col-img-quality{
     flex: 0 0 auto;
@@ -5429,6 +5510,24 @@ textarea.form-control.is-invalid {
   .container-slider-contact{
     height: 600px;
   }
+  .container-fluid-services-form {
+    height: 500px;
+  }
+  .container-diagnostic-form {
+    margin-left: 90px;
+    width: 1015px;
+  }
+  .soon1{
+    font-size: 25px;
+  }
+  .btn-diagnostic-form {
+    font-size: 21px;
+    width: 280px;
+    height: 45px;
+    margin-top: 70px;
+    padding-top: 10px;
+    margin-left: 735px;
+  }
 }
 @media (max-width: 1163px) {
   .border-slider-ciber {
@@ -5439,6 +5538,22 @@ textarea.form-control.is-invalid {
   .title-form{
     padding-top: 20px;
     font-size: 33px;
+  }
+  .container-diagnostic-form {
+    margin-left: 125px;
+    width: 900px;
+    height: 170px;
+  }
+  .soon1{
+    font-size: 23px;
+  }
+  .btn-diagnostic-form {
+    font-size: 20px;
+    width: 230px;
+    height: 40px;
+    margin-top: 70px;
+    padding-top: 10px;
+    margin-left: 675px;
   }
 }
 @media (max-width: 1155px) {
@@ -5909,6 +6024,22 @@ textarea.form-control.is-invalid {
   .border-slider-contact {
     width: 260px;
   }
+  .container-diagnostic-form {
+    margin-left: 110px;
+    width: 855px;
+    height: 170px;
+  }
+  .soon1{
+    font-size: 22px;
+  }
+  .btn-diagnostic-form {
+    font-size: 20px;
+    width: 230px;
+    height: 40px;
+    margin-top: 70px;
+    padding-top: 10px;
+    margin-left: 625px;
+  }
 }
 @media (max-width: 1074px) {
 
@@ -6201,7 +6332,7 @@ textarea.form-control.is-invalid {
     padding-top: 10px;
     font-size: 31px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 25px;
   }
@@ -6211,6 +6342,22 @@ textarea.form-control.is-invalid {
   #contact-titles {
     font-size: 21px;
   } 
+  .container-diagnostic-form {
+    margin-left: 100px;
+    width: 800px;
+    height: 170px;
+  }
+  .soon1{
+    font-size: 21px;
+  }
+  .btn-diagnostic-form {
+    font-size: 20px;
+    width: 230px;
+    height: 40px;
+    margin-top: 70px;
+    padding-top: 10px;
+    margin-left: 573px;
+  }
 }
 @media (max-width: 1014px) {
   .img-slider-pages {
@@ -6714,7 +6861,7 @@ textarea.form-control.is-invalid {
     padding-top: 20px;
     font-size: 29px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 25px;
   }
@@ -6799,6 +6946,26 @@ textarea.form-control.is-invalid {
   }
   .container-slider-contact{
     height: 500px;
+  }
+  .container-fluid-services-form {
+    height: 470px;
+  }
+  .container-diagnostic-form {
+    margin-left: 100px;
+    width: 755px;
+    height: 150px;
+  }
+  .soon1{
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  .btn-diagnostic-form {
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    margin-top: 70px;
+    padding-top: 10px;
+    margin-left: 555px;
   }
 }
 @media (max-width: 930px) {
@@ -7081,6 +7248,9 @@ textarea.form-control.is-invalid {
     font-size: 30px;
     margin-left: -25px;
   }
+  .container-diagnostic-form {
+    margin-left: 70px;
+  }
 }
 @media (max-width: 879px) {
   .container-fluid-ciber-specialized {
@@ -7341,7 +7511,7 @@ textarea.form-control.is-invalid {
     padding-top: 13px;
     font-size: 30px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 24px;
   }
@@ -7365,11 +7535,15 @@ textarea.form-control.is-invalid {
   textarea { 
     height: 163px; 
   }
+  .container-diagnostic-form {
+    margin-left: 50px;
+  }
 }
 @media (max-width: 840px) {
   .text-wrap-slider .title-slider-home3 {
     width: 70%;
-}
+  }
+
 }
 @media (max-width: 830px) {
   .img-fluid-offer{
@@ -7680,6 +7854,26 @@ textarea.form-control.is-invalid {
     margin-right: 20px;
     margin-left: 30px;
   }
+  .container-fluid-services-form {
+    height: 450px;
+  }
+  .container-diagnostic-form {
+    margin-left: 45px;
+    width: 720px;
+    height: 130px;
+  }
+  .soon1{
+    font-size: 19px;
+    padding-top: 25px;
+  }
+  .btn-diagnostic-form {
+    font-size: 17px;
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    padding-top: 10px;
+    margin-left: 520px;
+  }
 }
 @media (max-width: 800px) {
   .img-company {
@@ -7768,7 +7962,6 @@ textarea.form-control.is-invalid {
     height: 600px;
     display: flex;
     margin-top: -30px;
-    margin-left: 50px;
   }
   .col-img-quality{
     flex: 0 0 auto;
@@ -7818,6 +8011,26 @@ textarea.form-control.is-invalid {
     font-size: 17px;
     width: 654px;
   } 
+  .container-fluid-services-form {
+    height: 450px;
+  }
+  .container-diagnostic-form {
+    margin-left: 95px;
+    width: 600px;
+    height: 150px;
+  }
+  .soon1{
+    font-size: 19px;
+    padding-top: 25px;
+  }
+  .btn-diagnostic-form {
+    font-size: 17px;
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    padding-top: 10px;
+    margin-left: 400px;
+  }
 }
 @media (max-width: 780px) {
   .h-titles-ciber-SGSI {
@@ -8373,7 +8586,6 @@ textarea.form-control.is-invalid {
     height: 600px;
     display: flex;
     margin-top: -30px;
-    margin-left: 30px;
   }
   .col-img-quality{
     flex: 0 0 auto;
@@ -8410,6 +8622,9 @@ textarea.form-control.is-invalid {
   #input-submit {
     font-size: 17px;
     width: 608px;
+  }
+  .container-diagnostic-form {
+    margin-left: 60px;
   }
 }
 @media (max-width: 737px) {
@@ -8689,7 +8904,6 @@ textarea.form-control.is-invalid {
     height: 600px;
     display: flex;
     margin-top: -30px;
-    margin-left: 20px;
   }
   .col-img-quality{
     flex: 0 0 auto;
@@ -8703,7 +8917,7 @@ textarea.form-control.is-invalid {
     font-size: 26px;
     height: 100px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 23px;
   }
@@ -8905,6 +9119,26 @@ textarea.form-control.is-invalid {
   .services-link-air{
     font-size: 28px;
     margin-left: -25px;
+  }
+  .container-fluid-services-form {
+    height: 420px;
+  }
+  .container-diagnostic-form {
+    margin-left: 75px;
+    width: 530px;
+    height: 140px;
+  }
+  .soon1{
+    font-size: 18px;
+    padding-top: 25px;
+  }
+  .btn-diagnostic-form {
+    font-size: 16px;
+    width: 170px;
+    height: 40px;
+    margin-top: 50px;
+    padding-top: 10px;
+    margin-left: 360px;
   }
 } 
 @media (max-width: 680px) {
@@ -9325,6 +9559,26 @@ textarea.form-control.is-invalid {
   .container-fluid-ciber-specialized {
     height: 1000px;
   }
+  .container-fluid-services-form {
+    height: 440px;
+  }
+  .container-diagnostic-form {
+    margin-left: 75px;
+    width: 466px;
+    height: 165px;
+  }
+  .soon1{
+    font-size: 18px;
+    padding-top: 25px;
+  }
+  .btn-diagnostic-form {
+    font-size: 16px;
+    width: 170px;
+    height: 40px;
+    margin-top: 50px;
+    padding-top: 10px;
+    margin-left: 295px;
+  }
 }
 @media (max-width: 636px) {
   .border-slider-services {
@@ -9378,7 +9632,7 @@ textarea.form-control.is-invalid {
     padding-top: 15px;
     font-size: 28px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 22px;
   }
@@ -9473,7 +9727,7 @@ textarea.form-control.is-invalid {
     flex-direction: column;
     margin-top: 30px;
     text-align: start;
-    justify-content: center;
+    justify-content: center;  
     align-items: center;
   }
   .content-foo-social{
@@ -9679,7 +9933,7 @@ textarea.form-control.is-invalid {
     font-size: 24px;
     height: 100px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 21px;
   }
@@ -9738,6 +9992,9 @@ textarea.form-control.is-invalid {
   .nav-toggle {
     left: 86%;
   } 
+  .container-diagnostic-form {
+    margin-left: 50px;
+  }
 }
 @media (max-width: 552px) {
   .container-fluid-offer {
@@ -10025,7 +10282,7 @@ textarea.form-control.is-invalid {
     padding-top: 15px;
     font-size: 26px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 20px;
   } 
@@ -10057,6 +10314,28 @@ textarea.form-control.is-invalid {
     font-size: 17px;
     width: 432px;
   } 
+  .container-fluid-services-form {
+    height: 440px;
+  }
+  .container-diagnostic-form {
+    margin-left: 75px;
+    width: 390px;
+    height: 175px;
+  }
+  .soon1{
+    font-size: 17px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .btn-diagnostic-form {
+    font-size: 15px;
+    width: 160px;
+    height: 40px;
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-left: 230px;
+  }
 }
 @media (max-width: 531px) {
   .border-6 {
@@ -10155,7 +10434,7 @@ textarea.form-control.is-invalid {
     font-size: 21px;
     height: 75px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 18px;
   }
@@ -10306,6 +10585,29 @@ textarea.form-control.is-invalid {
     font-size: 24px;
     padding-left: 10px;
     padding-right: 20px;
+  }
+  .container-fluid-services-form {
+    height: 400px;
+  }
+  .container-diagnostic-form {
+    margin-left: 55px;
+    width: 380px;
+    height: 180px;
+    margin-top: -10px;
+  }
+  .soon1{
+    font-size: 17px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .btn-diagnostic-form {
+    font-size: 15px;
+    width: 160px;
+    height: 40px;
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-left: 220px;
   }
 }
 
@@ -10707,7 +11009,7 @@ textarea.form-control.is-invalid {
     padding-top: 17px;
     font-size: 25px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 17px;
   }
@@ -10804,6 +11106,29 @@ textarea.form-control.is-invalid {
   .border-slider-contact {
     width: 340px;
   }
+  .container-fluid-services-form {
+    height: 380px;
+  }
+  .container-diagnostic-form {
+    margin-left: 55px;
+    width: 360px;
+    height: 160px;
+    margin-top: -10px;
+  }
+  .soon1{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .btn-diagnostic-form {
+    font-size: 14px;
+    width: 150px;
+    height: 35px;
+    margin-top: 40px;
+    padding-top: 10px;
+    margin-left: 210px;
+  }
 }
 @media (max-width: 460px)
  {
@@ -10875,9 +11200,6 @@ textarea.form-control.is-invalid {
   .title-quality{
     font-size: 21px; 
   }
-  .container-fluid-services-form {
-    height: 300px;
-  }
   .title-form{
     padding-top: 10px;
     font-size: 18px;
@@ -10887,7 +11209,7 @@ textarea.form-control.is-invalid {
     padding-top: 17px;
     font-size: 24px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 15px;
   }
@@ -10936,6 +11258,13 @@ textarea.form-control.is-invalid {
     margin-top: 30px;
     margin-left: 135px;
   }
+  .container-fluid-services-form {
+    height: 380px;
+  }
+  .container-diagnostic-form {
+    margin-left: 45px;
+  }
+  
 }
 @media (max-width: 430px) {
   .container-fluid-offer { 
@@ -11008,11 +11337,15 @@ textarea.form-control.is-invalid {
     width: 323px;
     height: 50px;
   }
+  .container-diagnostic-form {
+    margin-left: 30px;
+  }
 }
 @media (max-width: 420px) {
   .border-slider-ciber {
     width: 325px;
   }
+  
 }
 @media (max-width: 418px) {
   .border-slider-contact {
@@ -11278,9 +11611,6 @@ textarea.form-control.is-invalid {
   .p-ciber-quality {
     width: 300px;
   }
-  .container-fluid-services-form {
-    height: 280px;
-  }
   .title-form{
     padding-top: 10px;
     font-size: 18px;
@@ -11290,7 +11620,7 @@ textarea.form-control.is-invalid {
     padding-top: 18px;
     font-size: 23px;
   }
-  .soon{
+  .soon2{
     margin-top: 20px;
     font-size: 16px;
   }
@@ -11359,6 +11689,29 @@ textarea.form-control.is-invalid {
     font-size: 22px;
     padding-left: 10px;
     padding-right: 20px;
+  }
+  .container-fluid-services-form {
+    height: 380px;
+  }
+  .container-diagnostic-form {
+    margin-left: 60px;
+    width: 293px;
+    height: 170px;
+    margin-top: -10px;
+  }
+  .soon1{
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .btn-diagnostic-form {
+    font-size: 13px;
+    width: 140px;
+    height: 35px;
+    margin-top: 35px;
+    padding-top: 10px;
+    margin-left: 155px;
   }
 }
 @media (max-width: 409px) {
@@ -11755,11 +12108,16 @@ textarea.form-control.is-invalid {
     margin-left: 80px;
     margin-top: 50px;
   }
-  
+  .container-diagnostic-form {
+    margin-left: 40px;
+  }
 }
 @media (max-width: 360px) {
   .container-fluid-ciber-specialized {
     height: 970px;
+  }
+  .container-diagnostic-form {
+    margin-left: 30px;
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */

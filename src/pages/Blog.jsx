@@ -8,7 +8,7 @@ function Blog () {
         <div className="pages">
             <main id="content">
                 <SliderBlog/>
-                <div className="soon">
+                <div className="soon2">
                     <h1>Esta es la ventana de Blog</h1><br />
                     <h2>Próximamente disponible</h2><br /><br />
                 </div>
