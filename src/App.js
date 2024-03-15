@@ -13,7 +13,7 @@ import Contact from './pages/Contact';
 import Navbar from './components/browsing/Navbar'
 import Footer from './components/browsing/Footer'
 import ServicesForm from './components/sections/ServicesForm';
-import AirConditioners from './components/sections/AirConditioners';
+import AirConditioners from './components/sections//AirConditioners/AirConditioners';
 import SGSI from './components/sections/SGSI';
 import Infraestructure from './components/sections/Infraestructure';
 import ContactForm from './components/sections/ContactForm';

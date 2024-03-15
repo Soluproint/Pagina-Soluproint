@@ -7,7 +7,7 @@ import Infraestructure from "../components/sections/Infraestructure";
 import Innovation from "../components/sections/Innovation";
 import CarouselSatisfiedClients from "../components/sections/CarouselSatisfiedClients";
 import Networks from "../components/sections/Networks";
-import AirConditioners from "../components/sections/AirConditioners";
+import AirConditioners from "../components/sections//AirConditioners/AirConditioners";
 
 function ServicePortfolio () {
     return (
