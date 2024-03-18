@@ -3593,7 +3593,7 @@ textarea.form-control.is-invalid {
 }
 .text-wrap-vision .p-m-v{
   margin-top: 40px;
-  width: 540px;
+  width: 530px;
   margin-left: 30px;
 }
 .text-wrap-slider .title-slider{
@@ -4569,7 +4569,7 @@ textarea.form-control.is-invalid {
     height: 340px;
   }
   .container-fluid-mission-vision {
-    height: 600px;
+    height: 580px;
   }
   .row-m-v {
     margin-top: 20px;
@@ -4592,11 +4592,9 @@ textarea.form-control.is-invalid {
     font-size: 36px;
   }
   .text-wrap-mission .p-m-v{
-    margin-top: 40px;
     width: 480px;
   }
   .text-wrap-vision .p-m-v{
-    margin-top: 40px;
     width: 480px;
   }
   .services-link-infra{
@@ -5272,6 +5270,12 @@ textarea.form-control.is-invalid {
   .col-value3 {
     height: 310px;
   }
+  .container-fluid-mission-vision {
+    height: 560px;
+  }
+  .row-m-v {
+    margin-top: 0;
+  }
   .text-wrap-mission {
     width: 500px;
     font-size: 17px;
@@ -5788,11 +5792,11 @@ textarea.form-control.is-invalid {
     height: 280px;
   }
   .container-fluid-mission-vision {
-    height: 550px;
+    height: 500px;
   }
   .row-m-v {
-    margin-top: 20px;
-    height: 420px;
+    margin-top: -30px;
+    height: 440px;
   }
   .text-wrap-mission {
     width: 450px;
@@ -6566,13 +6570,15 @@ textarea.form-control.is-invalid {
   }
   .row-m-v {
     margin-top: -30px;
-    height: 500px;
+    height: 450px;
   }
   .text-wrap-mission {
+    background-image: url('../public/images/about-us/mision-990.png');
     width: 400px;
     font-size: 15px;
   }
   .text-wrap-vision {
+    background-image: url('../public/images/about-us/vision-990.png');
     width: 400px;
     font-size: 15px;
   }
@@ -7034,19 +7040,20 @@ textarea.form-control.is-invalid {
     font-size: 18px;
   }
   .row-m-v {
-    margin-top: -30px;
-    height: 550px;
+    margin-top: 0;
   }
   .text-wrap-mission {
+    background-image: url('../public/images/about-us/mision-930.png');
     width: 350px;
     font-size: 14px;
-    height: 450px;
+    height: 480px;
     margin-top: -50px;
   }
   .text-wrap-vision {
+    background-image: url('../public/images/about-us/vision-930.png');
     width: 350px;
     font-size: 14px;
-    height: 450px;
+    height: 480px;
     margin-top: -50px;
   }
   .text-wrap-mission .values {
@@ -7969,11 +7976,10 @@ textarea.form-control.is-invalid {
   }
   .container-fluid-mission-vision {
     padding-top: 0;
-    height: 450px;
+    height: 440px;
   }
   .row-m-v {
-    margin-top: 0;
-    height: 450px;
+    margin-top: 30px;
   }
   .col-mission {
     height: 450px;
@@ -7982,12 +7988,14 @@ textarea.form-control.is-invalid {
     height: 450px;
   }
   .text-wrap-mission {
+    background-image: url('../public/images/about-us/mision-800.png');
     width: 300px;
     font-size: 13px;
     height: 410px;
     margin-top: -40px;
   }
   .text-wrap-vision {
+    background-image: url('../public/images/about-us/vision-800.png');
     width: 300px;
     font-size: 13px;
     height: 410px;
@@ -8564,12 +8572,12 @@ textarea.form-control.is-invalid {
     width: 100%;
   }
   .container-fluid-mission-vision {
-    height: 1000px;
+    height: 1020px;
   }
   .row-m-v {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 80px;
     margin-bottom: 0;
     height: 1000px; 
   }
@@ -8577,6 +8585,7 @@ textarea.form-control.is-invalid {
     width: auto;
   }
   .col-vision {
+    margin-top: 20px;
     width: auto;
   }
   .text-wrap-mission {
@@ -8593,11 +8602,11 @@ textarea.form-control.is-invalid {
   }
   .text-wrap-mission .values {
     font-size: 30px;
-    margin-top: 200px;
+    margin-top: 170px;
   }
   .text-wrap-vision .values {
     font-size: 30px;
-    margin-top: 200px;
+    margin-top: 170px;
   }
   .text-wrap-mission .p-m-v{
     width: 350px;
@@ -9501,10 +9510,14 @@ textarea.form-control.is-invalid {
     text-align: justify;
   }
   .container-fluid-mission-vision {
-    height: 900px;
+    height: 930px;
   }
   .row-m-v {
+    margin-top: 60px;
     height: 900px;
+  }
+  .col-vision {
+    margin-top: 50px;
   }
   .text-wrap-mission {
     width: 350px;
@@ -9520,11 +9533,9 @@ textarea.form-control.is-invalid {
   }
   .text-wrap-mission .values {
     font-size: 26px;
-    margin-top: 180px;
   }
   .text-wrap-vision .values {
     font-size: 26px;
-    margin-top: 180px;
   }
   .text-wrap-mission .p-m-v {
     width: 300px;
@@ -11606,6 +11617,12 @@ textarea.form-control.is-invalid {
     margin-top: 40px;
     font-size: 24px;
   }
+  .container-fluid-mission-vision {
+    height: 900px;
+  }
+  .col-vision {
+    margin-top: 10px;
+  }
   .text-wrap-mission {
     width: 320px;
     height: 420px;
@@ -11618,19 +11635,19 @@ textarea.form-control.is-invalid {
   }
   .text-wrap-mission .values {
     font-size: 24px;
-    margin-top: 180px;
+    margin-top: 150px;
   }
   .text-wrap-vision .values {
     font-size: 24px;
-    margin-top: 180px;
+    margin-top: 150px;
   }
   .text-wrap-mission .p-m-v {
-    width: 300px;
-    margin-left: 5px;
+    width: 292px;
+    margin-left: 10px;
   }
   .text-wrap-vision .p-m-v {
-    width: 300px;
-    margin-left: 5px;
+    width: 292px;
+    margin-left: 10px;
   }
   .row-infraestructure {
     display: flex;
@@ -12084,10 +12101,13 @@ textarea.form-control.is-invalid {
     margin-top: -20px; 
   }
   .container-fluid-mission-vision {
-    height: 780px;
+    height: 770px;
   }
   .row-m-v {
     height: 800px;
+  }
+  .col-vision {
+    margin-top: -10px;
   }
   .text-wrap-mission {
     width: 280px;
@@ -12103,18 +12123,16 @@ textarea.form-control.is-invalid {
   }
   .text-wrap-mission .values {
     font-size: 22px;
-    margin-top: 170px;
   }
   .text-wrap-vision .values {
     font-size: 22px;
-    margin-top: 170px;
   }
   .text-wrap-mission .p-m-v {
-    width: 250px;
+    width: 254px;
     margin-left: 10px;
   }
   .text-wrap-vision .p-m-v {
-    width: 250px;
+    width: 254px;
     margin-left: 10px;
   }
   .container-fluid-infra {
