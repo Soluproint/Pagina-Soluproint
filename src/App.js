@@ -1,5 +1,5 @@
 import './styles.css';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLinkClickHandler} from 'react-router-dom';
 
 //Importamos las vistas de las páginas
 import HomePage from './pages/HomePage';
