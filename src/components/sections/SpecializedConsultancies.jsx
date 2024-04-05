@@ -10,7 +10,7 @@ function SpecializedConsultancies() {
                     <br />• Ataques de Inyección.
                     <br />• Ataques de Ingeniería Social.
                     <br />• Ataques a la Infraestructura.
-                    <br />• Ataques de fuerza Bruta.
+                    <br />• Ataques de Fuerza Bruta.
                     <br />• Malware.
                     <br />• Man in the Middle.
                     <br />• Phishing.</p>

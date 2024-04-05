@@ -28,7 +28,7 @@ function Sliders() {
                                 <div>
                                     <hr className="border-slider-home"/>
                                 </div>
-                                <p className="p-slider-home">Soluciones Integrales e Innovación de acuerdo a las tendencias tecnólogicas</p>
+                                <p className="p-slider-home">Soluciones Integrales e Innovación de acuerdo a las tendencias tecnológicas</p>
                                 <Link className="btn btn-slider" to="/servicePortfolio" type="button">CONOCE MÁS</Link>
                             </div>
                             <div className="col-slider">

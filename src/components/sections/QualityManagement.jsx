@@ -7,7 +7,7 @@ function QualityManagement() {
                     <h3 className="title-quality">Consultoría e Implementación de Procesos en Sistema de Gestión de Calidad Bajo los Estándares de la Norma ISO9001-2015</h3>
                     <div className="col-quality">
                         <p className="p-ciber-quality">
-                        <br />• Consultoría de alcance e implentación. 
+                        <br />• Consultoría de alcance e implementación. 
                         <br />• Analizar el contexto de la organización.
                         <br />• Referencias normativas.
                         <br />• Términos y definiciones.
