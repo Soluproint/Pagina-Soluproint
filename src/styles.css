@@ -2801,6 +2801,12 @@ textarea.form-control.is-invalid {
 .nav-link:hover {
   color: #0082C6;
 }
+.header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  margin: 0
+}
 .navbar {
   position: relative;
   display: flex;
