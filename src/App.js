@@ -13,6 +13,7 @@ import Cybersecurity from './pages/Cybersecurity';
 import Blog from './pages/Blog';
 import BlogStrapi from './pages/BlogStrapi';
 import Contact from './pages/Contact';
+import DataSecurity from './pages/DataSecurity';
 
 //Importamos los componentes de las páginas
 import Navbar from './components/browsing/Navbar'
@@ -23,6 +24,8 @@ import SGSI from './components/sections/SGSI';
 import Infraestructure from './components/sections/Infraestructure';
 import ContactForm from './components/sections/ContactForm';
 import PostBlog from './components/sections/PostBlog/PostBlog';
+import InformationSecurityPolicy from './components/sections/InformationSecurityPolicy';
+import PrivacyPolicy from './components/sections/PrivacyPolicy';
 
 //Componente donde se va a construir toda la aplicación
 function App() {
@@ -46,6 +49,9 @@ function App() {
               <Route path='/serviceAir' element={<AirConditioners/>}/>
               <Route path='/serviceInfraestructure' element={<Infraestructure/>}/>
               <Route path='/contactForm' element={<ContactForm/>}/>
+              <Route path='/dataSecurity' element={<DataSecurity/>}/>
+              <Route path='/privacy' element={<PrivacyPolicy/>}/>
+              
             </Routes>
         </main>
         <footer id="end">

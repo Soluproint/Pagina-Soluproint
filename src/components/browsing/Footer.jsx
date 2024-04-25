@@ -5,6 +5,12 @@ function Footer() {
         <>
             <div className="container-footer">
                 <div className="content-foo">
+                    <h4>Aspectos Legales</h4>
+                    <Link className="social-networks" target='_blank' to="/dataSecurity">Políticas de Seguridad de la Informacion y Ciberseguridad</Link>
+                    <Link className="social-networks" target='_blank' to="/privacy">Políticas de Protección de Datos Personales</Link>
+                    <Link className="social-networks" target='_blank' to="/legalAspects">Términos y Condiciones de uso</Link>
+                </div>
+                <div className="content-foo">
                     <h4>Contáctanos</h4>
                     <Link className="social-networks" target='_blank' to="https://wa.me/573160168036"><img className="icons-social-networks" src="images/icons/whatsapp.png" width="50px" alt="What's App Soluproint"/>+57 3160168036</Link>
                     <Link className="social-networks-hidden" target='_blank' to="https://wa.me/573160168036"><img className="icons-social-networks" src="images/icons/whatsapp.png" width="50px" alt="What's App Soluproint"/></Link>
