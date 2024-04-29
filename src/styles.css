@@ -2940,6 +2940,34 @@ textarea.form-control.is-invalid {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.container-politicy {
+  margin: 200px;
+  margin-top: 70px;
+}
+.h-titles-policy {
+  font-weight: 600;
+  font-size: 55px;
+  text-align: center;
+  color: #09294F;
+  margin-bottom: 10px;
+  margin-top: 100px
+}
+table {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 18px;
+  text-align: left;
+  width: 800px;
+}
+th {
+  background-color: #D9D9D9;
+  border: 1px solid black;
+  padding: 5px;
+}
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
 .wave-slider {
   position: relative;
 }
@@ -6136,7 +6164,9 @@ textarea.form-control.is-invalid {
   
 }
 @media (max-width: 1020px) {
-  
+  .header {
+    position: relative;
+  }
   .navbar-menu{
     display: none;
   }

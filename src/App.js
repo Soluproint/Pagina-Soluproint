@@ -14,6 +14,7 @@ import Blog from './pages/Blog';
 import BlogStrapi from './pages/BlogStrapi';
 import Contact from './pages/Contact';
 import DataSecurity from './pages/DataSecurity';
+import TermsConditions from './pages/TermsConditions';
 
 //Importamos los componentes de las páginas
 import Navbar from './components/browsing/Navbar'
@@ -52,7 +53,7 @@ function App() {
               <Route path='/dataSecurity' element={<DataSecurity/>}/>
               <Route path='/privacy' element={<PrivacyPolicy/>}/>
               
-            </Routes>
+          </Routes>
         </main>
         <footer id="end">
           <Footer/>

@@ -8,7 +8,7 @@ function Footer() {
                     <h4>Aspectos Legales</h4>
                     <Link className="social-networks" target='_blank' to="/dataSecurity">Políticas de Seguridad de la Informacion y Ciberseguridad</Link>
                     <Link className="social-networks" target='_blank' to="/privacy">Políticas de Protección de Datos Personales</Link>
-                    <Link className="social-networks" target='_blank' to="/legalAspects">Términos y Condiciones de uso</Link>
+                    <Link className="social-networks" target='_blank' to="/termsConditions">Términos y Condiciones de uso</Link>
                 </div>
                 <div className="content-foo">
                     <h4>Contáctanos</h4>
