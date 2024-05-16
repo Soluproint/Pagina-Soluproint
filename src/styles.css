@@ -2805,7 +2805,8 @@ textarea.form-control.is-invalid {
   position: sticky;
   top: 0;
   backdrop-filter: blur(10px);
-  margin: 0
+  margin: 0;
+  z-index: 1;
 }
 .navbar {
   position: relative;
