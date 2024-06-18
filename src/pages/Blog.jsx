@@ -6,7 +6,7 @@ import SliderBlog from "../components/sections/SliderBlog";
 
 function Blog () {
 
-    const {data, loading, error, handleCancelRequest} = useFetch("https://jsonplaceholder.typicode.com/users") 
+    const {data, loading, error} = useFetch("https://api-colombia.com/api/v1/Department") 
     
     return (
         <div className="pages">
@@ -14,13 +14,12 @@ function Blog () {
                 <SliderBlog/>
                 <div className="soon2">
                     <h1>Esta es la ventana de Blog</h1><br />
-                    <button onClick={handleCancelRequest}>Cancel Request</button>
-                    <h2>Lista de usuarios recuperados de la API de manera aleatoria</h2><br /><br />
+                    <h2>Lista de ciudades recuperadas de API Colombia</h2><br /><br />
                     <ul>
                         {error && <li>Error: {error}</li>}
                         {loading && <li>Loading...</li>}
-                        {data?.map((user) => (
-                            <li key={user.id}>{user.name}</li>
+                        {data?.map((city) => (
+                            <li key={city.id}>{city.name}</li>
                         ))}
                     </ul>
                 </div>
