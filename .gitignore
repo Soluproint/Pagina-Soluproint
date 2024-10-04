@@ -2,7 +2,6 @@
 
 # Archivos de configuración
 .env
-config.json
 
 # Archivos de respaldo
 *.bak
