@@ -4,17 +4,12 @@ import React from "react";
 import SliderBlog from "../components/sections/SliderBlog";
 import PostBlog from "../components/sections/PostBlog/PostBlog";
 
-function BlogStrapi () {
-    return (
-        <div className="pages">
-            <main id="content">
-                <SliderBlog/>
-                <PostBlog/>
-            </main>
-        </div>
-
-    );
+function BlogStrapi() {
+  return (
+    <div className="pages">
+      <main id="content"></main>
+    </div>
+  );
 }
-
 
 export default BlogStrapi;
