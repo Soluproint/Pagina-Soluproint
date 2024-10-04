@@ -24,8 +24,25 @@ import Infraestructure from "./components/sections/Infraestructure";
 import ContactForm from "./components/sections/ContactForm";
 import PrivacyPolicy from "./components/sections/PrivacyPolicy";
 
+// const express = require("express");
+// const app = express();
+
 //Componente donde se va a construir toda la aplicación
 function App() {
+  // // Configurar la cabecera Content Security Policy
+  // app.use((req, res, next) => {
+  //   res.setHeader(
+  //     "Content-Security-Policy",
+  //     "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; object-src 'none'; media-src 'none'; frame-src 'none'; frame-ancestors 'none'; form-action 'self'; base-uri 'self'; manifest-src 'self'; block-all-mixed-content; upgrade-insecure-requests; require-sri-for script style; disown-opener; reflected-xss block; referrer no-referrer; sandbox allow-same-origin allow-scripts; report-to csp-endpoint"
+  //   );
+  //   next();
+  // });
+
+  // // Iniciar el servidor
+  // const PORT = process.env.PORT || 3000;
+  // app.listen(PORT, () => {
+  //   console.log(`Servidor escuchando en el puerto ${PORT}`);
+  // });
   return (
     <>
       <div className="App">
