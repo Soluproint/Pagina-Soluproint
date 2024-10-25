@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function PrivacyPolicy() {
+function LegalAspects() {
   return (
     <>
       <div className="container-fluid-blog">
@@ -554,4 +554,38 @@ function PrivacyPolicy() {
   );
 }
 
-export default PrivacyPolicy;
+export default LegalAspects;
+// import { Link } from "react-router-dom";
+
+// function LegalAspects() {
+//   return (
+//     <>
+//       <section className="container-fluid-blog">
+//         <h1 className="h-titles-policy">
+//           Políticas para el uso de la App-Web Soluproint
+//         </h1>
+//         <div className="container-politicy">
+//           <div className="content-post">
+//             <h3>
+//               <Link className="" target="_blank" to="/dataSecurity">
+//                 Políticas de Seguridad de la Informacion y Ciberseguridad
+//               </Link>
+//             </h3>
+//             <h3>
+//               <Link className="" target="_blank" to="/privacy">
+//                 Políticas de Protección de Datos Personales
+//               </Link>
+//             </h3>
+//             <h3>
+//               <Link className="" target="_blank" to="/termsConditions">
+//                 Términos y Condiciones de uso
+//               </Link>
+//             </h3>
+//           </div>
+//         </div>
+//       </section>
+//     </>
+//   );
+// }
+
+// export default LegalAspects;
