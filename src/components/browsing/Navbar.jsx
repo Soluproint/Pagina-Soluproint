@@ -22,8 +22,8 @@ function Navbar() {
           </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <button className="nav-toggle" onClick={() => toggleMenu()}>
-              {!menuOpen && <FaTimes className="m-2 h-6 w-5" />}
-              {menuOpen && <FaBars className="m-2 h-6 w-5" />}
+              {!menuOpen && <FaBars className="m-2 h-6 w-5" />}
+              {menuOpen && <FaTimes className="m-2 h-6 w-5" />}
             </button>
             <ul className="navbar-menu">
               <li className="nav-item">
