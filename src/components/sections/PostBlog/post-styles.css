@@ -53,12 +53,20 @@
   padding-top: 20px;
 }
 .p-content {
-  font-size: 20px;
+  font-size: 23px;
   width: auto;
   text-align: justify;
 }
 .links-posts {
   color: #0082c6;
+  font-weight: 500;
+}
+.links-blog {
+  color: #09294f;
+  font-weight: 500;
+}
+.list-politics {
+  padding-bottom: 20px;
 }
 .subtitles-post {
   padding-top: 30px;

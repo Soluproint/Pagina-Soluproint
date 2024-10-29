@@ -22,7 +22,8 @@ import AirConditioners from "./components/sections/AirConditioners/AirConditione
 import SGSI from "./components/sections/SGSI";
 import Infraestructure from "./components/sections/Infraestructure";
 import ContactForm from "./components/sections/ContactForm";
-import PrivacyPolicy from "./components/sections/PrivacyPolicy";
+import PersonalData from "./pages/PersonalData";
+import Politics from "./pages/Politics";
 
 //Componente donde se va a construir toda la aplicación
 function App() {
@@ -49,8 +50,15 @@ function App() {
                 element={<Infraestructure />}
               />
               <Route path="/contactForm" element={<ContactForm />} />
-              <Route path="/dataSecurity" element={<DataSecurity />} />
-              <Route path="/privacy" element={<PrivacyPolicy />} />
+              <Route
+                path="/politicaSeguridadInformacion"
+                element={<DataSecurity />}
+              />
+              <Route
+                path="/politicaDatosPersonales"
+                element={<PersonalData />}
+              />
+              <Route path="/politicas" element={<Politics />} />
             </Routes>
           </main>
           <footer id="end">

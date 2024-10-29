@@ -6,21 +6,29 @@ function Footer() {
       <footer className="container-footer">
         <div className="content-foo-legal">
           <h4>Aspectos Legales</h4>
-          <Link className="social-networks" target="_blank" to="/dataSecurity">
+          <Link
+            className="social-networks"
+            target="_blank"
+            to="/politicaSeguridadInformacion"
+          >
             Políticas de Seguridad de la Informacion y Ciberseguridad
-          </Link>
-          <Link className="social-networks" target="_blank" to="/privacy">
-            Políticas de Protección de Datos Personales
           </Link>
           <Link
             className="social-networks"
             target="_blank"
-            to="/termsConditions"
+            to="/politicaDatosPersonales"
           >
+            Políticas de Protección de Datos Personales
+          </Link>
+          <Link className="social-networks" target="_blank" to="">
             Términos y Condiciones de uso
           </Link>
           <div className="container-politics">
-            <Link className="social-networks-hidden" target="_blank" to="">
+            <Link
+              className="social-networks-hidden"
+              target="_blank"
+              to="/politicas"
+            >
               Políticas
             </Link>
           </div>

@@ -1,7 +1,6 @@
 import React from "react";
-
-//Importamos los componentes de las páginas
 import LegalAspects from "../components/sections/LegalAspects";
+//Importamos los componentes de las páginas
 
 function Politics() {
   return (
