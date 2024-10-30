@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 function PrivacyPolicy() {
   return (
     <>
-      <div className="container-fluid-blog">
+      <div className="container-fluid-policy">
         <h1 className="h-titles-policy">
           Políticas de Protección de Datos Personales
         </h1>
         <div className="container-politicy">
-          <div className="content-post">
-            <h2 className="title-post">
+          <div className="container-content-policy">
+            <h2 className="title-policy">
               POLÍTICA DE PRIVACIDAD DE LA INFORMACIÓN
             </h2>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold">SOLUPROINT S.A.S</span> está
               comprometido de manera permanente con la conservación de la
               privacidad de la información de los Usuarios, Visitantes o
@@ -29,7 +29,7 @@ function PrivacyPolicy() {
               <span className="text-bold">www.seguridadalamano.com</span> ha
               realizado para tal fin.
             </p>
-            <p className="p-content">
+            <p className="p-content-policy">
               Cuando EL USUARIO accede a{" "}
               <span className="text-bold">www.soluproint.com</span>, o compañías
               relacionadas, que eventualmente contratamos para realizar
@@ -42,7 +42,7 @@ function PrivacyPolicy() {
               y ya no tiene ningún efecto. Las cookies de sesión se eliminarán
               del equipo cuando cierre su navegador.
             </p>
-            <p className="p-content">
+            <p className="p-content-policy">
               Las políticas de protección de datos personales son directrices y
               normativas establecidas por una organización para garantizar el
               tratamiento ético, legal y seguro de la información personal que
@@ -51,15 +51,15 @@ function PrivacyPolicy() {
               necesidades y regulaciones específicas de tu organización:
             </p>
             <br />
-            <h2 className="title-post">
+            <h2 className="title-policy">
               Políticas de Protección de Datos Personales
             </h2>
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold">Fecha de entrada en vigencia:</span> 1
               de enero del 2024
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">1. Objetivo</span>
               <br />
               Establecer políticas claras y procedimientos para proteger la
@@ -69,7 +69,7 @@ function PrivacyPolicy() {
               individuales.
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">2. Alcance</span>
               <br />
               Estas políticas se aplican a todos los empleados, contratistas,
@@ -77,7 +77,7 @@ function PrivacyPolicy() {
               SOLUPROINT.
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">
                 3. Principios de Protección de Datos
               </span>
@@ -148,7 +148,7 @@ function PrivacyPolicy() {
               </ul>
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">4. Responsabilidades</span>
               <br />
               <br />
@@ -190,7 +190,7 @@ function PrivacyPolicy() {
               </ul>
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">
                 5. Recolección y Tratamiento de Datos Personales
               </span>
@@ -232,7 +232,7 @@ function PrivacyPolicy() {
               </ul>
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">
                 6. Derechos de los Titulares de Datos
               </span>
@@ -265,7 +265,7 @@ function PrivacyPolicy() {
               </ul>
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">
                 7. Seguridad de la Información
               </span>
@@ -290,7 +290,7 @@ function PrivacyPolicy() {
               </ul>
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">
                 8. Transferencia de Datos Personales
               </span>
@@ -309,7 +309,7 @@ function PrivacyPolicy() {
               </ul>
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">
                 9. Incidentes de Seguridad
               </span>
@@ -326,7 +326,7 @@ function PrivacyPolicy() {
               </ul>
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">
                 10. Capacitación y Concientización
               </span>
@@ -342,7 +342,7 @@ function PrivacyPolicy() {
               </ul>
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">
                 11. Revisión y Mejora Continua
               </span>
@@ -367,7 +367,7 @@ function PrivacyPolicy() {
               </ul>
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               <span className="text-bold-title">
                 12. Finalidad De Los Datos
               </span>
@@ -492,7 +492,7 @@ function PrivacyPolicy() {
             </p>
             <br />
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               Es importante que las organizaciones que utilizan datos personales
               con fines comerciales respeten la privacidad y los derechos de los
               individuos, cumpliendo con las leyes y regulaciones de protección
@@ -501,7 +501,7 @@ function PrivacyPolicy() {
               la confianza del cliente y el respeto de la comunidad.
             </p>
             <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               Cualquier duda o inquietud que usted tenga sobre el tratamiento de
               sus datos, puede comunicarse a los siguientes datos de contacto:
               <br />
@@ -528,23 +528,25 @@ function PrivacyPolicy() {
             </p>
             <br />
 
-            <table>
+            <table className="table-policy">
               <thead>
                 <tr>
-                  <th>Versión</th>
-                  <th>Fecha</th>
-                  <th>Descripción del cambio</th>
-                  <th>Realizado por</th>
-                  <th>Aprobado por</th>
+                  <th className="title-column">Versión</th>
+                  <th className="title-column">Fecha</th>
+                  <th className="title-column">Descripción del cambio</th>
+                  <th className="title-column">Realizado por</th>
+                  <th className="title-column">Aprobado por</th>
                 </tr>
               </thead>
 
               <tr>
-                <td>1.0</td>
-                <td>1/2/2024</td>
-                <td>Primera Edición del documento</td>
-                <td>Asesor Legal</td>
-                <td>Gerente General</td>
+                <td className="content-column">1.0</td>
+                <td className="content-column">1/2/2024</td>
+                <td className="content-column">
+                  Primera Edición del documento
+                </td>
+                <td className="content-column">Asesor Legal</td>
+                <td className="content-column">Gerente General</td>
               </tr>
             </table>
           </div>

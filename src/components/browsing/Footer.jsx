@@ -24,11 +24,7 @@ function Footer() {
             Términos y Condiciones de uso
           </Link>
           <div className="container-politics">
-            <Link
-              className="social-networks-hidden"
-              target="_blank"
-              to="/politicas"
-            >
+            <Link className="social-networks-hidden" target="" to="/politicas">
               Políticas
             </Link>
           </div>

@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 function LegalAspects() {
   return (
     <>
-      <div className="container-fluid-blog">
+      <div className="container-fluid-policy">
         <h1 className="h-titles-policy">
           Políticas para el uso de la App-Web Soluproint
         </h1>
         <div className="container-politicy">
-          <div className="content-post">
-            <h2 className="title-post">Aspectos Legales</h2>
-            <p className="p-content">
+          <div className="container-content-policy">
+            <h2 className="title-policy">Aspectos Legales</h2>
+            <p className="p-content-policy">
               Bienvenido a Soluproint. La seguridad y la privacidad son nuestras
               principales prioridades, y queremos asegurarnos de que cada
               usuario comprenda las políticas que rigen el uso de nuestra
@@ -33,46 +33,40 @@ function LegalAspects() {
               <br />A continuación, puedes acceder a cada política para
               revisarla detalladamente.
             </p>
-            <div className="content-post">
-              <ul>
+            <div>
+              <ul className="container-list-politics">
                 <li className="list-politics">
-                  <h4>
-                    <Link
-                      className="links-posts"
-                      target="_blank"
-                      to="/politicaSeguridadInformacion"
-                    >
-                      Políticas de Seguridad de la Informacion y Ciberseguridad
-                    </Link>
-                  </h4>
+                  <Link
+                    className="links-politics"
+                    target="_blank"
+                    to="/politicaSeguridadInformacion"
+                  >
+                    Políticas de Seguridad de la Informacion y Ciberseguridad
+                  </Link>
                 </li>
                 <li className="list-politics">
-                  <h4>
-                    <Link
-                      className="links-posts"
-                      target="_blank"
-                      to="/politicaDatosPersonales"
-                    >
-                      Políticas de Protección de Datos Personales
-                    </Link>
-                  </h4>
+                  <Link
+                    className="links-politics"
+                    target="_blank"
+                    to="/politicaDatosPersonales"
+                  >
+                    Políticas de Protección de Datos Personales
+                  </Link>
                 </li>
                 <li className="list-politics">
-                  <h4>
-                    <Link className="links-posts" target="_blank" to="">
-                      Términos y Condiciones de uso
-                    </Link>
-                  </h4>
+                  <Link className="links-politics" target="_blank" to="">
+                    Términos y Condiciones de uso
+                  </Link>
                 </li>
               </ul>
             </div>
-            <br />
-            <p className="p-content">
+            <p className="p-content-policy">
               Te invitamos a tomarte un momento para revisar estas políticas, ya
               que están diseñadas para proteger tanto tus datos personales como
               la integridad de la página Soluproint.
             </p>
-            <p className="p-content">
+            <br />
+            <p className="p-content-policy">
               Además, en el{" "}
               <Link className="links-blog" target="_blank" to="/blog">
                 Blog de Soluproint
@@ -83,8 +77,9 @@ function LegalAspects() {
               mantenerte seguro en línea, tanto en nuestra plataforma como en
               otros entornos digitales.
             </p>
-            <p className="p-content">
-              <span className="text-bold">
+            <br />
+            <p className="p-content-policy">
+              <span className="links-blog">
                 ¡Nos encantaría que te animes a explorarlo y a hacer de la
                 seguridad una prioridad en tu vida digital!
               </span>{" "}
