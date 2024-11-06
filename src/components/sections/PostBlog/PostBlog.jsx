@@ -5,7 +5,8 @@ import { useFetch } from "../../../hooks/useFetch";
 const PostBlog = () => {
   const [blogData, setBlogData] = useState(null); // Se inicializa el estado vacío
   const { data, loading, error } = useFetch(
-    "https://stingray-app-l2bwk.ondigitalocean.app/api/posts?populate=categories,date,image,content,quote"
+    "https://blog.soluproint.com/api/posts?populate=categories,date,image,content,quote"
+    // "https://stingray-app-l2bwk.ondigitalocean.app/api/posts?populate=categories,date,image,content,quote"
   ); // Trae los datos de la API
 
   useEffect(() => {
@@ -30,11 +31,11 @@ const PostBlog = () => {
           <section key={post.id} className="container-post">
             {/* Imagen */}
             <figure className="container-img-post">
-              {post.attributes.image && (
+              {post.attributes.image?.data?.attributes?.url && (
                 <img
                   className="img-post"
-                  src={`https://stingray-app-l2bwk.ondigitalocean.app${post.attributes.image.data.attributes.url}`}
-                  alt={post.attributes.title}
+                  src={`https://blog.soluproint.com${post.attributes.image.data.attributes.url}`}
+                  alt={post.attributes.title || "Imagen del post"}
                 />
               )}
             </figure>
