@@ -6,8 +6,9 @@ const PostBlog = () => {
   const [blogData, setBlogData] = useState(null); // Se inicializa el estado vacío
   const { data, loading, error } = useFetch(
     "https://blog.soluproint.com/api/posts?populate=categories,date,image,content,quote"
-    // "https://stingray-app-l2bwk.ondigitalocean.app/api/posts?populate=categories,date,image,content,quote"
   ); // Trae los datos de la API
+
+  const BASE_CDN_URL = process.env.REACT_APP_BASE_CDN_URL;
 
   useEffect(() => {
     if (data && data.data) {
@@ -34,7 +35,7 @@ const PostBlog = () => {
               {post.attributes.image?.data?.attributes?.url && (
                 <img
                   className="img-post"
-                  src={`https://blog.soluproint.com${post.attributes.image.data.attributes.url}`}
+                  src={`${BASE_CDN_URL}${post.attributes.image.data.attributes.url}`}
                   alt={post.attributes.title || "Imagen del post"}
                 />
               )}
