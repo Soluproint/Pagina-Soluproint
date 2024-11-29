@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' https://ajax.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; object-src 'none'; connect-src 'self' https://blog.soluproint.com https://blog-soluproint.nyc3.digitaloceanspaces.com https://blog-soluproint.nyc3.cdn.digitaloceanspaces.com; img-src 'self' https://blog.soluproint.com https://blog-soluproint.nyc3.digitaloceanspaces.com https://blog-soluproint.nyc3.cdn.digitaloceanspaces.com data: blob:; media-src 'self' https://blog-soluproint.nyc3.digitaloceanspaces.com https://blog-soluproint.nyc3.cdn.digitaloceanspaces.com data: blob:; base-uri 'self'; form-action 'self'; frame-ancestors 'self';"
+          "value": "default-src 'self'; script-src 'self' https://ajax.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; object-src 'none'; connect-src 'self' https://blog.soluproint.com https://blog-soluproint-strapi.nyc3.digitaloceanspaces.com https://blog-soluproint-strapi.nyc3.cdn.digitaloceanspaces.com; img-src 'self' https://blog.soluproint.com https://blog-soluproint-strapi.nyc3.digitaloceanspaces.com https://blog-soluproint-strapi.nyc3.cdn.digitaloceanspaces.com data: blob:; media-src 'self' https://blog-soluproint-strapi.nyc3.digitaloceanspaces.com https://blog-soluproint-strapi.nyc3.cdn.digitaloceanspaces.com data: blob:; base-uri 'self'; form-action 'self'; frame-ancestors 'self';"
         },
         {
           "key": "Strict-Transport-Security",
