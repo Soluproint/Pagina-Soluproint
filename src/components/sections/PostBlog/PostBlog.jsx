@@ -5,7 +5,7 @@ import { useFetch } from "../../../hooks/useFetch";
 const PostBlog = () => {
   const [blogData, setBlogData] = useState(null); // Se inicializa el estado vacío
   const { data, loading, error } = useFetch(
-    "https://blog.soluproint.com/api/posts?populate=categories,date,image,content,quote"
+    "https://blog.soluproint.com/api/posts?populate=*"
   ); // Trae los datos de la API
 
   const BASE_CDN_URL = process.env.REACT_APP_BASE_CDN_URL;
@@ -30,10 +30,10 @@ const PostBlog = () => {
         ?.sort((a, b) => b.id - a.id) // Ordena los posts en orden descendente de ID
         .map((post) => {
           // Validar si la URL de la imagen es relativa o absoluta
-          const fullImageUrl = post.attributes.image?.data?.attributes?.url
-            ? post.attributes.image.data.attributes.url.startsWith("http")
-              ? post.attributes.image.data.attributes.url // Usar URL absoluta si ya está completa
-              : `${BASE_CDN_URL}${post.attributes.image.data.attributes.url}` // Concatenar BASE_CDN_URL si es relativa
+          const fullImageUrl = post.image[0].url
+            ? post.image[0].url.startsWith("http")
+              ? post.image[0].url // Usar URL absoluta si ya está completa
+              : `${BASE_CDN_URL}${post.image[0].url}` // Concatenar BASE_CDN_URL si es relativa
             : null;
 
           return (
@@ -44,7 +44,7 @@ const PostBlog = () => {
                   <img
                     className="img-post"
                     src={fullImageUrl}
-                    alt={post.attributes.title || "Imagen del post"}
+                    alt={post.title || "Imagen del post"}
                   />
                 )}
               </figure>
@@ -53,23 +53,21 @@ const PostBlog = () => {
               <section className="category-date">
                 {/* Mostrar categorías separadas por comas */}
                 <section className="category">
-                  {post.attributes.categories.data
-                    .map((category) => category.attributes.name)
-                    .join(", ")}
+                  {post.categories.map((category) => category.name).join(", ")}
                 </section>
                 {/* Fecha */}
                 <section>
-                  <h3 className="date">{post.attributes.date}</h3>
+                  <h3 className="date">{post.date}</h3>
                 </section>
               </section>
 
               {/* Artículo */}
               <article className="content-post">
                 {/* Título */}
-                <h2 className="title-post">{post.attributes.title}</h2>
+                <h2 className="title-post">{post.title}</h2>
                 {/* Contenido */}
                 <BlocksRenderer
-                  content={post.attributes.content}
+                  content={post.content}
                   blocks={{
                     image: ({ image }) => {
                       const complementaryFullImageUrl = image.url.startsWith(
